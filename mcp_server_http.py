@@ -219,20 +219,7 @@ if __name__ == "__main__":
     logger.info("Available tools: get_transcript, extract_video_id_tool")
     logger.info("Available resources: youtube://transcript/{video_id}, youtube://metadata/{video_id}")
     logger.info("Available prompts: analyze_transcript, summarize_transcript")
+    logger.info("Server will be accessible at /mcp endpoint (Smithery requirement)")
     
-    # Add health endpoint
-    from fastapi import FastAPI
-    from fastapi.responses import JSONResponse
-    
-    # Create FastAPI app for health check
-    health_app = FastAPI()
-    
-    @health_app.get("/health")
-    def health_check():
-        return JSONResponse({"status": "healthy", "service": "youtube-transcript-mcp"})
-    
-    # Mount health app to main MCP app
-    mcp_app = mcp.streamable_http_app()
-    
-    # Run with Streamable HTTP transport
+    # Run with Streamable HTTP transport (automatically handles /mcp endpoint)
     mcp.run(transport="streamable-http", host="0.0.0.0", port=port) 
