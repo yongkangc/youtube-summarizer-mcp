@@ -1,0 +1,34 @@
+runtime: "container"
+build:
+  dockerfile: "Dockerfile"           # Path to your Dockerfile
+  dockerBuildPath: "."               # Docker build context
+startCommand:
+  type: "http"
+  configSchema:                      # JSON Schema for configuration
+    type: "object"
+    properties:
+      rateLimit:
+        type: "integer"
+        description: "Rate limit for API requests per minute"
+        default: 60
+        minimum: 1
+        maximum: 1000
+      languages:
+        type: "string"
+        description: "Default languages for transcript (comma-separated)"
+        default: "en"
+      includeTimestamps:
+        type: "boolean"
+        description: "Include timestamps in transcripts by default"
+        default: true
+      logLevel:
+        type: "string"
+        description: "Logging level"
+        default: "INFO"
+        enum: ["DEBUG", "INFO", "WARNING", "ERROR"]
+    required: []
+  exampleConfig:
+    rateLimit: 60
+    languages: "en,es,fr"
+    includeTimestamps: true
+    logLevel: "INFO" 
