@@ -3,7 +3,7 @@
 import os
 import json
 import logging
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 from main import get_youtube_transcript, extract_video_id
 from typing import Any, Dict
 
@@ -138,6 +138,10 @@ Focus on:
 Make the summary clear, engaging, and useful for someone who hasn't watched the video."""
 
 if __name__ == "__main__":
-    # For the official MCP SDK, we need to run with streamable-http transport
-    # The official SDK handles the port via environment variables
-    mcp.run(transport="streamable-http") 
+    # Use FastMCP 2.0 with proper streamable-http transport
+    mcp.run(
+        transport="streamable-http",
+        host="0.0.0.0",
+        port=port,
+        path="/mcp"
+    ) 

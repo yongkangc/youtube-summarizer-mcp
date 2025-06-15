@@ -34,15 +34,16 @@ ENV PYTHONUNBUFFERED=1
 # Create non-root user for security
 RUN useradd --create-home --shell /bin/bash app && \
     chown -R app:app /app
+
+# Switch to non-root user
 USER app
 
 # Expose the default port (will be overridden by PORT env var at runtime)
 EXPOSE 8000
 
-# Health check - Test if the server is responding
-# Since MCP servers don't typically have a /health endpoint, we'll check if the server is listening
+# Health check - test the MCP endpoint with a simple ping
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-  CMD curl -f http://localhost:${PORT:-8000}/ || exit 1
+    CMD curl -f http://localhost:8000/mcp || exit 1
 
-# Run the server using the virtual environment
-CMD ["/app/.venv/bin/python", "mcp_server_http.py"] 
+# Set the default command
+CMD ["python", "mcp_server_http.py"] 
