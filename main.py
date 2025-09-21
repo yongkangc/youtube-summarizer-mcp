@@ -57,10 +57,14 @@ def get_youtube_transcript(url: str, languages: Optional[List[str]] = None) -> D
             }
         
         # Get transcript
-        transcript_list = YouTubeTranscriptApi.get_transcript(
+        api = YouTubeTranscriptApi()
+        fetched_transcript = api.fetch(
             video_id, 
             languages=languages
         )
+        
+        # Convert to list of dictionaries
+        transcript_list = fetched_transcript.to_raw_data()
         
         # Format transcript - create simple text version
         formatted_transcript = '\n'.join([entry['text'] for entry in transcript_list])
@@ -68,19 +72,11 @@ def get_youtube_transcript(url: str, languages: Optional[List[str]] = None) -> D
         # Also provide structured data
         structured_transcript = []
         for entry in transcript_list:
-            if isinstance(entry, dict):
-                structured_transcript.append({
-                    'text': entry.get('text', ''),
-                    'start': entry.get('start', 0),
-                    'duration': entry.get('duration', 0)
-                })
-            else:
-                # Handle if entry is not a dict
-                structured_transcript.append({
-                    'text': str(entry),
-                    'start': 0,
-                    'duration': 0
-                })
+            structured_transcript.append({
+                'text': entry.get('text', ''),
+                'start': entry.get('start', 0),
+                'duration': entry.get('duration', 0)
+            })
         
         return {
             'success': True,
@@ -107,32 +103,22 @@ def get_youtube_transcript(url: str, languages: Optional[List[str]] = None) -> D
 def main():
     """Main function for testing the transcript fetcher."""
     if len(sys.argv) != 2:
-        print("Usage: python main.py <youtube_url>")
-        print("Example: python main.py 'https://www.youtube.com/watch?v=LBn0eAxQpb8'")
+        print("Usage: python main.py <youtube_url>", file=sys.stderr)
+        print("Example: python main.py 'https://www.youtube.com/watch?v=LBn0eAxQpb8'", file=sys.stderr)
         sys.exit(1)
     
     url = sys.argv[1]
-    print(f"Fetching transcript for: {url}")
-    print("-" * 50)
     
     result = get_youtube_transcript(url)
     
     if result['success']:
-        print(f"✅ Success!")
-        print(f"Video ID: {result['video_id']}")
-        print(f"Total segments: {result['transcript']['total_segments']}")
-        print("\n📝 Transcript Preview (first 500 characters):")
-        preview = result['transcript']['formatted'][:500]
-        print(preview + "..." if len(result['transcript']['formatted']) > 500 else preview)
-        
-        print(f"\n🔢 First few structured segments:")
-        for i, segment in enumerate(result['transcript']['structured'][:3]):
-            print(f"  {i+1}. [{segment['start']:.1f}s] {segment['text']}")
-            
+        # Output full transcript without any decorations for easy clipboard copying
+        print(result['transcript']['formatted'])
     else:
-        print(f"❌ Error: {result['error']}")
+        print(f"Error: {result['error']}", file=sys.stderr)
         if result['video_id']:
-            print(f"Video ID extracted: {result['video_id']}")
+            print(f"Video ID extracted: {result['video_id']}", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

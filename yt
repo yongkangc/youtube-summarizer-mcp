@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# YouTube Transcript to Clipboard Script
+# Usage: ./yt <youtube_url>
+
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <youtube_url>" >&2
+    echo "Example: $0 https://www.youtube.com/watch?v=1nEv_H8FDB0" >&2
+    exit 1
+fi
+
+# Run the Python script and copy output to clipboard
+python3 main.py "$1" | pbcopy
+
+if [ ${PIPESTATUS[0]} -eq 0 ]; then
+    echo "✅ Transcript copied to clipboard!" >&2
+else
+    echo "❌ Failed to fetch transcript" >&2
+    exit 1
+fi
