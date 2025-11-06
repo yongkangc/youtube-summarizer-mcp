@@ -20,6 +20,8 @@ Jensen Huang delivered NVIDIA's GTC keynote in Washington D.C., announcing a new
 - **The Virtuous Cycle Has Begun**: AI models are now good enough that people pay for them (Cursor, Claude, ChatGPT, etc.), creating a self-reinforcing cycle: smarter models → more usage → more profit → more compute → smarter models. This is the critical inflection point.
 
 - **Three Scaling Laws**: AI advancement now relies on three computational approaches: pre-training (learning from all human knowledge), post-training (skill development and reasoning), and inference-time thinking (research and problem-solving). All three require massive computation, with thinking being particularly intensive.
+<img width="979" height="414" alt="image" src="https://github.com/user-attachments/assets/c790acf9-07f9-4caf-ab2f-a00915843358" />
+
 
 - **AI Factories Replace Data Centers**: Unlike general-purpose data centers, AI factories are specialized manufacturing plants designed to produce one product: tokens (the computational unit of AI). Success metrics mirror traditional factories: producing valuable tokens at incredible rates, cost-effectively.
 
