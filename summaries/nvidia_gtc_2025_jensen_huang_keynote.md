@@ -41,6 +41,10 @@ Way better
 
 - **Manufacturing Returns to America**: In nine months, NVIDIA achieved full production manufacturing of Blackwell in Arizona, with HBM production in Indiana and system assembly in Texas—a complete American supply chain representing reindustrialization driven by AI.
 
+- Roadmap
+<img width="1433" height="795" alt="image" src="https://github.com/user-attachments/assets/5d8ba059-1533-4a58-b6c6-c7976683e916" />
+
+
 - **Open Source Models Are Strategic**: Open-source AI models are essential for science, research, startups, and enterprises. NVIDIA leads in open-source contribution with 23 models in leaderboards, enabling domain-specific innovation and American technological independence.
 
 - **Physical AI Requires Three Computers**: Training physical AI (robots, autonomous vehicles) needs three distinct systems: training computers (GB200), simulation computers for digital twins (Omniverse), and edge inference computers (Thor/Jetson). All run CUDA, enabling seamless workflow.
