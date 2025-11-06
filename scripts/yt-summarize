@@ -30,7 +30,7 @@ echo "🤖 Generating summary with Claude..." >&2
 TRANSCRIPT=$(pbpaste)
 
 # Read the prompt template
-PROMPT=$(cat "$SCRIPT_DIR/summarize_prompt.md")
+PROMPT=$(cat "$SCRIPT_DIR/../prompts/summarize_prompt.md")
 
 # Use Claude to summarize the transcript
 SUMMARY=$(echo "$TRANSCRIPT" | claude -p "$PROMPT
