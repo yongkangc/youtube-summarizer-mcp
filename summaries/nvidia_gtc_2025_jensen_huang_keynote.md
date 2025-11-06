@@ -47,6 +47,12 @@ Way better
 
 - **Open Source Models Are Strategic**: Open-source AI models are essential for science, research, startups, and enterprises. NVIDIA leads in open-source contribution with 23 models in leaderboards, enabling domain-specific innovation and American technological independence.
 
+<img width="1280" height="575" alt="image" src="https://github.com/user-attachments/assets/07004dd1-3bec-4882-98e7-ee653f30aa48" />
+
+<img width="1280" height="575" alt="image" src="https://github.com/user-attachments/assets/d2f01422-13c5-45e5-84c8-4cdfbdb4377c" />
+
+
+
 - **Physical AI Requires Three Computers**: Training physical AI (robots, autonomous vehicles) needs three distinct systems: training computers (GB200), simulation computers for digital twins (Omniverse), and edge inference computers (Thor/Jetson). All run CUDA, enabling seamless workflow.
 
 - **CUDA-X Libraries Are the Treasure**: NVIDIA's 350+ domain-specific libraries (computational lithography, quantum computing, medical imaging, genomics, etc.) represent 30 years of algorithm reinvention for accelerated computing. This ecosystem, not just GPUs, creates NVIDIA's moat.
