@@ -3,6 +3,9 @@
 ## Summary
 Jonathan Ross, founder and CEO of Groq, provides a comprehensive analysis of the AI industry's current state and future trajectory. The discussion centers on compute as the fundamental constraint and driver of AI advancement, arguing that demand for compute is essentially infinite and that countries controlling compute infrastructure will control AI. Ross challenges common narratives about AI being a bubble, explaining that major players are making rational investments driven by existential business concerns rather than speculative hype. He presents a counterintuitive vision where AI creates labor shortages rather than unemployment, driven by massive deflationary pressure, voluntary workforce reduction, and entirely new industries that don't yet exist.
 
+
+Source: https://www.youtube.com/watch?v=VfIK5LFGnlk
+
 ## Key Insights
 
 ### On the AI Market and Investment
