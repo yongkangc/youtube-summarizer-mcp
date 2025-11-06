@@ -34,7 +34,7 @@ Way better
 
 
 
-- **$500 Billion in Visibility**: NVIDIA has orders for $500 billion of Blackwell and early Rubin systems through 2026—five times Hopper's growth rate. They'll ship 20 million Blackwell GPUs (6 million already shipped) versus Hopper's 4 million total lifetime. 2026 is not started yet
+- **$500 Billion in Visibility**: NVIDIA has orders for $500 billion of Blackwell and early Rubin systems through 2026—five times Hopper's growth rate. They'll ship 20 million Blackwell GPUs (6 million already shipped) versus Hopper's 4 million total lifetime. 2026 is not started yet. 5 times the revenue in the next 5 quarters, and its not even started yet. 
 
 <img width="826" height="538" alt="image" src="https://github.com/user-attachments/assets/a6f3739e-3c73-448b-84b8-508524abf5f3" />
 
