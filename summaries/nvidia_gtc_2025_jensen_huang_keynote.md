@@ -29,6 +29,10 @@ Jensen Huang delivered NVIDIA's GTC keynote in Washington D.C., announcing a new
 
 <img width="970" height="610" alt="image" src="https://github.com/user-attachments/assets/05d3136e-bfff-4ac5-9efe-a7d0962926c4" />
 
+Way better
+<img width="786" height="559" alt="image" src="https://github.com/user-attachments/assets/1b604d17-8a2f-47e9-9eb2-b5ae06ade93d" />
+
+
 
 - **$500 Billion in Visibility**: NVIDIA has orders for $500 billion of Blackwell and early Rubin systems through 2026—five times Hopper's growth rate. They'll ship 20 million Blackwell GPUs (6 million already shipped) versus Hopper's 4 million total lifetime.
 
