@@ -27,6 +27,9 @@ Jensen Huang delivered NVIDIA's GTC keynote in Washington D.C., announcing a new
 
 - **Grace Blackwell NVLink72 Delivers 10x Performance**: Through extreme co-design, NVIDIA's new system delivers 10 times better performance than H200 (the previous best GPU) while also providing the lowest cost per token in the industry—solving the dual exponential demand problem.
 
+<img width="970" height="610" alt="image" src="https://github.com/user-attachments/assets/05d3136e-bfff-4ac5-9efe-a7d0962926c4" />
+
+
 - **$500 Billion in Visibility**: NVIDIA has orders for $500 billion of Blackwell and early Rubin systems through 2026—five times Hopper's growth rate. They'll ship 20 million Blackwell GPUs (6 million already shipped) versus Hopper's 4 million total lifetime.
 
 - **Manufacturing Returns to America**: In nine months, NVIDIA achieved full production manufacturing of Blackwell in Arizona, with HBM production in Indiana and system assembly in Texas—a complete American supply chain representing reindustrialization driven by AI.
