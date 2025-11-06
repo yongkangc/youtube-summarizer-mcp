@@ -50,45 +50,40 @@ if [ $? -eq 0 ]; then
     # Display the summary
     echo "$SUMMARY"
 
-    # Extract video ID from URL
-    VIDEO_ID=$(echo "$YOUTUBE_URL" | sed -n 's/.*[?&]v=\([^&]*\).*/\1/p')
-    if [ -z "$VIDEO_ID" ]; then
-        VIDEO_ID=$(echo "$YOUTUBE_URL" | sed -n 's/.*youtu\.be\/\([^?]*\).*/\1/p')
-    fi
+    # Extract title from summary (first line starting with #)
+    TITLE=$(echo "$SUMMARY" | grep -m 1 '^#' | sed 's/^#* *//' | head -1)
 
-    # Prompt for filename
+    # Generate filename from title
+    FILENAME=$(echo "$TITLE" | \
+        tr '[:upper:]' '[:lower:]' | \
+        sed 's/[^a-z0-9]/_/g' | \
+        sed 's/__*/_/g' | \
+        sed 's/^_//;s/_$//')
+
+    # Add .md extension
+    FILENAME="${FILENAME}.md"
+
     echo "" >&2
-    echo "💾 Save to summaries folder?" >&2
-    echo "Enter filename (without .md extension), or press Enter to skip:" >&2
-    read -r FILENAME
+    echo "💾 Auto-generated filename: $FILENAME" >&2
 
-    if [ -n "$FILENAME" ]; then
-        # Add .md extension if not present
-        if [[ ! "$FILENAME" =~ \.md$ ]]; then
-            FILENAME="${FILENAME}.md"
-        fi
+    SUMMARIES_DIR="$SCRIPT_DIR/../summaries"
+    FILE_PATH="$SUMMARIES_DIR/$FILENAME"
 
-        SUMMARIES_DIR="$SCRIPT_DIR/../summaries"
-        FILE_PATH="$SUMMARIES_DIR/$FILENAME"
+    # Save summary to file
+    echo "$SUMMARY" > "$FILE_PATH"
+    echo "✅ Saved to: $FILE_PATH" >&2
 
-        # Save summary to file
-        echo "$SUMMARY" > "$FILE_PATH"
-        echo "✅ Saved to: $FILE_PATH" >&2
+    # Commit and push
+    echo "📤 Committing and pushing to git..." >&2
+    cd "$SUMMARIES_DIR"
+    git add "$FILENAME"
 
-        # Commit and push
-        echo "📤 Committing and pushing to git..." >&2
-        cd "$SUMMARIES_DIR"
-        git add "$FILENAME"
+    # Generate commit message from title
+    COMMIT_MSG="Add summary: $TITLE"
+    git commit -m "$COMMIT_MSG"
+    git push
 
-        # Generate commit message
-        COMMIT_MSG="Add summary: $FILENAME"
-        git commit -m "$COMMIT_MSG"
-        git push
-
-        echo "✅ Committed and pushed!" >&2
-    else
-        echo "⏭️  Skipped saving to file" >&2
-    fi
+    echo "✅ Committed and pushed!" >&2
 else
     echo "❌ Failed to generate summary" >&2
     exit 1
