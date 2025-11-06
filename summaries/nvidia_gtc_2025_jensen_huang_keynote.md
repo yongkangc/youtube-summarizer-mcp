@@ -60,15 +60,18 @@ Way better
 
 2. **The Virtuous Cycle Proves AI Has Crossed the Threshold**: For the first time, AI is good enough that millions pay for it (Cursor subscribers, ChatGPT users, enterprise AI deployments). This creates a self-reinforcing cycle of better models → more usage → more revenue → more compute → better models. The economic viability proves we've passed the critical inflection point.
 
-3. **AI Addresses $100T Economy, Not $1T Tools**: Traditional IT tools (Office, SAP, databases) serve a ~$1 trillion market. AI represents digital workers that can use those tools and augment human labor across the entire $100 trillion global economy. This 100x larger addressable market justifies massive infrastructure investment.
+<img width="836" height="612" alt="image" src="https://github.com/user-attachments/assets/6101b5ae-fccc-40ec-b037-21029fb5352a" />
 
-4. **Three Scaling Laws Require Massive Compute**: Pre-training, post-training, and inference-time thinking all scale with computation. The shift to "thinking" (models spending extended time reasoning about problems) is especially compute-intensive, requiring sophisticated algorithms and powerful systems. This sustains long-term GPU demand.
 
-5. **Manufacturing is National Security**: American AI leadership requires domestic semiconductor manufacturing. NVIDIA's achievement of full Blackwell production in Arizona (9 months from groundbreaking) with HBM in Indiana and systems in Texas demonstrates that American reindustrialization is achievable when AI demand drives it.
+4. **AI Addresses $100T Economy, Not $1T Tools**: Traditional IT tools (Office, SAP, databases) serve a ~$1 trillion market. AI represents digital workers that can use those tools and augment human labor across the entire $100 trillion global economy. This 100x larger addressable market justifies massive infrastructure investment.
 
-6. **Open Source Models Enable Strategic Autonomy**: Proprietary models create dependence; open-source models enable customization, domain specialization, and sovereign AI. NVIDIA's investment in open-source models (Llama, Cosmos, etc.) ensures that research, startups, and nations can build on accessible foundations.
+5. **Three Scaling Laws Require Massive Compute**: Pre-training, post-training, and inference-time thinking all scale with computation. The shift to "thinking" (models spending extended time reasoning about problems) is especially compute-intensive, requiring sophisticated algorithms and powerful systems. This sustains long-term GPU demand.
 
-7. **Physical AI Is the Next Wave**: After agentic AI (digital workers), physical AI (robots, autonomous vehicles, manufacturing automation) represents the next major market expansion. The three-computer architecture (training, simulation, deployment) with unified CUDA enables this transition.
+6. **Manufacturing is National Security**: American AI leadership requires domestic semiconductor manufacturing. NVIDIA's achievement of full Blackwell production in Arizona (9 months from groundbreaking) with HBM in Indiana and systems in Texas demonstrates that American reindustrialization is achievable when AI demand drives it.
+
+7. **Open Source Models Enable Strategic Autonomy**: Proprietary models create dependence; open-source models enable customization, domain specialization, and sovereign AI. NVIDIA's investment in open-source models (Llama, Cosmos, etc.) ensures that research, startups, and nations can build on accessible foundations.
+
+8. **Physical AI Is the Next Wave**: After agentic AI (digital workers), physical AI (robots, autonomous vehicles, manufacturing automation) represents the next major market expansion. The three-computer architecture (training, simulation, deployment) with unified CUDA enables this transition.
 
 **Counterarguments Addressed**:
 
@@ -122,6 +125,9 @@ Way better
 
 **For Enterprises:**
 - Invest in AI infrastructure now as the virtuous cycle has begun. AI models are good enough to pay for (like Cursor for developers), delivering measurable productivity improvements. The capex timing is optimal with Grace Blackwell's production ramp providing best TCO.
+
+<img width="836" height="612" alt="image" src="https://github.com/user-attachments/assets/e73799f5-0f25-4cad-b3f9-16c13b30e379" />
+
 
 **For Developers:**
 - Build on NVIDIA's ecosystem—CUDA-X libraries, open-source models, and unified platforms across clouds ensure code portability and access to cutting-edge capabilities. The 350+ domain-specific libraries provide accelerated solutions for virtually any workload.
