@@ -41,7 +41,7 @@ Way better
 
 - **Manufacturing Returns to America**: In nine months, NVIDIA achieved full production manufacturing of Blackwell in Arizona, with HBM production in Indiana and system assembly in Texas—a complete American supply chain representing reindustrialization driven by AI.
 
-- Roadmap
+- Roadmap. DGX1 used by open ai in 2016
 <img width="1433" height="795" alt="image" src="https://github.com/user-attachments/assets/5d8ba059-1533-4a58-b6c6-c7976683e916" />
 
 
