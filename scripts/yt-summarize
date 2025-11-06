@@ -49,6 +49,46 @@ if [ $? -eq 0 ]; then
 
     # Display the summary
     echo "$SUMMARY"
+
+    # Extract video ID from URL
+    VIDEO_ID=$(echo "$YOUTUBE_URL" | sed -n 's/.*[?&]v=\([^&]*\).*/\1/p')
+    if [ -z "$VIDEO_ID" ]; then
+        VIDEO_ID=$(echo "$YOUTUBE_URL" | sed -n 's/.*youtu\.be\/\([^?]*\).*/\1/p')
+    fi
+
+    # Prompt for filename
+    echo "" >&2
+    echo "💾 Save to summaries folder?" >&2
+    echo "Enter filename (without .md extension), or press Enter to skip:" >&2
+    read -r FILENAME
+
+    if [ -n "$FILENAME" ]; then
+        # Add .md extension if not present
+        if [[ ! "$FILENAME" =~ \.md$ ]]; then
+            FILENAME="${FILENAME}.md"
+        fi
+
+        SUMMARIES_DIR="$SCRIPT_DIR/../summaries"
+        FILE_PATH="$SUMMARIES_DIR/$FILENAME"
+
+        # Save summary to file
+        echo "$SUMMARY" > "$FILE_PATH"
+        echo "✅ Saved to: $FILE_PATH" >&2
+
+        # Commit and push
+        echo "📤 Committing and pushing to git..." >&2
+        cd "$SUMMARIES_DIR"
+        git add "$FILENAME"
+
+        # Generate commit message
+        COMMIT_MSG="Add summary: $FILENAME"
+        git commit -m "$COMMIT_MSG"
+        git push
+
+        echo "✅ Committed and pushed!" >&2
+    else
+        echo "⏭️  Skipped saving to file" >&2
+    fi
 else
     echo "❌ Failed to generate summary" >&2
     exit 1
