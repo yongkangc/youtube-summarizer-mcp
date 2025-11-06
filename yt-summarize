@@ -1,0 +1,55 @@
+#!/bin/bash
+# YouTube Transcript Summarizer
+# Usage: yt-summarize <youtube_url>
+# Alias: yt-s
+
+set -e
+
+# Get the directory where this script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+if [ $# -eq 0 ]; then
+    echo "Usage: yt-summarize <youtube_url>" >&2
+    echo "Example: yt-summarize https://www.youtube.com/watch?v=Y7dwbJ0AtUA" >&2
+    exit 1
+fi
+
+YOUTUBE_URL="$1"
+
+echo "📺 Fetching transcript from YouTube..." >&2
+
+# Fetch transcript using the yt script (copies to clipboard)
+if ! "$SCRIPT_DIR/yt" "$YOUTUBE_URL"; then
+    echo "❌ Failed to fetch transcript" >&2
+    exit 1
+fi
+
+echo "🤖 Generating summary with Claude..." >&2
+
+# Read transcript from clipboard
+TRANSCRIPT=$(pbpaste)
+
+# Read the prompt template
+PROMPT=$(cat "$SCRIPT_DIR/summarize_prompt.md")
+
+# Use Claude to summarize the transcript
+SUMMARY=$(echo "$TRANSCRIPT" | claude -p "$PROMPT
+
+Transcript:
+$TRANSCRIPT")
+
+if [ $? -eq 0 ]; then
+    # Copy summary to clipboard
+    echo "$SUMMARY" | pbcopy
+
+    echo "" >&2
+    echo "✅ Summary generated and copied to clipboard!" >&2
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" >&2
+    echo "" >&2
+
+    # Display the summary
+    echo "$SUMMARY"
+else
+    echo "❌ Failed to generate summary" >&2
+    exit 1
+fi

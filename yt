@@ -26,6 +26,9 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
+# Get the directory where this script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 # Detect Python command
 if command -v python3 &> /dev/null; then
     PYTHON_CMD="python3"
@@ -144,7 +147,7 @@ trap "rm -f $TEMP_FILE" EXIT
 
 # Run the Python script and capture output
 print_color "$YELLOW" "Fetching transcript..."
-if $PYTHON_CMD main.py "$1" > "$TEMP_FILE" 2>&1; then
+if (cd "$SCRIPT_DIR" && $PYTHON_CMD main.py "$1") > "$TEMP_FILE" 2>&1; then
     # Success - copy to clipboard
     if cat "$TEMP_FILE" | copy_to_clipboard; then
         print_color "$GREEN" "✅ Transcript copied to clipboard!"
