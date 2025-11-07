@@ -2,6 +2,10 @@
 
 Analyze this YouTube video transcript and provide a comprehensive, detailed summary with the following structure:
 
+## Source
+**IMPORTANT**: Always include the YouTube video URL as the first line of your summary in this format:
+`**Source**: [YouTube URL]`
+
 ## Summary
 A thorough 3-5 sentence overview of the video's main topic, purpose, and context. Provide enough detail to understand what the video is about and why it matters.
 

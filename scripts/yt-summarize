@@ -35,6 +35,8 @@ PROMPT=$(cat "$SCRIPT_DIR/../prompts/summarize_prompt.md")
 # Use Claude to summarize the transcript
 SUMMARY=$(echo "$TRANSCRIPT" | claude -p "$PROMPT
 
+YouTube URL: $YOUTUBE_URL
+
 Transcript:
 $TRANSCRIPT")
 
