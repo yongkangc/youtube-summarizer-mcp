@@ -19,6 +19,7 @@ def extract_video_id(url: str) -> Optional[str]:
         r'(?:https?://)?(?:www\.)?youtube\.com/watch\?v=([^&\n?#]+)',
         r'(?:https?://)?(?:www\.)?youtube\.com/embed/([^&\n?#]+)',
         r'(?:https?://)?(?:www\.)?youtube\.com/v/([^&\n?#]+)',
+        r'(?:https?://)?(?:www\.)?youtube\.com/shorts/([^&\n?#]+)',
         r'(?:https?://)?youtu\.be/([^&\n?#]+)',
         r'(?:https?://)?(?:www\.)?youtube\.com/watch\?.*v=([^&\n?#]+)'
     ]

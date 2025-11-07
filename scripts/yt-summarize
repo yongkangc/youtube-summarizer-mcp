@@ -50,18 +50,14 @@ if [ $? -eq 0 ]; then
     # Display the summary
     echo "$SUMMARY"
 
-    # Extract title from summary (first line starting with #)
-    TITLE=$(echo "$SUMMARY" | grep -m 1 '^#' | sed 's/^#* *//' | head -1)
-
-    # Generate filename from title
-    FILENAME=$(echo "$TITLE" | \
-        tr '[:upper:]' '[:lower:]' | \
-        sed 's/[^a-z0-9]/_/g' | \
-        sed 's/__*/_/g' | \
-        sed 's/^_//;s/_$//')
+    # Use Claude to generate a clean filename from the summary content
+    FILENAME=$(echo "$SUMMARY" | claude -p "Based on this video summary, generate a concise, descriptive filename (without .md extension). Use lowercase letters, numbers, and underscores only. Make it descriptive but not too long (max 60 chars). Only output the filename, nothing else." | tr -d '\n' | sed 's/[^a-z0-9_]/_/g' | sed 's/__*/_/g' | sed 's/^_//;s/_$//')
 
     # Add .md extension
     FILENAME="${FILENAME}.md"
+
+    # Extract title from summary for commit message (first line starting with #)
+    TITLE=$(echo "$SUMMARY" | grep -m 1 '^#' | sed 's/^#* *//' | head -1 || echo "Video Summary")
 
     echo "" >&2
     echo "💾 Auto-generated filename: $FILENAME" >&2
@@ -81,6 +77,9 @@ if [ $? -eq 0 ]; then
     # Generate commit message from title
     COMMIT_MSG="Add summary: $TITLE"
     git commit -m "$COMMIT_MSG"
+
+    # Pull before pushing to avoid conflicts
+    git pull --rebase
     git push
 
     echo "✅ Committed and pushed!" >&2
