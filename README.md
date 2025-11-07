@@ -1,14 +1,31 @@
-# YouTube Transcript MCP Server
+# YouTube Transcript & Summarizer
 
-A Model Context Protocol (MCP) server that provides tools and resources for fetching YouTube video transcripts. This server can be deployed to [Smithery](https://smithery.ai) or run locally.
+A versatile toolkit for fetching and summarizing YouTube video transcripts:
+- **CLI Scripts**: Quick transcript fetching and AI-powered summarization with smart filename generation
+- **MCP Server**: Model Context Protocol server for AI assistants, deployable to [Smithery](https://smithery.ai)
+- **HTTP API**: FastAPI server for programmatic access
 
 ## Features
 
-### 🛠️ Tools
+### 🎯 CLI Scripts (Quick Start)
+- **yt**: Fetch YouTube transcript and copy to clipboard
+  - Supports all YouTube URL formats including Shorts
+  - Auto-installs dependencies
+  - Cross-platform (macOS/Linux)
+
+- **yt-summarize** (alias: `yt-s`): Fetch transcript and generate AI summary
+  - Uses Claude AI to create comprehensive summaries
+  - **Smart filename generation**: Uses Claude to create descriptive filenames from content
+  - Auto-saves to `summaries/` directory with meaningful names
+  - Auto-commits and syncs with git (pull + push)
+  - Structured summary format with insights, quotes, and takeaways
+
+### 🛠️ MCP Tools
 - **get_transcript**: Fetch transcript from YouTube video URL with language and timestamp options
 - **extract_video_id_tool**: Extract video ID from various YouTube URL formats
+  - Supports: `youtube.com/watch`, `youtu.be`, `youtube.com/shorts`, `youtube.com/embed`, `youtube.com/v`
 
-### 📚 Resources  
+### 📚 Resources
 - **youtube://transcript/{video_id}**: Get formatted transcript text by video ID
 - **youtube://metadata/{video_id}**: Get transcript metadata (segments, languages, etc.)
 
@@ -37,6 +54,46 @@ A Model Context Protocol (MCP) server that provides tools and resources for fetc
    ```bash
    uv run mcp dev mcp_server.py
    ```
+
+## CLI Usage
+
+### Basic Transcript Fetching
+
+```bash
+# Fetch transcript and copy to clipboard
+./scripts/yt "https://www.youtube.com/watch?v=VIDEO_ID"
+
+# Works with YouTube Shorts
+./scripts/yt "https://www.youtube.com/shorts/VIDEO_ID"
+
+# Also works with short URLs
+./scripts/yt "https://youtu.be/VIDEO_ID"
+```
+
+### AI-Powered Summarization
+
+```bash
+# Generate summary and save with smart filename
+./scripts/yt-summarize "https://www.youtube.com/watch?v=VIDEO_ID"
+
+# Or use the short alias
+yt-s "https://www.youtube.com/shorts/VIDEO_ID"
+```
+
+**What happens:**
+1. Fetches the video transcript
+2. Sends to Claude AI for comprehensive analysis
+3. Generates a descriptive filename using AI (e.g., `rotator_cuff_rehab_strengthen_not_stretch.md`)
+4. Saves to `summaries/` directory
+5. Automatically commits and pushes to git
+
+**Summary Format:**
+- Executive summary
+- Key insights (bullet points)
+- Main arguments with evidence
+- Notable quotes
+- Practical takeaways
+- Additional context
 
 ## Deployment to Smithery
 
