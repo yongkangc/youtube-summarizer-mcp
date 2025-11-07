@@ -57,10 +57,9 @@ def get_youtube_transcript(url: str, languages: Optional[List[str]] = None) -> D
             }
         
         # Get transcript
-        transcript_list = YouTubeTranscriptApi.get_transcript(
-            video_id,
-            languages=languages
-        )
+        api = YouTubeTranscriptApi()
+        fetched_transcript = api.fetch(video_id, languages=languages)
+        transcript_list = fetched_transcript.to_raw_data()
         
         # Format transcript - create simple text version
         formatted_transcript = '\n'.join([entry['text'] for entry in transcript_list])
