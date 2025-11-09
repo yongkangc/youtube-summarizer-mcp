@@ -29,112 +29,49 @@ fi
 # Get the directory where this script is located
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# Detect Python command
-if command -v python3 &> /dev/null; then
-    PYTHON_CMD="python3"
-elif command -v python &> /dev/null; then
-    PYTHON_CMD="python"
-else
-    print_color "$RED" "Error: Python is not installed"
+# Add uv to PATH if it exists
+export PATH="$HOME/.local/bin:$PATH"
+
+# Check if uv is available
+if ! command -v uv &> /dev/null; then
+    print_color "$RED" "Error: uv is not installed"
+    print_color "$YELLOW" "Install it with: curl -LsSf https://astral.sh/uv/install.sh | sh"
     exit 1
 fi
 
-# Check if youtube-transcript-api is installed
-check_dependency() {
-    $PYTHON_CMD -c "import youtube_transcript_api" 2>/dev/null
-    return $?
-}
-
-# Install dependencies if needed
-if ! check_dependency; then
-    print_color "$YELLOW" "Installing required dependencies..."
-    
-    # Check if we're in a virtual environment
-    if [ -n "$VIRTUAL_ENV" ]; then
-        # We're in a virtual environment, install normally
-        print_color "$YELLOW" "Installing in virtual environment..."
-        $PYTHON_CMD -m pip install youtube-transcript-api >&2
-    elif [ -f "pyproject.toml" ]; then
-        # Try to install using pip with pyproject.toml
-        print_color "$YELLOW" "Installing from pyproject.toml..."
-        if command -v pip &> /dev/null; then
-            pip install -e . --user >&2 2>/dev/null || pip install -e . >&2
-        elif command -v pip3 &> /dev/null; then
-            pip3 install -e . --user >&2 2>/dev/null || pip3 install -e . >&2
-        else
-            $PYTHON_CMD -m pip install -e . --user >&2 2>/dev/null || $PYTHON_CMD -m pip install -e . >&2
-        fi
-    else
-        # Try user installation first, fall back to system if that fails
-        print_color "$YELLOW" "Installing youtube-transcript-api..."
-        if ! $PYTHON_CMD -m pip install --user youtube-transcript-api >&2 2>/dev/null; then
-            # Try without --user flag (for systems that don't need it)
-            if ! $PYTHON_CMD -m pip install youtube-transcript-api >&2 2>/dev/null; then
-                # Last resort: try with break-system-packages for newer Python
-                if ! $PYTHON_CMD -m pip install --user --break-system-packages youtube-transcript-api >&2 2>/dev/null; then
-                    print_color "$RED" "Failed to install automatically."
-                    print_color "$YELLOW" "Please install manually using one of these methods:"
-                    print_color "$YELLOW" "1. Create a virtual environment:"
-                    print_color "$YELLOW" "   python3 -m venv venv"
-                    print_color "$YELLOW" "   source venv/bin/activate"
-                    print_color "$YELLOW" "   pip install youtube-transcript-api"
-                    print_color "$YELLOW" ""
-                    print_color "$YELLOW" "2. Install with pipx:"
-                    print_color "$YELLOW" "   brew install pipx"
-                    print_color "$YELLOW" "   pipx install youtube-transcript-api"
-                    print_color "$YELLOW" ""
-                    print_color "$YELLOW" "3. Install with Homebrew (if available):"
-                    print_color "$YELLOW" "   brew install youtube-transcript-api"
-                    exit 1
-                fi
-            fi
-        fi
-    fi
-    
-    # Check again after installation
-    if ! check_dependency; then
-        print_color "$RED" "Failed to install dependencies."
-        print_color "$YELLOW" "Please install manually: pip install youtube-transcript-api"
-        exit 1
-    fi
-    
-    print_color "$GREEN" "Dependencies installed successfully!"
-fi
+# Use uv run to execute Python with the project dependencies
+PYTHON_CMD="uv run python"
 
 # Function to copy to clipboard based on OS
 copy_to_clipboard() {
     if [[ "$OSTYPE" == "darwin"* ]]; then
         # macOS
-        pbcopy
+        pbcopy 2>/dev/null || { cat; return 1; }
     elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-        # Linux
+        # Linux - try clipboard utilities, fallback to stdout if no display
         if command -v xclip &> /dev/null; then
-            xclip -selection clipboard
+            xclip -selection clipboard 2>/dev/null || { cat; return 1; }
         elif command -v xsel &> /dev/null; then
-            xsel --clipboard --input
+            xsel --clipboard --input 2>/dev/null || { cat; return 1; }
         elif command -v wl-copy &> /dev/null; then
             # Wayland
-            wl-copy
+            wl-copy 2>/dev/null || { cat; return 1; }
         else
-            print_color "$YELLOW" "No clipboard utility found. Install xclip, xsel, or wl-clipboard."
-            print_color "$YELLOW" "Transcript printed to stdout instead."
             cat  # Just output to stdout
             return 1
         fi
     elif [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" || "$OSTYPE" == "win32" ]]; then
         # Windows (Git Bash, Cygwin, WSL)
         if command -v clip.exe &> /dev/null; then
-            clip.exe
+            clip.exe 2>/dev/null || { cat; return 1; }
         elif command -v /mnt/c/Windows/System32/clip.exe &> /dev/null; then
             # WSL specific
-            /mnt/c/Windows/System32/clip.exe
+            /mnt/c/Windows/System32/clip.exe 2>/dev/null || { cat; return 1; }
         else
-            print_color "$YELLOW" "Cannot access Windows clipboard. Transcript printed to stdout instead."
             cat  # Just output to stdout
             return 1
         fi
     else
-        print_color "$YELLOW" "Unknown OS. Transcript printed to stdout instead."
         cat  # Just output to stdout
         return 1
     fi

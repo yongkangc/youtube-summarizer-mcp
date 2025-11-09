@@ -8,6 +8,37 @@ set -e
 # Get the directory where this script is located
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+# Clipboard functions for cross-platform support
+clipboard_paste() {
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        pbpaste
+    elif command -v xsel &> /dev/null; then
+        xsel --clipboard --output
+    elif command -v xclip &> /dev/null; then
+        xclip -selection clipboard -o
+    elif command -v wl-paste &> /dev/null; then
+        wl-paste
+    else
+        echo "Error: No clipboard utility found" >&2
+        exit 1
+    fi
+}
+
+clipboard_copy() {
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        pbcopy
+    elif command -v xsel &> /dev/null; then
+        xsel --clipboard --input
+    elif command -v xclip &> /dev/null; then
+        xclip -selection clipboard
+    elif command -v wl-copy &> /dev/null; then
+        wl-copy
+    else
+        echo "Error: No clipboard utility found" >&2
+        exit 1
+    fi
+}
+
 if [ $# -eq 0 ]; then
     echo "Usage: yt-summarize <youtube_url>" >&2
     echo "Example: yt-summarize https://www.youtube.com/watch?v=Y7dwbJ0AtUA" >&2
@@ -18,34 +49,37 @@ YOUTUBE_URL="$1"
 
 echo "📺 Fetching transcript from YouTube..." >&2
 
-# Fetch transcript using the yt script (copies to clipboard)
-if ! "$SCRIPT_DIR/yt" "$YOUTUBE_URL"; then
+# Create temporary file for transcript
+TRANSCRIPT_FILE=$(mktemp)
+trap "rm -f $TRANSCRIPT_FILE" EXIT
+
+# Fetch transcript - save to temp file instead of clipboard
+if ! (cd "$SCRIPT_DIR/.." && export PATH="$HOME/.local/bin:$PATH" && uv run python main.py "$YOUTUBE_URL") > "$TRANSCRIPT_FILE" 2>&1; then
     echo "❌ Failed to fetch transcript" >&2
+    cat "$TRANSCRIPT_FILE" >&2
     exit 1
 fi
 
 echo "🤖 Generating summary with Claude..." >&2
 
-# Read transcript from clipboard
-TRANSCRIPT=$(pbpaste)
-
 # Read the prompt template
 PROMPT=$(cat "$SCRIPT_DIR/../prompts/summarize_prompt.md")
 
 # Use Claude to summarize the transcript
-SUMMARY=$(echo "$TRANSCRIPT" | claude -p "$PROMPT
+# Pass transcript via stdin to avoid "Argument list too long" error
+SUMMARY=$(cat "$TRANSCRIPT_FILE" | claude -p "$PROMPT
 
-YouTube URL: $YOUTUBE_URL
-
-Transcript:
-$TRANSCRIPT")
+YouTube URL: $YOUTUBE_URL")
 
 if [ $? -eq 0 ]; then
-    # Copy summary to clipboard
-    echo "$SUMMARY" | pbcopy
-
-    echo "" >&2
-    echo "✅ Summary generated and copied to clipboard!" >&2
+    # Try to copy summary to clipboard (optional - may fail in headless environments)
+    if echo "$SUMMARY" | clipboard_copy 2>/dev/null; then
+        echo "" >&2
+        echo "✅ Summary generated and copied to clipboard!" >&2
+    else
+        echo "" >&2
+        echo "✅ Summary generated!" >&2
+    fi
     echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" >&2
     echo "" >&2
 
