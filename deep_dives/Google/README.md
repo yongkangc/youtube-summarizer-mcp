@@ -176,13 +176,4 @@ Trading at **27.5x P/E** vs peer average of **38.5x** despite 35.5% ROE and $140
 
 ---
 
-## 📝 Document Information
-
-**Last Updated:** November 2025
-**Analyst:** [Your Name]
-**Total Word Count:** 22,000+ words across all sections
-**Original Full Document:** [README_original.md](README_original.md) (archived for reference)
-
----
-
 **Disclaimer:** This is not investment advice. Conduct your own research and consult with a qualified financial advisor before making investment decisions.
