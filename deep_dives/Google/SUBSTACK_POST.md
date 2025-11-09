@@ -266,8 +266,6 @@ But here's why I'm comfortable:
 4. **$105B net cash** = financial fortress, can weather years of transition
 5. **TPU cost moat** = sustainable advantage in 50% margin AI world
 
-**Probability-weighted expected return: +15%/year over 3 years**
-
 That's excellent for a quality compounder with multiple growth drivers.
 
 ---
