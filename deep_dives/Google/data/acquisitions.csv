@@ -1,0 +1,12 @@
+Date,Company,Amount_USD,Amount_Billions,Strategic_Rationale,Current_Status,Impact_Assessment
+2003-04,Applied Semantics,$102M,0.102,Ad targeting technology (foundation of AdSense),Integrated into Google Ads,Transformational - enabled contextual advertising business
+2006-10,YouTube,$1.65B,1.65,Video sharing and distribution platform,Standalone subsidiary,Transformational - now worth $200B+ (estimated)
+2007-04,DoubleClick,$3.1B,3.1,Ad serving and publisher relationships,Integrated into Google Ads,Transformational - created ad tech dominance
+2011-08,Motorola Mobility,$12.5B,12.5,Mobile patents and hardware capabilities,"Sold to Lenovo 2014 ($2.91B, kept patents)",Strategic - protected Android ecosystem
+2013-06,Waze,$966M,0.966,Crowdsourced navigation and traffic data,Integrated into Google Maps,High value - enhanced Maps competitive position
+2014-01,DeepMind,$550M,0.55,Artificial intelligence research and talent,Google DeepMind (merged with Brain 2023),Transformational - foundation of Gemini AI
+2014-01,Nest Labs,$3.2B,3.2,Smart home devices and IoT platform,Alphabet's Other Bets division,Mixed - category leadership but unprofitable
+2018-09,Looker,$2.6B,2.6,Business intelligence and data analytics,Integrated into Google Cloud,High value - strengthened cloud analytics
+2019-11,Fitbit,$2.1B,2.1,Wearables and health data,Integrated into Pixel/Wear OS,Moderate - regulatory challenges limited value
+2022-03,Mandiant,$5.4B,5.4,Cybersecurity and threat intelligence,Integrated into Google Cloud,High value - cloud security differentiator
+2023-Q4,Character.AI (acqui-hire),~$2.7B,2.7,AI chatbot technology and Noam Shazeer (co-inventor of transformer),Talent integrated into Google DeepMind,Strategic - brought back key transformer inventor

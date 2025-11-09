@@ -1,0 +1,23 @@
+Date,Name,Title_Role,From_Organization,To_Organization,Movement_Type,Significance,Notes
+2014-01,Demis Hassabis,CEO & Co-founder,DeepMind,Google (via acquisition),Acquisition,Critical - AI leadership,Led Google DeepMind formation in 2023
+2014-01,Shane Legg,Co-founder & Chief AGI Scientist,DeepMind,Google (via acquisition),Acquisition,Critical - AI research leadership,Key AlphaGo and AlphaFold contributor
+2014-01,Mustafa Suleyman,Co-founder,DeepMind,Google (via acquisition),Acquisition,Critical - Applied AI,Later left for Inflection AI then Microsoft
+2017-08,Ashish Vaswani,Research Scientist (Transformer co-author #1),Google Brain,Essential AI (founded),Departure,Critical talent loss,Co-CEO of Essential AI
+2017-08,Noam Shazeer,Research Scientist (Transformer co-author #2),Google Brain,Character.AI (founded),Departure,Critical talent loss,Returned via acqui-hire 2023 ($2.7B)
+2017-08,Niki Parmar,Research Scientist (Transformer co-author #3),Google Brain,Essential AI (founded),Departure,Critical talent loss,Co-founder of Essential AI
+2017-08,Jakob Uszkoreit,Research Scientist (Transformer co-author #4),Google Brain,Inceptive (founded),Departure,Critical talent loss,CEO of Inceptive (AI for biology)
+2017-08,Llion Jones,Research Scientist (Transformer co-author #5),Google Brain,Sakana AI (founded),Departure,Critical talent loss,CTO of Sakana AI
+2017-08,Aidan Gomez,Research Scientist (Transformer co-author #6),Google Brain,Cohere (founded),Departure,Critical talent loss,CEO of Cohere ($15B+ valuation)
+2017-08,Łukasz Kaiser,Research Scientist (Transformer co-author #7),Google Brain,OpenAI,Departure,Critical talent loss,Led OpenAI o1 model development
+2017-08,Illia Polosukhin,Research Scientist (Transformer co-author #8),Google Brain,NEAR Protocol (founded),Departure,Significant talent loss,Co-founder of blockchain platform
+2018-02,Andrew Ng,Chief Scientist,Google Brain,Baidu → Independent,Earlier departure,Significant - AI pioneer,Left to start deeplearning.ai
+2019-01,Dario Amodei,Research VP,Google Brain,OpenAI → Anthropic (founded),Departure,Critical talent loss,CEO of Anthropic (Claude AI)
+2019-01,Daniela Amodei,Executive,Google,Anthropic (founded),Departure,Significant,President of Anthropic
+2023-04,Jeff Dean,Google Brain lead,Google Brain,Google Research (Chief Scientist),Internal promotion,Strategic reorganization,Elevated to oversee all AI research
+2023-04,Demis Hassabis,DeepMind CEO,DeepMind,Google DeepMind,Internal merger,Strategic reorganization,CEO of unified AI division
+2023-12,Noam Shazeer,CEO,Character.AI,Google DeepMind,Return (acqui-hire),Critical talent return,$2.7B deal to bring him back
+2024-Q1,Tim Brooks,Sora co-lead,OpenAI,Google DeepMind,Hire,Significant acquisition,World models expert
+2024-Q3,Tim Brooks,Researcher,Google DeepMind,Meta (Superintelligence Labs),Departure,Concerning quick departure,Left after brief Google stint
+2025-Q2,Amar Subramanya,VP of Engineering (16 years),Google DeepMind,Microsoft,Departure,Significant talent loss,Led Gemini assistant development
+2025-Q2,Adam Sadovsky,Distinguished Engineer (18 years),Google,Microsoft,Departure,Significant talent loss,Part of ~24 person exodus to Microsoft
+2025-Q2,~22 additional engineers,Various roles,Google DeepMind,Microsoft,Departure,Concerning talent drain,Indicates retention challenges
