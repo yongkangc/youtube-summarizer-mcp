@@ -1,0 +1,180 @@
+{
+  "timestamp": "2025-11-11T05:11:40.487498",
+  "recent_news": {
+    "Q3_2025": {
+      "Unitree_Robotics": [
+        {
+          "date": "2025-09-15",
+          "headline": "Unitree announces Q4 2025 IPO timeline (RESEARCH NEEDED)",
+          "source": "TBD - Chinese business news",
+          "impact": "High - First major humanoid robotics IPO after UBTech",
+          "details": "Expected valuation $1-2B, Hong Kong or Shanghai exchange"
+        },
+        {
+          "date": "2025-08-20",
+          "headline": "G1 sales reach 10,000+ units (RESEARCH NEEDED)",
+          "source": "TBD - Company announcement or industry reports",
+          "impact": "High - Proves $16K price point has demand",
+          "details": "Primary customers: universities, research labs, early adopters"
+        }
+      ],
+      "Figure_AI": [
+        {
+          "date": "2025-09-30",
+          "headline": "BMW pilot expands to 100+ Figure robots (RESEARCH NEEDED)",
+          "source": "TBD - BMW or Figure press release",
+          "impact": "High - First large-scale enterprise deployment",
+          "details": "Assembly line tasks, ROI data TBD"
+        }
+      ],
+      "Tesla_Optimus": [
+        {
+          "date": "2025-10-10",
+          "headline": "Tesla AI Day 2025 - Optimus Gen 3 revealed (RESEARCH NEEDED)",
+          "source": "Tesla official event",
+          "impact": "High - Gen 3 specs and timeline",
+          "details": "Check for: production numbers, external sales timeline, price"
+        }
+      ],
+      "Agility_Robotics": [
+        {
+          "date": "2025-08-15",
+          "headline": "RoboFab production hits 5,000+ Digit robots (RESEARCH NEEDED)",
+          "source": "TBD - Company update or news",
+          "impact": "Medium - Production ramp validation",
+          "details": "Path to 10K/year capacity"
+        }
+      ]
+    },
+    "Q2_2025": {
+      "Industry_Wide": [
+        {
+          "date": "2025-06-30",
+          "headline": "China announces $10B humanoid robotics subsidy program (RESEARCH NEEDED)",
+          "source": "TBD - MIIT or Chinese government announcement",
+          "impact": "Very High - Government backing for domestic companies",
+          "details": "Subsidies for: production capacity, R&D, domestic purchases"
+        },
+        {
+          "date": "2025-05-20",
+          "headline": "US Commerce Dept adds humanoid robots to export control list (RESEARCH NEEDED)",
+          "source": "TBD - BIS or Commerce Dept",
+          "impact": "High - US-China decoupling in robotics",
+          "details": "May restrict Chinese robots from US market, or vice versa"
+        }
+      ],
+      "1X_Technologies": [
+        {
+          "date": "2025-06-15",
+          "headline": "Neo consumer robot pre-orders open, $25K price (RESEARCH NEEDED)",
+          "source": "TBD - Company announcement",
+          "impact": "Medium - First consumer humanoid at scale",
+          "details": "Delivery timeline, reservation numbers"
+        }
+      ],
+      "Boston_Dynamics": [
+        {
+          "date": "2025-05-10",
+          "headline": "Electric Atlas deployed in Hyundai Korean factories (RESEARCH NEEDED)",
+          "source": "TBD - Hyundai or Boston Dynamics",
+          "impact": "Medium - Commercial deployment starting",
+          "details": "Number of units, use cases"
+        }
+      ]
+    }
+  },
+  "key_trends": {
+    "Production_Ramp": {
+      "trend": "Companies scaling from pilots to production (100s \u2192 1000s of units)",
+      "companies": [
+        "Agility (RoboFab)",
+        "Unitree (mass market)",
+        "Figure (BMW)"
+      ],
+      "timeline": "2024-2025",
+      "evidence_needed": "Actual production numbers vs. announced capacity",
+      "bullish_signal": "Multiple companies hit 1000+ units deployed by end 2025",
+      "bearish_signal": "Production stuck in 100s, delays announced"
+    },
+    "Enterprise_Adoption": {
+      "trend": "Moving from pilots to full deployments",
+      "companies": [
+        "Figure (BMW)",
+        "Agility (Amazon)",
+        "Apptronik (Mercedes)"
+      ],
+      "timeline": "2025-2026",
+      "evidence_needed": "Pilot \u2192 production transition, ROI data, contract expansions",
+      "bullish_signal": "Multiple companies announce multi-year enterprise contracts",
+      "bearish_signal": "Pilots end without expansion, ROI concerns cited"
+    },
+    "China_Dominance": {
+      "trend": "Chinese companies (Unitree, UBTech) scaling faster than Western competitors",
+      "companies": [
+        "Unitree",
+        "UBTech",
+        "Fourier"
+      ],
+      "timeline": "2025-2027",
+      "evidence_needed": "Production numbers, market share in China, export volumes",
+      "bullish_signal": "China domestic market hits 50K+ units/year by 2026",
+      "bearish_signal": "Quality concerns, export restrictions limit growth"
+    },
+    "Geopolitical_Tensions": {
+      "trend": "US-China decoupling in robotics (export controls, tariffs)",
+      "companies": "All (affects supply chain + market access)",
+      "timeline": "Ongoing",
+      "evidence_needed": "New export controls, tariffs, REE restrictions",
+      "bullish_signal": "Stable trade environment, no new restrictions",
+      "bearish_signal": "Escalating tech war, REE export quotas, tariffs"
+    },
+    "AI_Integration": {
+      "trend": "OpenAI + others partnering with robotics companies for embodied AI",
+      "companies": [
+        "Figure (OpenAI)",
+        "1X (OpenAI)",
+        "Others (TBD)"
+      ],
+      "timeline": "2024-2026",
+      "evidence_needed": "Demonstrations of AI capabilities, autonomous task completion",
+      "bullish_signal": "Robots achieve human-level task performance in demos",
+      "bearish_signal": "AI integration underwhelms, teleoperation still needed"
+    },
+    "Funding_Environment": {
+      "trend": "VC funding for robotics (abundant or drying up?)",
+      "companies": "All private companies",
+      "timeline": "2025-2026",
+      "evidence_needed": "New funding rounds, valuations, IPO success",
+      "bullish_signal": "Large Series B/C rounds at rising valuations, successful IPOs",
+      "bearish_signal": "Down rounds, funding gaps, delayed IPOs"
+    }
+  },
+  "research_checklist": {
+    "Company_Updates": [
+      "Check each company's blog/news page for Q3-Q4 2025 updates",
+      "Search Google News for '[Company Name] humanoid robot' (past 6 months)",
+      "Check TechCrunch, The Robot Report, IEEE Spectrum for coverage",
+      "Review investor update letters (if available for private companies)"
+    ],
+    "Government_Policy": [
+      "Search for China MIIT robotics announcements (2025)",
+      "Check US Commerce Dept export control updates",
+      "Research IRA/CHIPS Act funding for robotics companies",
+      "Monitor EU AI Act implications for humanoid robots"
+    ],
+    "Market_Data": [
+      "Verify UBTech stock price (9888.HK) and any investor presentations",
+      "Check if Tesla disclosed Optimus production numbers in Q3 earnings",
+      "Research any new funding rounds on Crunchbase",
+      "Look for industry reports from Gartner, IDC, ABI Research"
+    ],
+    "Trade_Media": [
+      "The Robot Report (therobotreport.com)",
+      "IEEE Spectrum Robotics",
+      "TechCrunch (robotics tag)",
+      "Ars Technica, The Verge (robotics coverage)",
+      "Chinese tech news: 36Kr, TechNode, Pandaily"
+    ]
+  },
+  "note": "This data requires manual research and validation"
+}

@@ -1,0 +1,158 @@
+{
+  "timestamp": "2025-11-11T05:11:47.103567",
+  "sectors": {
+    "AI": {
+      "total_market_cap": 17838912569344,
+      "total_market_cap_trillions": 17.84,
+      "companies": {
+        "MSFT": {
+          "market_cap": 3760783097856,
+          "market_cap_billions": 3760.78
+        },
+        "GOOGL": {
+          "market_cap": 3503286124544,
+          "market_cap_billions": 3503.29
+        },
+        "META": {
+          "market_cap": 1592368562176,
+          "market_cap_billions": 1592.37
+        },
+        "NVDA": {
+          "market_cap": 4846270808064,
+          "market_cap_billions": 4846.27
+        },
+        "AMZN": {
+          "market_cap": 2655449513984,
+          "market_cap_billions": 2655.45
+        },
+        "TSLA": {
+          "market_cap": 1480754462720,
+          "market_cap_billions": 1480.75
+        }
+      },
+      "description": "AI/Tech Giants"
+    },
+    "Semiconductors": {
+      "total_market_cap": 9383622115328,
+      "total_market_cap_trillions": 9.38,
+      "companies": {
+        "NVDA": {
+          "market_cap": 4846270808064,
+          "market_cap_billions": 4846.27
+        },
+        "TSM": {
+          "market_cap": 1531424669696,
+          "market_cap_billions": 1531.42
+        },
+        "ASML": {
+          "market_cap": 403203948544,
+          "market_cap_billions": 403.2
+        },
+        "AMD": {
+          "market_cap": 397209567232,
+          "market_cap_billions": 397.21
+        },
+        "INTC": {
+          "market_cap": 183406493696,
+          "market_cap_billions": 183.41
+        },
+        "QCOM": {
+          "market_cap": 183751475200,
+          "market_cap_billions": 183.75
+        },
+        "AVGO": {
+          "market_cap": 1692448456704,
+          "market_cap_billions": 1692.45
+        },
+        "TXN": {
+          "market_cap": 145906696192,
+          "market_cap_billions": 145.91
+        }
+      },
+      "description": "Semiconductor Industry"
+    },
+    "Biotech": {
+      "total_market_cap": 2986468917248,
+      "total_market_cap_trillions": 2.99,
+      "companies": {
+        "JNJ": {
+          "market_cap": 453935300608,
+          "market_cap_billions": 453.94
+        },
+        "LLY": {
+          "market_cap": 865160921088,
+          "market_cap_billions": 865.16
+        },
+        "NVO": {
+          "market_cap": 200092647424,
+          "market_cap_billions": 200.09
+        },
+        "UNH": {
+          "market_cap": 291299557376,
+          "market_cap_billions": 291.3
+        },
+        "ABBV": {
+          "market_cap": 386544697344,
+          "market_cap_billions": 386.54
+        },
+        "MRK": {
+          "market_cap": 215315464192,
+          "market_cap_billions": 215.32
+        },
+        "TMO": {
+          "market_cap": 216539332608,
+          "market_cap_billions": 216.54
+        },
+        "ABT": {
+          "market_cap": 218906591232,
+          "market_cap_billions": 218.91
+        },
+        "PFE": {
+          "market_cap": 138674405376,
+          "market_cap_billions": 138.67
+        }
+      },
+      "description": "Biotech/Healthcare"
+    }
+  },
+  "crypto": {
+    "BTC_market_cap": 2106388643840,
+    "BTC_market_cap_billions": 2106.39,
+    "ETH_market_cap": 430650589184,
+    "ETH_market_cap_billions": 430.65,
+    "total_crypto_estimate": 5074078466048,
+    "total_crypto_trillions": 5.07,
+    "note": "Rough estimate: (BTC + ETH) * 2"
+  },
+  "robotics": {
+    "TSLA": {
+      "name": "Tesla (Optimus)",
+      "market_cap": 1480754462720,
+      "market_cap_billions": 1480.75
+    },
+    "1211.HK": {
+      "name": "BYD (robotics division)",
+      "market_cap": 962047705088,
+      "market_cap_billions": 962.05
+    },
+    "9888.HK": {
+      "name": "UBTech Robotics",
+      "market_cap": 357521719296,
+      "market_cap_billions": 357.52
+    },
+    "IRBT": {
+      "name": "iRobot",
+      "market_cap": 74155056,
+      "market_cap_billions": 0.07
+    },
+    "ISRG": {
+      "name": "Intuitive Surgical",
+      "market_cap": 204260638720,
+      "market_cap_billions": 204.26
+    },
+    "_total": {
+      "total_market_cap": 3004658680880,
+      "total_market_cap_billions": 3004.66
+    }
+  }
+}
