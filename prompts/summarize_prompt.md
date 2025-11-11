@@ -1,6 +1,6 @@
 # YouTube Video Summary Prompt
 
-Analyze this YouTube video transcript and provide a comprehensive, detailed summary with the following structure:
+Analyze this YouTube video / podcast transcript and provide a comprehensive, detailed summary with the following structure:
 
 ## Source
 **IMPORTANT**: Always include the YouTube video URL as the first line of your summary in this format:
