@@ -28,6 +28,9 @@ Think about the numbers:
 - **AI sector for comparison:** $17.8T
 - **Semiconductors:** $9.4T
 
+![Market Cap Comparison](charts/01_market_cap_comparison.png)
+*Humanoid robotics is 0.06% the size of AI - massively mispriced opportunity*
+
 The market is pricing humanoid robotics like it's a niche. I think that's wrong.
 
 This isn't about whether robots will replace humans. **That's already happening.** The question is: who wins?
@@ -67,6 +70,9 @@ Let me show you the unit economics:
 - Human: $60K/year salary + benefits = **$300K total**
 - **Breakeven: ~2.5 years**
 
+![Unit Economics: Robot vs Human Labor](charts/03_unit_economics_tco.png)
+*5-year total cost: Robot $41K vs Human $300K - 2.5 year payback period*
+
 Even if the robot only works 50% as efficiently as a human, the ROI is undeniable.
 
 ---
@@ -87,6 +93,9 @@ Every humanoid robot needs 2-6kg of neodymium (Nd) for motors. At scale (100K un
 - China restricts REE exports (precedent: Gallium/Germanium export controls in 2023)
 - Western robot costs spike 50-100%
 - Chinese companies (Unitree, UBTech, Fourier) maintain cost advantage
+
+![Rare Earth Production by Country](charts/04_ree_production_share.png)
+*China controls 70% of global REE production - a geopolitical chokepoint*
 
 This is a **geopolitical moat**, not a technological one.
 
@@ -116,6 +125,9 @@ The gap isn't just labor costs. It's:
 4. Dominate market share
 
 We've seen this in: solar panels, EVs, batteries, drones. **Why would robotics be different?**
+
+![Company Funding Comparison](charts/02_company_funding.png)
+*Top humanoid robotics companies by total funding raised - US leads in capital, China leads in shipping*
 
 ### 3. Government-Backed Market
 
@@ -268,6 +280,9 @@ I see three overlapping scenarios where this works:
 - Scenario 2: 50% × 6x = 3x
 - Scenario 3: 30% × 10x = 3x
 - **Combined: ~20x upside over 3-5 years**
+
+![Market Segments TAM Growth (2025 vs 2030)](charts/05_market_segments_tam.png)
+*$11B → $145B across 5 market segments by 2030 (13x growth)*
 
 (Discounted for overlap and correlation between scenarios)
 
