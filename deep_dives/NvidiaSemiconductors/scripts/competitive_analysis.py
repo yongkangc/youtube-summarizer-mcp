@@ -1,0 +1,387 @@
+#!/usr/bin/env python3
+"""
+Competitive Landscape Analysis
+Analyzes Nvidia's competitors and their relative strengths/weaknesses
+"""
+
+import json
+from datetime import datetime
+
+def get_competitor_analysis():
+    """Detailed analysis of Nvidia's key competitors"""
+
+    competitors = [
+        {
+            'company': 'AMD',
+            'ticker': 'AMD',
+            'primary_products': ['MI300 series', 'Radeon Instinct', 'EPYC CPUs'],
+            'strengths': [
+                'Strong CPU business (EPYC gaining data center share)',
+                'ROCm ecosystem improving',
+                'Microsoft partnership for Azure AI',
+                'Better price-to-performance in some workloads',
+                'Open-source friendly approach'
+            ],
+            'weaknesses': [
+                'ROCm still far behind CUDA in maturity',
+                'Limited developer mindshare (<100K vs 4M for CUDA)',
+                'Software ecosystem fragmented',
+                'Late to AI market (MI300 launched 2023 vs A100 in 2020)'
+            ],
+            'market_share': {
+                'ai_training': 3,
+                'ai_inference': 5,
+                'gaming_gpu': 12,
+                'data_center_cpu': 24
+            },
+            'projected_share_2027': {
+                'ai_training': 8,
+                'ai_inference': 12
+            },
+            'threat_level': 'Medium',
+            'notes': 'Best positioned competitor, but ecosystem gap is massive'
+        },
+        {
+            'company': 'Intel',
+            'ticker': 'INTC',
+            'primary_products': ['Gaudi 2/3', 'Ponte Vecchio', 'Xeon CPUs'],
+            'strengths': [
+                'Deep enterprise relationships',
+                'Strong balance sheet',
+                'Vertical integration (owns fabs)',
+                'oneAPI standardization effort'
+            ],
+            'weaknesses': [
+                'Losing CPU market share to AMD and ARM',
+                'GPU efforts repeatedly failed (Larrabee, Knights Landing)',
+                'Gaudi lacks ecosystem',
+                'Manufacturing problems (7nm delays, yield issues)'
+            ],
+            'market_share': {
+                'ai_training': 1,
+                'ai_inference': 2,
+                'data_center_cpu': 70
+            },
+            'projected_share_2027': {
+                'ai_training': 2,
+                'ai_inference': 3
+            },
+            'threat_level': 'Low',
+            'notes': 'Declining relevance in AI, focused on CPU recovery'
+        },
+        {
+            'company': 'Google (TPU)',
+            'ticker': 'GOOGL',
+            'primary_products': ['TPU v5', 'Cloud TPU'],
+            'strengths': [
+                'Custom designed for TensorFlow/JAX',
+                'Vertical integration (own workloads)',
+                'Cost advantage for internal use',
+                'Strong AI research (DeepMind, Brain)'
+            ],
+            'weaknesses': [
+                'Internal use only (not sold externally)',
+                'Limited to Google workloads',
+                'No third-party ecosystem',
+                'Still uses Nvidia GPUs for many tasks'
+            ],
+            'market_share': {
+                'ai_training': 3,
+                'ai_inference': 4
+            },
+            'projected_share_2027': {
+                'ai_training': 3,
+                'ai_inference': 5
+            },
+            'threat_level': 'Low-Medium',
+            'notes': 'Internal threat only, reduces Google\'s Nvidia spending'
+        },
+        {
+            'company': 'Amazon (Trainium/Inferentia)',
+            'ticker': 'AMZN',
+            'primary_products': ['Trainium', 'Inferentia 2'],
+            'strengths': [
+                'Custom chips for AWS',
+                'Lower cost for AWS customers',
+                'Tight integration with SageMaker',
+                'Graviton CPU success shows capability'
+            ],
+            'weaknesses': [
+                'AWS-only availability',
+                'Limited developer adoption',
+                'Focused on inference more than training',
+                'Still offers Nvidia instances (demand is there)'
+            ],
+            'market_share': {
+                'ai_training': 1,
+                'ai_inference': 3
+            },
+            'projected_share_2027': {
+                'ai_training': 2,
+                'ai_inference': 7
+            },
+            'threat_level': 'Low-Medium',
+            'notes': 'Internal cost optimization, not a platform play'
+        },
+        {
+            'company': 'Microsoft (Maia)',
+            'ticker': 'MSFT',
+            'primary_products': ['Maia 100', 'Azure AI'],
+            'strengths': [
+                'Largest Nvidia customer ($15B+ annually)',
+                'OpenAI partnership drives AI leadership',
+                'Azure scale and enterprise reach',
+                'Cobalt CPU for ARM-based instances'
+            ],
+            'weaknesses': [
+                'Maia just announced (2023), not yet deployed at scale',
+                'Heavy reliance on Nvidia for competitive advantage',
+                'Internal chip efforts lagging Amazon/Google',
+                'Unlikely to fully replace Nvidia given customer demand'
+            ],
+            'market_share': {
+                'ai_training': 0,
+                'ai_inference': 0
+            },
+            'projected_share_2027': {
+                'ai_training': 1,
+                'ai_inference': 3
+            },
+            'threat_level': 'Low',
+            'notes': 'Hedge against Nvidia dependence, not replacement'
+        },
+        {
+            'company': 'Cerebras',
+            'ticker': 'Private',
+            'primary_products': ['WSE-3 (Wafer Scale Engine)'],
+            'strengths': [
+                'Massive single-chip design (900,000 cores)',
+                'Excellent for specific LLM training tasks',
+                'Unique architecture approach',
+                'Some impressive customer wins (G42, Cirrascale)'
+            ],
+            'weaknesses': [
+                'Extremely expensive ($2-3M per system)',
+                'Limited applicability (narrow use cases)',
+                'Tiny scale vs Nvidia',
+                'Unproven long-term viability'
+            ],
+            'market_share': {
+                'ai_training': 0.1,
+                'ai_inference': 0
+            },
+            'projected_share_2027': {
+                'ai_training': 0.5,
+                'ai_inference': 0.2
+            },
+            'threat_level': 'Very Low',
+            'notes': 'Niche player, interesting tech but not scalable threat'
+        },
+        {
+            'company': 'Groq',
+            'ticker': 'Private',
+            'primary_products': ['LPU (Language Processing Unit)'],
+            'strengths': [
+                'Excellent inference performance (low latency)',
+                'Deterministic execution model',
+                'Strong founding team (ex-Google TPU)',
+                'Developer-friendly API'
+            ],
+            'weaknesses': [
+                'Inference-only (no training)',
+                'Limited model support',
+                'Tiny company vs Nvidia',
+                'Unproven at scale'
+            ],
+            'market_share': {
+                'ai_training': 0,
+                'ai_inference': 0.1
+            },
+            'projected_share_2027': {
+                'ai_training': 0,
+                'ai_inference': 1
+            },
+            'threat_level': 'Very Low',
+            'notes': 'Interesting inference play, could be acquired'
+        }
+    ]
+
+    return competitors
+
+def get_ecosystem_comparison():
+    """Compare software ecosystems"""
+
+    ecosystems = [
+        {
+            'platform': 'NVIDIA CUDA',
+            'launch_year': 2006,
+            'developer_count': 4000000,
+            'supported_frameworks': [
+                'PyTorch', 'TensorFlow', 'JAX', 'MXNet', 'Caffe',
+                'Keras', 'ONNX', 'Theano', 'PaddlePaddle', 'Chainer'
+            ],
+            'libraries_count': 450,
+            'cumulative_investment_billions': 10,
+            'industry_support': 'Universal',
+            'maturity': 'Extremely Mature',
+            'switching_cost': 'Very High'
+        },
+        {
+            'platform': 'AMD ROCm',
+            'launch_year': 2016,
+            'developer_count': 75000,
+            'supported_frameworks': [
+                'PyTorch (partial)', 'TensorFlow (partial)', 'JAX (experimental)',
+                'ONNX (limited)'
+            ],
+            'libraries_count': 85,
+            'cumulative_investment_billions': 1.5,
+            'industry_support': 'Growing (Microsoft backing)',
+            'maturity': 'Developing',
+            'switching_cost': 'Medium-High'
+        },
+        {
+            'platform': 'Intel oneAPI',
+            'launch_year': 2020,
+            'developer_count': 40000,
+            'supported_frameworks': [
+                'PyTorch (via plugins)', 'TensorFlow (limited)',
+                'ONNX', 'OpenVINO'
+            ],
+            'libraries_count': 65,
+            'cumulative_investment_billions': 1.2,
+            'industry_support': 'Limited',
+            'maturity': 'Early',
+            'switching_cost': 'Medium'
+        },
+        {
+            'platform': 'OpenCL',
+            'launch_year': 2009,
+            'developer_count': 500000,
+            'supported_frameworks': [
+                'Various HPC tools', 'Limited ML support'
+            ],
+            'libraries_count': 120,
+            'cumulative_investment_billions': 2.0,
+            'industry_support': 'Declining',
+            'maturity': 'Mature but stagnant',
+            'switching_cost': 'Low-Medium'
+        }
+    ]
+
+    return ecosystems
+
+def calculate_moat_strength():
+    """Quantify Nvidia's moat across dimensions"""
+
+    moat_dimensions = [
+        {
+            'dimension': 'Software Ecosystem (CUDA)',
+            'strength_score': 10,
+            'durability': 'Very High',
+            'time_to_replicate_years': 10,
+            'cost_to_replicate_billions': 50,
+            'notes': 'Strongest moat, 18 years of development'
+        },
+        {
+            'dimension': 'Developer Mindshare',
+            'strength_score': 9,
+            'durability': 'High',
+            'time_to_replicate_years': 7,
+            'cost_to_replicate_billions': 20,
+            'notes': '4M developers trained, educational infrastructure'
+        },
+        {
+            'dimension': 'Hardware Performance',
+            'strength_score': 8,
+            'durability': 'Medium',
+            'time_to_replicate_years': 3,
+            'cost_to_replicate_billions': 10,
+            'notes': 'Can be matched by well-funded competitors'
+        },
+        {
+            'dimension': 'Full-Stack Integration',
+            'strength_score': 9,
+            'durability': 'High',
+            'time_to_replicate_years': 5,
+            'cost_to_replicate_billions': 15,
+            'notes': 'Hardware + software + systems co-design'
+        },
+        {
+            'dimension': 'Customer Lock-In',
+            'strength_score': 9,
+            'durability': 'High',
+            'time_to_replicate_years': 5,
+            'cost_to_replicate_billions': 30,
+            'notes': 'Re-writing CUDA code is expensive and risky'
+        },
+        {
+            'dimension': 'Brand & Reputation',
+            'strength_score': 9,
+            'durability': 'Medium-High',
+            'time_to_replicate_years': 8,
+            'cost_to_replicate_billions': 25,
+            'notes': 'Jensen Huang and company reputation'
+        },
+        {
+            'dimension': 'Network Effects',
+            'strength_score': 8,
+            'durability': 'High',
+            'time_to_replicate_years': 8,
+            'cost_to_replicate_billions': 40,
+            'notes': 'More developers → more tools → more developers'
+        }
+    ]
+
+    average_score = sum(d['strength_score'] for d in moat_dimensions) / len(moat_dimensions)
+
+    return {
+        'dimensions': moat_dimensions,
+        'overall_moat_score': round(average_score, 1),
+        'interpretation': 'Exceptional moat, among strongest in tech'
+    }
+
+def main():
+    print("Analyzing Competitive Landscape and Moat Strength...\n")
+
+    # Get competitor data
+    competitors = get_competitor_analysis()
+    ecosystems = get_ecosystem_comparison()
+    moat = calculate_moat_strength()
+
+    # Combine data
+    output = {
+        'generated_at': datetime.now().isoformat(),
+        'competitor_analysis': competitors,
+        'ecosystem_comparison': ecosystems,
+        'moat_analysis': moat
+    }
+
+    # Save to JSON
+    output_file = 'deep_dives/NvidiaSemiconductors/data/competitive_analysis.json'
+    with open(output_file, 'w') as f:
+        json.dump(output, f, indent=2)
+
+    print(f"✓ Data saved to {output_file}")
+
+    # Print summary
+    print("\n=== COMPETITIVE THREAT ASSESSMENT ===")
+    sorted_competitors = sorted(competitors, key=lambda x: x['projected_share_2027']['ai_training'], reverse=True)
+    for comp in sorted_competitors[:5]:
+        current = comp['market_share']['ai_training']
+        projected = comp['projected_share_2027']['ai_training']
+        print(f"{comp['company']:20} | Current: {current:2}% | 2027: {projected:2}% | Threat: {comp['threat_level']}")
+
+    print("\n=== ECOSYSTEM COMPARISON ===")
+    for eco in ecosystems:
+        print(f"{eco['platform']:20} | {eco['developer_count']:>8,} devs | {eco['maturity']}")
+
+    print(f"\n=== NVIDIA MOAT STRENGTH ===")
+    print(f"Overall Score: {moat['overall_moat_score']}/10 ({moat['interpretation']})")
+    print("\nTop 3 Moat Dimensions:")
+    sorted_moat = sorted(moat['dimensions'], key=lambda x: x['strength_score'], reverse=True)
+    for dim in sorted_moat[:3]:
+        print(f"  {dim['dimension']:30} {dim['strength_score']}/10 | {dim['durability']} durability")
+
+if __name__ == '__main__':
+    main()

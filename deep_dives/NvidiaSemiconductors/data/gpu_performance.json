@@ -1,0 +1,147 @@
+{
+  "generated_at": "2025-11-15T05:38:07.586779",
+  "gpu_history": [
+    {
+      "year": 1999,
+      "model": "GeForce 256",
+      "transistors_millions": 23,
+      "process_nm": 220,
+      "tflops": 0.00048,
+      "use_case": "Gaming",
+      "notes": "First GPU marketed as \"GPU\""
+    },
+    {
+      "year": 2006,
+      "model": "GeForce 8800 GTX",
+      "transistors_millions": 681,
+      "process_nm": 90,
+      "tflops": 0.518,
+      "use_case": "Gaming + Early CUDA",
+      "notes": "First GPU with CUDA support"
+    },
+    {
+      "year": 2012,
+      "model": "Tesla K10",
+      "transistors_millions": 3540,
+      "process_nm": 28,
+      "tflops": 4.58,
+      "use_case": "HPC/Deep Learning",
+      "notes": "Used in AlexNet breakthrough"
+    },
+    {
+      "year": 2016,
+      "model": "Tesla P100",
+      "transistors_millions": 15300,
+      "process_nm": 16,
+      "tflops": 9.3,
+      "tflops_fp16": 18.7,
+      "use_case": "AI Training",
+      "notes": "First Pascal architecture, HBM2 memory"
+    },
+    {
+      "year": 2017,
+      "model": "Tesla V100",
+      "transistors_millions": 21100,
+      "process_nm": 12,
+      "tflops": 15.7,
+      "tflops_tensor": 125,
+      "use_case": "AI Training",
+      "notes": "Introduced Tensor Cores for AI"
+    },
+    {
+      "year": 2020,
+      "model": "A100",
+      "transistors_millions": 54200,
+      "process_nm": 7,
+      "tflops": 19.5,
+      "tflops_fp16": 312,
+      "tflops_tensor_sparse": 624,
+      "use_case": "AI Training/Inference",
+      "notes": "Ampere architecture, dominant AI chip 2020-2023"
+    },
+    {
+      "year": 2022,
+      "model": "H100",
+      "transistors_millions": 80000,
+      "process_nm": 4,
+      "tflops": 60,
+      "tflops_fp16": 1979,
+      "tflops_fp8": 3958,
+      "use_case": "Large Language Models",
+      "notes": "Hopper architecture, built for transformer models"
+    },
+    {
+      "year": 2024,
+      "model": "B100 (Blackwell)",
+      "transistors_millions": 208000,
+      "process_nm": 3,
+      "tflops_fp16": 3500,
+      "tflops_fp4": 7000,
+      "use_case": "Next-gen AI",
+      "notes": "Announced 2024, shipping 2025"
+    }
+  ],
+  "growth_analysis": {
+    "years_analyzed": 23,
+    "transistor_cagr": 42.6,
+    "performance_cagr": 66.6,
+    "total_transistor_increase": 3478.3,
+    "total_performance_increase": 125000.0
+  },
+  "laws_comparison": {
+    "moores_law": {
+      "doubling_period_years": 2.0,
+      "cagr": 41.0,
+      "description": "Transistor count doubles every ~2 years"
+    },
+    "huangs_law": {
+      "doubling_period_years": 1.0,
+      "cagr": 100.0,
+      "description": "GPU AI performance doubles every ~1 year"
+    }
+  },
+  "cuda_ecosystem": [
+    {
+      "year": 2006,
+      "version": "CUDA 1.0",
+      "developers": 10000,
+      "applications": 50,
+      "notes": "Initial release, early adopters"
+    },
+    {
+      "year": 2010,
+      "version": "CUDA 3.0",
+      "developers": 100000,
+      "applications": 500,
+      "notes": "Growing HPC adoption"
+    },
+    {
+      "year": 2014,
+      "version": "CUDA 6.0",
+      "developers": 500000,
+      "applications": 1500,
+      "notes": "Deep learning frameworks emerging"
+    },
+    {
+      "year": 2017,
+      "version": "CUDA 9.0",
+      "developers": 1000000,
+      "applications": 2500,
+      "notes": "AI boom begins, Tensor Core support"
+    },
+    {
+      "year": 2020,
+      "version": "CUDA 11.0",
+      "developers": 2500000,
+      "applications": 3500,
+      "notes": "COVID accelerates AI adoption"
+    },
+    {
+      "year": 2024,
+      "version": "CUDA 12.x",
+      "developers": 4000000,
+      "applications": 3700,
+      "notes": "LLM era, transformer optimizations"
+    }
+  ]
+}
