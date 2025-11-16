@@ -1,0 +1,23 @@
+{
+  "SK hynix": {
+    "HBM3_8Hi": 75,
+    "HBM3_12Hi": 68,
+    "HBM3E_8Hi": 80,
+    "HBM3E_12Hi": 75,
+    "HBM4_12Hi": 70
+  },
+  "Samsung": {
+    "HBM3_8Hi": 55,
+    "HBM3_12Hi": 48,
+    "HBM3E_8Hi": 50,
+    "HBM3E_12Hi": 45,
+    "HBM4_12Hi": 60
+  },
+  "Micron": {
+    "HBM3_8Hi": null,
+    "HBM3_12Hi": null,
+    "HBM3E_8Hi": 70,
+    "HBM3E_12Hi": 65,
+    "HBM4_12Hi": 65
+  }
+}

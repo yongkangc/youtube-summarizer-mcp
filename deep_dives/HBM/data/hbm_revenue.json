@@ -1,0 +1,32 @@
+{
+  "2023": {
+    "Total": 4.0,
+    "SK hynix": 2.12,
+    "Samsung": 1.68,
+    "Micron": 0.2
+  },
+  "2024": {
+    "Total": 14.8,
+    "SK hynix": 7.7,
+    "Samsung": 5.33,
+    "Micron": 1.78
+  },
+  "2025E": {
+    "Total": 28.5,
+    "SK hynix": 14.54,
+    "Samsung": 7.7,
+    "Micron": 6.27
+  },
+  "2026E": {
+    "Total": 42.0,
+    "SK hynix": 21.0,
+    "Samsung": 11.76,
+    "Micron": 9.24
+  },
+  "2027E": {
+    "Total": 53.5,
+    "SK hynix": 26.75,
+    "Samsung": 14.98,
+    "Micron": 11.77
+  }
+}

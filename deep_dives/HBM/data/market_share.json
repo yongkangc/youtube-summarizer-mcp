@@ -1,0 +1,22 @@
+{
+  "2023": {
+    "SK hynix": 53,
+    "Samsung": 42,
+    "Micron": 5
+  },
+  "2024": {
+    "SK hynix": 52,
+    "Samsung": 36,
+    "Micron": 12
+  },
+  "2025E": {
+    "SK hynix": 51,
+    "Samsung": 27,
+    "Micron": 22
+  },
+  "2026E": {
+    "SK hynix": 50,
+    "Samsung": 28,
+    "Micron": 22
+  }
+}

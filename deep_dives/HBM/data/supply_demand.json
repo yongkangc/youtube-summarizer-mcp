@@ -1,0 +1,22 @@
+{
+  "2024": {
+    "demand": 14.8,
+    "supply": 12.5,
+    "utilization": 118
+  },
+  "2025": {
+    "demand": 28.5,
+    "supply": 26.0,
+    "utilization": 110
+  },
+  "2026": {
+    "demand": 42.0,
+    "supply": 40.5,
+    "utilization": 104
+  },
+  "2027": {
+    "demand": 53.5,
+    "supply": 54.0,
+    "utilization": 99
+  }
+}

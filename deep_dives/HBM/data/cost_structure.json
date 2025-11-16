@@ -1,0 +1,30 @@
+{
+  "HBM3_8Hi": {
+    "wafer_cost": 85,
+    "tsv_process": 20,
+    "packaging": 25,
+    "testing": 12,
+    "total": 142
+  },
+  "HBM3E_8Hi": {
+    "wafer_cost": 100,
+    "tsv_process": 25,
+    "packaging": 30,
+    "testing": 15,
+    "total": 170
+  },
+  "HBM3E_12Hi": {
+    "wafer_cost": 150,
+    "tsv_process": 38,
+    "packaging": 50,
+    "testing": 22,
+    "total": 260
+  },
+  "HBM4_12Hi": {
+    "wafer_cost": 180,
+    "tsv_process": 45,
+    "packaging": 65,
+    "testing": 28,
+    "total": 318
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "HBM3_8Hi": {
+    "cost": 850,
+    "asp": 1200,
+    "gross_margin": 29.2
+  },
+  "HBM3E_8Hi": {
+    "cost": 1020,
+    "asp": 1550,
+    "gross_margin": 34.2
+  },
+  "HBM3E_12Hi": {
+    "cost": 1560,
+    "asp": 2400,
+    "gross_margin": 35.0
+  },
+  "HBM4_12Hi": {
+    "cost": 1908,
+    "asp": 3200,
+    "gross_margin": 40.4
+  }
+}

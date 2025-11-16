@@ -1,0 +1,28 @@
+{
+  "HBM3": {
+    "bandwidth_per_stack": 819,
+    "pin_speed": 6.4,
+    "interface_width": 1024,
+    "max_capacity_8hi": 24,
+    "power_per_gb": 1.0,
+    "released": "2022-Q1"
+  },
+  "HBM3E": {
+    "bandwidth_per_stack": 1229,
+    "pin_speed": 9.6,
+    "interface_width": 1024,
+    "max_capacity_8hi": 24,
+    "max_capacity_12hi": 36,
+    "power_per_gb": 0.7,
+    "released": "2024-Q1"
+  },
+  "HBM4": {
+    "bandwidth_per_stack": 2048,
+    "pin_speed": 8.0,
+    "interface_width": 2048,
+    "max_capacity_12hi": 48,
+    "max_capacity_16hi": 64,
+    "power_per_gb": 0.5,
+    "released": "2026-Q1"
+  }
+}

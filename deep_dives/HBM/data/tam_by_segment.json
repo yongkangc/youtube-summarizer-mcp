@@ -1,0 +1,51 @@
+{
+  "2023": {
+    "AI Training": 2.8,
+    "AI Inference": 0.6,
+    "HPC/Supercomputing": 0.4,
+    "Graphics/Gaming": 0.2,
+    "Total": 4.0
+  },
+  "2024": {
+    "AI Training": 10.3,
+    "AI Inference": 2.7,
+    "HPC/Supercomputing": 1.2,
+    "Graphics/Gaming": 0.6,
+    "Total": 14.8
+  },
+  "2025": {
+    "AI Training": 18.5,
+    "AI Inference": 6.3,
+    "HPC/Supercomputing": 2.4,
+    "Graphics/Gaming": 1.3,
+    "Total": 28.5
+  },
+  "2026": {
+    "AI Training": 26.5,
+    "AI Inference": 10.2,
+    "HPC/Supercomputing": 3.5,
+    "Graphics/Gaming": 1.8,
+    "Total": 42.0
+  },
+  "2027": {
+    "AI Training": 32.0,
+    "AI Inference": 14.5,
+    "HPC/Supercomputing": 4.5,
+    "Graphics/Gaming": 2.5,
+    "Total": 53.5
+  },
+  "2028": {
+    "AI Training": 38.0,
+    "AI Inference": 20.0,
+    "HPC/Supercomputing": 5.5,
+    "Graphics/Gaming": 3.0,
+    "Total": 66.5
+  },
+  "2030": {
+    "AI Training": 48.0,
+    "AI Inference": 32.0,
+    "HPC/Supercomputing": 7.0,
+    "Graphics/Gaming": 4.0,
+    "Total": 91.0
+  }
+}
