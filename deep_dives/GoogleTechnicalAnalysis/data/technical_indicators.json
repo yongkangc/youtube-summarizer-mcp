@@ -1,0 +1,40 @@
+{
+  "current_price": 299.66,
+  "moving_averages": {
+    "ma20": 282.87,
+    "ma50": 262.39,
+    "ma100": 231.73,
+    "ma200": 199.12,
+    "ema12": 286.26,
+    "ema26": 276.94
+  },
+  "rsi": {
+    "current": 68.1,
+    "signal": "neutral"
+  },
+  "macd": {
+    "macd_line": 9.32,
+    "signal_line": 9.26,
+    "histogram": 0.05,
+    "signal": "bullish"
+  },
+  "bollinger_bands": {
+    "upper": 298.61,
+    "middle": 282.87,
+    "lower": 267.14,
+    "bandwidth_pct": 11.12
+  },
+  "atr": {
+    "current": 11.1,
+    "atr_pct_of_price": 3.7
+  },
+  "trend_signals": {
+    "price_vs_ma20": "bullish",
+    "price_vs_ma50": "bullish",
+    "price_vs_ma200": "bullish",
+    "ma50_vs_ma200": "bullish",
+    "rsi_signal": "neutral",
+    "macd_signal": "bullish",
+    "bb_position": "upper"
+  }
+}
