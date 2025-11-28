@@ -1,0 +1,9 @@
+{
+  "910b_tflops_fp16": 320,
+  "910c_tflops_fp16": 400,
+  "process_node_910b": "7nm SMIC",
+  "process_node_910c": "7nm N+2",
+  "relative_to_h100": 0.6,
+  "interconnect_issues": true,
+  "sanctions_impact": "Limited to SMIC manufacturing"
+}

@@ -1,0 +1,58 @@
+{
+  "Google TPU v5p": {
+    "core_architecture": "Systolic Array (2D)",
+    "compute_tflops": 459,
+    "compute_tops_int8": 918,
+    "memory_gb": 95,
+    "memory_type": "HBM3",
+    "memory_bandwidth_tbps": 2.76,
+    "power_w": 400,
+    "interconnect": "ICI 3D Torus + OCS",
+    "software_stack": "JAX / XLA / TensorFlow",
+    "availability": "Google Cloud only",
+    "primary_advantage": "System TCO & Scaling",
+    "year": 2023
+  },
+  "NVIDIA H100 SXM": {
+    "core_architecture": "SIMT + Tensor Cores",
+    "compute_tflops": 1979,
+    "compute_tops_int8": 3958,
+    "memory_gb": 80,
+    "memory_type": "HBM3",
+    "memory_bandwidth_tbps": 3.35,
+    "power_w": 700,
+    "interconnect": "NVLink + InfiniBand",
+    "software_stack": "CUDA / PyTorch / TensorFlow",
+    "availability": "Multi-cloud + On-premises",
+    "primary_advantage": "Peak Performance & Ecosystem",
+    "year": 2022
+  },
+  "Groq LPU": {
+    "core_architecture": "VLIW / Deterministic",
+    "compute_tflops": 188,
+    "compute_tops_int8": 750,
+    "memory_gb": 0.23,
+    "memory_type": "SRAM (on-chip)",
+    "memory_bandwidth_tbps": 80,
+    "power_w": 300,
+    "interconnect": "TSP Chip-to-Chip",
+    "software_stack": "Groq Compiler",
+    "availability": "GroqCloud",
+    "primary_advantage": "Ultra-Low Latency Inference",
+    "year": 2024
+  },
+  "Huawei Ascend 910B": {
+    "core_architecture": "Da Vinci 3D Cube",
+    "compute_tflops": 320,
+    "compute_tops_int8": 640,
+    "memory_gb": 64,
+    "memory_type": "HBM2e",
+    "memory_bandwidth_tbps": 1.2,
+    "power_w": 400,
+    "interconnect": "HCCS + RoCE v2",
+    "software_stack": "MindSpore / CANN",
+    "availability": "China / Huawei ecosystem",
+    "primary_advantage": "Sovereign Supply (China)",
+    "year": 2023
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Google TPU v1": 2016,
+  "Google TPU v2": 2017,
+  "AWS Inferentia": 2019,
+  "Google TPU v4": 2021,
+  "AWS Trainium": 2022,
+  "Google TPU v5e/v5p": 2023,
+  "Azure Maia 100": 2023,
+  "Meta MTIA v1": 2023,
+  "Google TPU v6 Trillium": 2024,
+  "AWS Trainium2": 2024,
+  "Google TPU v7 Ironwood": 2025
+}

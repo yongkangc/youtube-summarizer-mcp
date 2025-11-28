@@ -1,0 +1,10 @@
+{
+  "tokens_per_second_llama2_70b": 250,
+  "tokens_per_second_llama2_7b": 500,
+  "latency_first_token_ms": 100,
+  "sram_total_mb": 230,
+  "on_chip_bandwidth_tbps": 80,
+  "chips_needed_70b_model": 576,
+  "founder": "Jonathan Ross (ex-Google TPU architect)",
+  "founded": 2016
+}

@@ -1,0 +1,20 @@
+{
+  "2023": {
+    "Google Cloud": 12,
+    "AWS": 35,
+    "Azure": 25,
+    "Others": 8
+  },
+  "2024E": {
+    "Google Cloud": 18,
+    "AWS": 50,
+    "Azure": 40,
+    "Others": 12
+  },
+  "2025E": {
+    "Google Cloud": 25,
+    "AWS": 65,
+    "Azure": 55,
+    "Others": 15
+  }
+}

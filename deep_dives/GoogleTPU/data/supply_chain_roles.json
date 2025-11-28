@@ -1,0 +1,47 @@
+{
+  "Google": {
+    "contributions": [
+      "TPU architecture definition",
+      "Matrix Multiply Unit (MXU) RTL design",
+      "SparseCore accelerator design",
+      "XLA compiler optimization",
+      "Interconnect (ICI) protocol",
+      "Workload characterization"
+    ],
+    "value_capture": "Internal cost savings, GCP differentiation"
+  },
+  "Broadcom": {
+    "contributions": [
+      "Physical IP (standard cells, I/O)",
+      "SerDes (112G \u2192 224G high-speed I/O)",
+      "Memory controllers (HBM interface)",
+      "TSMC coordination and tape-out",
+      "Package design",
+      "Test development"
+    ],
+    "value_capture": "$7-10B+ annual revenue, ~40% gross margin"
+  },
+  "TSMC": {
+    "contributions": [
+      "Wafer fabrication (5nm, 3nm)",
+      "Advanced packaging (CoWoS)",
+      "Yield optimization"
+    ],
+    "value_capture": "Wafer revenue, packaging fees"
+  },
+  "HBM Suppliers": {
+    "contributions": [
+      "HBM2e, HBM3 memory stacks",
+      "SK hynix, Samsung, Micron"
+    ],
+    "value_capture": "Memory revenue at 35-40% margins"
+  },
+  "MediaTek (emerging)": {
+    "contributions": [
+      "TPU v7 inference chip design (rumored)",
+      "TSMC relationship leverage",
+      "Cost-competitive SerDes"
+    ],
+    "value_capture": "Diversification of Google supply chain"
+  }
+}

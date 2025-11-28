@@ -1,0 +1,17 @@
+{
+  "TPU v1": {
+    "size": 256,
+    "macs_per_cycle": 65536,
+    "notes": "256x256 INT8"
+  },
+  "TPU v2-v5p": {
+    "size": 128,
+    "macs_per_cycle": 16384,
+    "notes": "128x128 bfloat16"
+  },
+  "TPU v6-v7": {
+    "size": 256,
+    "macs_per_cycle": 65536,
+    "notes": "256x256 bfloat16, 4x density"
+  }
+}

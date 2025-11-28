@@ -1,0 +1,9 @@
+{
+  "google_internal_inference_tflops_per_day": 1e+18,
+  "h100_equivalent_chips_needed": 50000,
+  "h100_price_per_chip": 30000,
+  "h100_total_capex": 1500000000.0,
+  "tpu_equivalent_cost_saving": 0.6,
+  "nvidia_gross_margin": 0.75,
+  "tpu_cost_avoidance_annual": 3000000000.0
+}

@@ -1,0 +1,18 @@
+{
+  "TPU v5e": {
+    "target": "Inference, Fine-tuning, Small Training",
+    "memory_gb": 16,
+    "interconnect_gbps": 1600,
+    "pod_scale": 256,
+    "perf_per_dollar_vs_v4": 2.7,
+    "price_per_hour": 1.2
+  },
+  "TPU v5p": {
+    "target": "Massive LLM Training (Gemini)",
+    "memory_gb": 95,
+    "interconnect_gbps": 4800,
+    "pod_scale": 8960,
+    "perf_per_dollar_vs_v4": 1.5,
+    "price_per_hour": 4.2
+  }
+}

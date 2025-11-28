@@ -1,0 +1,26 @@
+{
+  "2022": {
+    "Google TPU": 65,
+    "AWS Trainium/Inferentia": 25,
+    "Azure Maia": 0,
+    "Others": 10
+  },
+  "2023": {
+    "Google TPU": 71,
+    "AWS Trainium/Inferentia": 22,
+    "Azure Maia": 2,
+    "Others": 5
+  },
+  "2024E": {
+    "Google TPU": 74,
+    "AWS Trainium/Inferentia": 18,
+    "Azure Maia": 5,
+    "Others": 3
+  },
+  "2025E": {
+    "Google TPU": 72,
+    "AWS Trainium/Inferentia": 16,
+    "Azure Maia": 8,
+    "Others": 4
+  }
+}

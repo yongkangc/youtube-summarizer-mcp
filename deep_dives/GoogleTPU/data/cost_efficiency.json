@@ -1,0 +1,38 @@
+{
+  "TPU v4": {
+    "price_per_hour": 3.22,
+    "tflops": 275,
+    "cost_per_tflop_hr": 0.0117,
+    "power_w": 175
+  },
+  "TPU v5e": {
+    "price_per_hour": 1.2,
+    "tflops": 197,
+    "cost_per_tflop_hr": 0.0061,
+    "power_w": 150
+  },
+  "TPU v5p": {
+    "price_per_hour": 4.2,
+    "tflops": 459,
+    "cost_per_tflop_hr": 0.0092,
+    "power_w": 400
+  },
+  "TPU v6e": {
+    "price_per_hour": 2.7,
+    "tflops": 926,
+    "cost_per_tflop_hr": 0.0029,
+    "power_w": 200
+  },
+  "NVIDIA A100": {
+    "price_per_hour": 2.5,
+    "tflops": 312,
+    "cost_per_tflop_hr": 0.008,
+    "power_w": 400
+  },
+  "NVIDIA H100": {
+    "price_per_hour": 3.5,
+    "tflops": 1979,
+    "cost_per_tflop_hr": 0.0018,
+    "power_w": 700
+  }
+}
