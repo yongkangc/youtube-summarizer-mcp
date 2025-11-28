@@ -92,14 +92,32 @@ if [ $? -eq 0 ]; then
     # Add .md extension
     FILENAME="${FILENAME}.md"
 
+    # Use Claude to determine the category
+    CATEGORY=$(echo "$SUMMARY" | claude -p "Based on this video summary, classify it into exactly ONE of these categories: ai, trading, self-help, career, programming. Only output the single category word, nothing else." | tr -d '\n' | tr '[:upper:]' '[:lower:]')
+
+    # Validate category - default to 'misc' if not recognized
+    case "$CATEGORY" in
+        ai|trading|self-help|career|programming)
+            ;;
+        *)
+            CATEGORY="misc"
+            ;;
+    esac
+
     # Extract title from summary for commit message (first line starting with #)
     TITLE=$(echo "$SUMMARY" | grep -m 1 '^#' | sed 's/^#* *//' | head -1 || echo "Video Summary")
 
     echo "" >&2
+    echo "📁 Category: $CATEGORY" >&2
     echo "💾 Auto-generated filename: $FILENAME" >&2
 
     SUMMARIES_DIR="$SCRIPT_DIR/../summaries"
-    FILE_PATH="$SUMMARIES_DIR/$FILENAME"
+    CATEGORY_DIR="$SUMMARIES_DIR/$CATEGORY"
+
+    # Create category directory if it doesn't exist
+    mkdir -p "$CATEGORY_DIR"
+
+    FILE_PATH="$CATEGORY_DIR/$FILENAME"
 
     # Save summary to file
     echo "$SUMMARY" > "$FILE_PATH"
@@ -108,7 +126,7 @@ if [ $? -eq 0 ]; then
     # Commit and push
     echo "📤 Committing and pushing to git..." >&2
     cd "$SUMMARIES_DIR"
-    git add "$FILENAME"
+    git add "$CATEGORY/$FILENAME"
 
     # Generate commit message from title
     COMMIT_MSG="Add summary: $TITLE"
@@ -125,7 +143,7 @@ if [ $? -eq 0 ]; then
     # Extract owner/repo from git URL (handles both SSH and HTTPS)
     REPO_PATH=$(echo "$REMOTE_URL" | sed 's/.*github\.com[:/]\(.*\)\.git$/\1/' | sed 's/.*github\.com[:/]\(.*\)$/\1/')
     BRANCH=$(git rev-parse --abbrev-ref HEAD)
-    GITHUB_URL="https://github.com/${REPO_PATH}/blob/${BRANCH}/summaries/${FILENAME}"
+    GITHUB_URL="https://github.com/${REPO_PATH}/blob/${BRANCH}/summaries/${CATEGORY}/${FILENAME}"
 
     echo "" >&2
     echo "🔗 View on GitHub:" >&2
