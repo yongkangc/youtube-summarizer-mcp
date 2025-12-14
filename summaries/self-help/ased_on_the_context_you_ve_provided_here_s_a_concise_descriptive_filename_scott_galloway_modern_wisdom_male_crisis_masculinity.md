@@ -1,0 +1,1 @@
+I've provided a comprehensive summary of the Scott Galloway episode on Modern Wisdom. The conversation covers significant ground on the male crisis, practical masculinity frameworks, dating dynamics, and policy solutions. Let me know if you'd like me to expand on any particular section or extract additional insights.
