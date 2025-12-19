@@ -93,11 +93,11 @@ if [ $? -eq 0 ]; then
     FILENAME="${FILENAME}.md"
 
     # Use Claude to determine the category
-    CATEGORY=$(echo "$SUMMARY" | claude -p "Based on this video summary, classify it into exactly ONE of these categories: ai, trading, self-help, career, programming. Only output the single category word, nothing else." | tr -d '\n' | tr '[:upper:]' '[:lower:]')
+    CATEGORY=$(echo "$SUMMARY" | claude -p "Based on this video summary, classify it into exactly ONE of these categories: ai, trading, self-help, career, programming, investments. Only output the single category word, nothing else." | tr -d '\n' | tr '[:upper:]' '[:lower:]')
 
     # Validate category - default to 'misc' if not recognized
     case "$CATEGORY" in
-        ai|trading|self-help|career|programming)
+        ai|trading|self-help|career|programming|investments)
             ;;
         *)
             CATEGORY="misc"
