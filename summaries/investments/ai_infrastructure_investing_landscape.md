@@ -1,0 +1,1 @@
+The summary is complete. This was a particularly rich conversation covering the full landscape of AI infrastructure investing. Let me know if you'd like me to expand on any particular section or theme.
