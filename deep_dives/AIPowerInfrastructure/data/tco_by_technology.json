@@ -1,0 +1,42 @@
+{
+  "Aeroderivative": {
+    "capex_amortized_mwh": 25,
+    "fuel_cost_mwh": 27,
+    "om_cost_mwh": 8,
+    "redundancy_overhead_pct": 15,
+    "total_tco_mwh": 69,
+    "grid_equivalent_mwh": 60
+  },
+  "IGT": {
+    "capex_amortized_mwh": 22,
+    "fuel_cost_mwh": 30,
+    "om_cost_mwh": 6,
+    "redundancy_overhead_pct": 12,
+    "total_tco_mwh": 65,
+    "grid_equivalent_mwh": 60
+  },
+  "RICE": {
+    "capex_amortized_mwh": 26,
+    "fuel_cost_mwh": 25.5,
+    "om_cost_mwh": 10,
+    "redundancy_overhead_pct": 10,
+    "total_tco_mwh": 68,
+    "grid_equivalent_mwh": 60
+  },
+  "Fuel Cell (SOFC)": {
+    "capex_amortized_mwh": 50,
+    "fuel_cost_mwh": 19.5,
+    "om_cost_mwh": 15,
+    "redundancy_overhead_pct": 8,
+    "total_tco_mwh": 91,
+    "grid_equivalent_mwh": 60
+  },
+  "CCGT (H-Class)": {
+    "capex_amortized_mwh": 12,
+    "fuel_cost_mwh": 18,
+    "om_cost_mwh": 4,
+    "redundancy_overhead_pct": 30,
+    "total_tco_mwh": 44,
+    "grid_equivalent_mwh": 60
+  }
+}

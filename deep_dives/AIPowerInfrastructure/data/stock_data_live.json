@@ -1,0 +1,44 @@
+{
+  "GEV": {
+    "current_price": 659.6400146484375,
+    "ytd_return": 94.93291817547826,
+    "market_cap_b": 179.569803264,
+    "pe_ratio": 107.60848,
+    "name": "GE Vernova Inc."
+  },
+  "BE": {
+    "current_price": 87.26000213623047,
+    "ytd_return": 273.3846769476318,
+    "market_cap_b": 20.637929472,
+    "pe_ratio": 1090.75,
+    "name": "Bloom Energy Corporation"
+  },
+  "HWM": {
+    "current_price": 207.80999755859375,
+    "ytd_return": 88.0697738535649,
+    "market_cap_b": 83.643523072,
+    "pe_ratio": 58.53803,
+    "name": "Howmet Aerospace Inc."
+  },
+  "CAT": {
+    "current_price": 577.3900146484375,
+    "ytd_return": 62.912215155294696,
+    "market_cap_b": 270.495039488,
+    "pe_ratio": 29.670609,
+    "name": "Caterpillar, Inc."
+  },
+  "SMEGF": {
+    "current_price": 142.17999267578125,
+    "ytd_return": 165.7569956556659,
+    "market_cap_b": 121.612828672,
+    "pe_ratio": 75.627655,
+    "name": "Siemens Energy AG"
+  },
+  "WRTBY": {
+    "current_price": 7.309999942779541,
+    "ytd_return": 111.40282042231937,
+    "market_cap_b": 21.603336192,
+    "pe_ratio": 30.458334,
+    "name": "Wartsila Corp."
+  }
+}

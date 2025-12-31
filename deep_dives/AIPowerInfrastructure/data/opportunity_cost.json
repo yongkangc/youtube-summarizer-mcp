@@ -1,0 +1,17 @@
+{
+  "revenue_per_mw_annual": 11000000,
+  "datacenter_sizes_mw": [
+    100,
+    200,
+    500,
+    1000
+  ],
+  "delay_months": [
+    6,
+    12,
+    18,
+    24,
+    36
+  ],
+  "notes": "Based on AI cloud revenue estimates"
+}

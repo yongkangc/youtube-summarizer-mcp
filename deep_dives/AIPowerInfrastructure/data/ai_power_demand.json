@@ -1,0 +1,33 @@
+{
+  "year": [
+    2023,
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "us_ai_datacenter_gw": [
+    3,
+    8,
+    15,
+    28,
+    45,
+    65,
+    85,
+    110
+  ],
+  "global_ai_datacenter_gw": [
+    8,
+    20,
+    40,
+    75,
+    120,
+    175,
+    230,
+    300
+  ],
+  "notes": "SemiAnalysis AI Datacenter Energy Dilemma projections"
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SEI",
+  "business_model": "Energy-as-a-Service / Rental Fleet",
+  "fleet_capacity_mw": 500,
+  "utilization_rate": 0.85,
+  "key_customers": [
+    "xAI",
+    "Oracle",
+    "Meta"
+  ],
+  "short_interest_pct": 30,
+  "bull_case": "Short squeeze candidate, captures emergency capex from hyperscalers",
+  "notes": "Provides Solar Titan/Saturn turbines on rental basis"
+}

@@ -1,0 +1,22 @@
+{
+  "N+1 (Aeros)": {
+    "overbuild_ratio": 1.15,
+    "tech": "Aeroderivative",
+    "example": "10x 34MW LM2500 for 300MW load"
+  },
+  "N+1+1 (RICE)": {
+    "overbuild_ratio": 1.25,
+    "tech": "RICE",
+    "example": "50x 4.5MW Jenbacher for 180MW load"
+  },
+  "2x CCGT + Aero backup": {
+    "overbuild_ratio": 1.4,
+    "tech": "CCGT",
+    "example": "2x 400MW CCGT + 4x LM2500 for 600MW load"
+  },
+  "VoltaGrid Style": {
+    "overbuild_ratio": 1.64,
+    "tech": "RICE",
+    "example": "2.3GW generation for 1.4GW datacenter (Vantage)"
+  }
+}

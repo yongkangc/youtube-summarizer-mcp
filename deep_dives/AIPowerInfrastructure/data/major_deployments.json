@@ -1,0 +1,32 @@
+{
+  "xAI Colossus 1": {
+    "mw": 150,
+    "location": "Memphis, TN",
+    "year": 2024,
+    "provider": "Solaris/VoltaGrid"
+  },
+  "xAI Colossus 2": {
+    "mw": 500,
+    "location": "Memphis, TN",
+    "year": 2025,
+    "provider": "Solaris/Doosan"
+  },
+  "Oracle/Crusoe Abilene": {
+    "mw": 2300,
+    "location": "Abilene, TX",
+    "year": 2025,
+    "provider": "GEV/Solar Turbines"
+  },
+  "Meta New Albany": {
+    "mw": 400,
+    "location": "Ohio",
+    "year": 2025,
+    "provider": "Williams/Mixed"
+  },
+  "Vantage Shackelford": {
+    "mw": 2300,
+    "location": "Shackelford, TX",
+    "year": 2026,
+    "provider": "VoltaGrid"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Bridge Power (6-18 months)": {
+    "winner": "Aeroderivative Gas Turbine",
+    "runner_up": "Reciprocating Engine (RICE)",
+    "reason": "Fast deployment, can convert to backup later"
+  },
+  "Permanent Islanded (GW-scale)": {
+    "winner": "Heavy-Duty CCGT (H-Class)",
+    "runner_up": "Industrial Gas Turbine (IGT)",
+    "reason": "Lowest TCO at scale, highest efficiency"
+  },
+  "Urban / Permitting-Constrained": {
+    "winner": "Solid Oxide Fuel Cell (SOFC)",
+    "runner_up": "Reciprocating Engine (RICE)",
+    "reason": "No combustion = no air permitting delays"
+  },
+  "High Redundancy (N+1+1)": {
+    "winner": "Reciprocating Engine (RICE)",
+    "runner_up": "Industrial Gas Turbine (IGT)",
+    "reason": "Small units enable flexible redundancy"
+  },
+  "Emergency / Rental": {
+    "winner": "Aeroderivative Gas Turbine",
+    "runner_up": "Reciprocating Engine (RICE)",
+    "reason": "Truck-mountable, available from rental fleets"
+  }
+}

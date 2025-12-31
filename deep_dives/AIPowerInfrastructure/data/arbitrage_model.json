@@ -1,0 +1,13 @@
+{
+  "datacenter_capacity_mw": 200,
+  "revenue_per_mw_annual": 11000000,
+  "onsite_deployment_month": 6,
+  "grid_deployment_month": 36,
+  "onsite_capex_per_kw": 1850,
+  "onsite_om_mwh": 20,
+  "heat_rate_btu_kwh": 9000,
+  "gas_price_mmbtu": 3.0,
+  "grid_power_cost_mwh": 60,
+  "hours_per_month": 730,
+  "amortization_years": 10
+}

@@ -1,0 +1,101 @@
+{
+  "Aeroderivative Gas Turbine": {
+    "example_products": [
+      "GE LM2500 (34MW)",
+      "GE LM6000 (57MW)",
+      "MHI FT8 (30MW)"
+    ],
+    "capex_per_kw_low": 1700,
+    "capex_per_kw_high": 2000,
+    "lead_time_months_low": 18,
+    "lead_time_months_high": 36,
+    "ramp_minutes": 10,
+    "heat_rate_btu_kwh": 9500,
+    "efficiency_pct": 36,
+    "best_for": "Bridge power, fast deployment, backup conversion",
+    "key_suppliers": [
+      "GE Vernova",
+      "Mitsubishi Power",
+      "Siemens Energy",
+      "Boom Supersonic"
+    ]
+  },
+  "Industrial Gas Turbine (IGT)": {
+    "example_products": [
+      "Solar Titan 250 (23MW)",
+      "Solar Titan 130 (16.5MW)",
+      "Siemens SGT-800 (61MW)"
+    ],
+    "capex_per_kw_low": 1500,
+    "capex_per_kw_high": 1800,
+    "lead_time_months_low": 12,
+    "lead_time_months_high": 36,
+    "ramp_minutes": 20,
+    "heat_rate_btu_kwh": 10000,
+    "efficiency_pct": 34,
+    "best_for": "Cost-effective baseload, modular deployment",
+    "key_suppliers": [
+      "Caterpillar (Solar)",
+      "Siemens Energy",
+      "GE Vernova"
+    ]
+  },
+  "Reciprocating Engine (RICE)": {
+    "example_products": [
+      "Jenbacher J624 (4.5MW)",
+      "W\u00e4rtsil\u00e4 34SG (11MW)",
+      "Bergen B36:45 (11MW)"
+    ],
+    "capex_per_kw_low": 1700,
+    "capex_per_kw_high": 2000,
+    "lead_time_months_low": 15,
+    "lead_time_months_high": 24,
+    "ramp_minutes": 10,
+    "heat_rate_btu_kwh": 8500,
+    "efficiency_pct": 40,
+    "best_for": "High redundancy (small units), flexible load, truck-mountable",
+    "key_suppliers": [
+      "INNIO (Jenbacher)",
+      "W\u00e4rtsil\u00e4",
+      "Caterpillar",
+      "Bergen Engines"
+    ]
+  },
+  "Solid Oxide Fuel Cell (SOFC)": {
+    "example_products": [
+      "Bloom Energy Server (325kW modules)"
+    ],
+    "capex_per_kw_low": 3000,
+    "capex_per_kw_high": 4000,
+    "lead_time_months_low": 3,
+    "lead_time_months_high": 12,
+    "ramp_minutes": 60,
+    "heat_rate_btu_kwh": 6500,
+    "efficiency_pct": 52,
+    "best_for": "Urban sites (no combustion = easy permitting), speed to power",
+    "key_suppliers": [
+      "Bloom Energy"
+    ]
+  },
+  "Heavy-Duty CCGT (H-Class)": {
+    "example_products": [
+      "GE HA.02 (600MW)",
+      "Siemens H/HL (500-600MW)",
+      "Doosan DGT6 (400MW)"
+    ],
+    "capex_per_kw_low": 800,
+    "capex_per_kw_high": 1200,
+    "lead_time_months_low": 24,
+    "lead_time_months_high": 36,
+    "ramp_minutes": 60,
+    "heat_rate_btu_kwh": 6000,
+    "efficiency_pct": 62,
+    "best_for": "Large permanent installations, lowest $/MWh at scale",
+    "key_suppliers": [
+      "GE Vernova",
+      "Siemens Energy",
+      "Mitsubishi Power",
+      "Doosan Enerbility"
+    ]
+  }
+}

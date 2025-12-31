@@ -1,0 +1,23 @@
+{
+  "ercot_monthly_requests_gw": {
+    "Jan 2024": 15,
+    "Apr 2024": 22,
+    "Jul 2024": 35,
+    "Oct 2024": 48,
+    "Jan 2025": 55,
+    "Apr 2025": 62,
+    "Jul 2025": 70,
+    "Oct 2025": 78
+  },
+  "ercot_monthly_approved_gw": {
+    "Jan 2024": 0.3,
+    "Apr 2024": 0.4,
+    "Jul 2024": 0.5,
+    "Oct 2024": 0.6,
+    "Jan 2025": 0.7,
+    "Apr 2025": 0.8,
+    "Jul 2025": 0.9,
+    "Oct 2025": 1.1
+  },
+  "notes": "Source: ERCOT Large Flexible Load Task Force (LFLTF) 2024-2025"
+}

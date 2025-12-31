@@ -1,0 +1,131 @@
+{
+  "GE Vernova": {
+    "ticker": "GEV",
+    "2025_datacenter_orders_mw": 5000,
+    "total_backlog_billion": 135.3,
+    "slot_reservations_gw": 62,
+    "production_capacity_gw_year": 20,
+    "planned_capacity_gw_year": 24,
+    "capacity_year": 2026,
+    "primary_products": [
+      "LM2500 (34MW)",
+      "LM6000 (57MW)",
+      "HA.02 CCGT (600MW)"
+    ],
+    "key_win": "29x LM2500XPRESS for Crusoe/OpenAI (July 2025)",
+    "bull_case": "Blue chip BYOG play, massive backlog, pricing power",
+    "notes": "Doubled dividend to $2/share, $10B buyback authorization"
+  },
+  "Bloom Energy": {
+    "ticker": "BE",
+    "2025_datacenter_orders_mw": 1500,
+    "total_backlog_billion": 5.0,
+    "slot_reservations_gw": 1.0,
+    "production_capacity_gw_year": 1.0,
+    "planned_capacity_gw_year": 2.0,
+    "capacity_year": 2026,
+    "primary_products": [
+      "Energy Server (325kW modules)"
+    ],
+    "key_win": "$5B Brookfield partnership (1GW for AI factories)",
+    "bull_case": "Permitting arbitrage, fastest deployment, urban sites",
+    "notes": "4 consecutive record revenue quarters, pivoted to profitability"
+  },
+  "Caterpillar (Solar)": {
+    "ticker": "CAT",
+    "2025_datacenter_orders_mw": 2000,
+    "total_backlog_billion": 3.5,
+    "slot_reservations_gw": 5,
+    "production_capacity_gw_year": 1.2,
+    "planned_capacity_gw_year": 3.0,
+    "capacity_year": 2030,
+    "primary_products": [
+      "Titan 250 (23MW)",
+      "Titan 130 (16.5MW)",
+      "Jenbacher engines"
+    ],
+    "key_win": "Multiple deployments via Solaris rental fleet",
+    "bull_case": "Diversified exposure, rental fleet leverage, engine dominance",
+    "notes": "Doubling engine production, 2.5x turbine production by 2030"
+  },
+  "Siemens Energy": {
+    "ticker": "SMEGF",
+    "2025_datacenter_orders_mw": 3000,
+    "total_backlog_billion": 45.0,
+    "slot_reservations_gw": 30,
+    "production_capacity_gw_year": 20,
+    "planned_capacity_gw_year": 30,
+    "capacity_year": 2030,
+    "primary_products": [
+      "SGT-800 (61MW)",
+      "SGT5-8000H CCGT (600MW)"
+    ],
+    "key_win": "Meta New Albany deployment (SGT-400s)",
+    "bull_case": "European champion, diversified portfolio, service revenue",
+    "notes": "Investing in production without increasing factory footprint"
+  },
+  "W\u00e4rtsil\u00e4": {
+    "ticker": "WRTBY",
+    "2025_datacenter_orders_mw": 800,
+    "total_backlog_billion": 2.5,
+    "slot_reservations_gw": 3,
+    "production_capacity_gw_year": 2.0,
+    "planned_capacity_gw_year": 2.5,
+    "capacity_year": 2027,
+    "primary_products": [
+      "34SG engine (11MW)",
+      "50SG engine (18MW)"
+    ],
+    "key_win": "800MW US datacenter contracts (2025)",
+    "bull_case": "Marine-to-datacenter pivot, medium-speed engine leader",
+    "notes": "Incremental expansion, 'wait and see' approach"
+  },
+  "Howmet Aerospace": {
+    "ticker": "HWM",
+    "2025_datacenter_orders_mw": 0,
+    "total_backlog_billion": 8.5,
+    "slot_reservations_gw": 0,
+    "production_capacity_gw_year": 0,
+    "planned_capacity_gw_year": 0,
+    "capacity_year": 0,
+    "primary_products": [
+      "Single-crystal nickel turbine blades",
+      "Vanes",
+      "Hot section castings"
+    ],
+    "key_win": "Monopoly on high-temp alloy castings for GE/Siemens/MHI",
+    "bull_case": "Hidden monopoly - every turbine needs Howmet blades",
+    "notes": "The 'NVIDIA of turbine blades' - supply chain bottleneck"
+  },
+  "Boom Supersonic": {
+    "ticker": "PRIVATE",
+    "2025_datacenter_orders_mw": 1200,
+    "total_backlog_billion": 1.2,
+    "slot_reservations_gw": 2,
+    "production_capacity_gw_year": 0.2,
+    "planned_capacity_gw_year": 2.0,
+    "capacity_year": 2028,
+    "primary_products": [
+      "Superpower (42MW aeroderivative)"
+    ],
+    "key_win": "1.2 GW contract with Crusoe",
+    "bull_case": "New entrant with jet engine tech, aggressive capacity ramp",
+    "notes": "Using datacenter margins to fund Mach 2 passenger jets"
+  },
+  "Doosan Enerbility": {
+    "ticker": "034020.KS",
+    "2025_datacenter_orders_mw": 1900,
+    "total_backlog_billion": 12.0,
+    "slot_reservations_gw": 8,
+    "production_capacity_gw_year": 5,
+    "planned_capacity_gw_year": 10,
+    "capacity_year": 2027,
+    "primary_products": [
+      "DGT6 H-class (400MW)",
+      "Steam turbines"
+    ],
+    "key_win": "1.9 GW xAI Colossus 2 order",
+    "bull_case": "Korean champion, new H-class entrant, aggressive expansion",
+    "notes": "Timing H-class launch perfectly for AI demand surge"
+  }
+}

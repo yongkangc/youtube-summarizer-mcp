@@ -1,0 +1,35 @@
+{
+  "generation_type": [
+    "Solar",
+    "Wind",
+    "Battery Storage",
+    "Natural Gas (Grid)",
+    "Onsite Gas",
+    "Nuclear SMR"
+  ],
+  "avg_years_to_power": [
+    5.2,
+    4.8,
+    4.5,
+    4.0,
+    0.5,
+    8.0
+  ],
+  "range_low": [
+    3.5,
+    3.0,
+    3.0,
+    2.5,
+    0.25,
+    6.0
+  ],
+  "range_high": [
+    7.0,
+    6.5,
+    6.0,
+    6.0,
+    1.5,
+    12.0
+  ],
+  "notes": "Lawrence Berkeley National Lab, SemiAnalysis estimates"
+}

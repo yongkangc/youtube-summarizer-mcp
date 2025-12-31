@@ -1,0 +1,62 @@
+{
+  "GEV": {
+    "company": "GE Vernova",
+    "sector": "Power Equipment",
+    "thesis": "Blue chip BYOG play, $135B backlog, pricing power",
+    "catalyst": "Continued datacenter order flow, capacity expansion",
+    "risk": "Execution on capacity ramp, supply chain constraints",
+    "rating": "STRONG BUY",
+    "fallback_ytd_return": 100,
+    "fallback_market_cap_b": 100
+  },
+  "BE": {
+    "company": "Bloom Energy",
+    "sector": "Fuel Cells",
+    "thesis": "Permitting arbitrage, fastest deployment, urban sites",
+    "catalyst": "$5B Brookfield partnership, Oracle/hyperscaler deals",
+    "risk": "High CapEx, stack replacement costs, execution",
+    "rating": "BUY",
+    "fallback_ytd_return": 300,
+    "fallback_market_cap_b": 20
+  },
+  "HWM": {
+    "company": "Howmet Aerospace",
+    "sector": "Aerospace/Industrial",
+    "thesis": "Hidden monopoly - every turbine needs Howmet blades",
+    "catalyst": "Turbine production ramp, pricing power",
+    "risk": "Rare earth supply chain, aerospace cycle",
+    "rating": "STRONG BUY",
+    "fallback_ytd_return": 50,
+    "fallback_market_cap_b": 50
+  },
+  "CAT": {
+    "company": "Caterpillar",
+    "sector": "Industrial",
+    "thesis": "Diversified exposure via Solar turbines + Jenbacher",
+    "catalyst": "Doubling engine production, rental fleet leverage",
+    "risk": "Construction cycle, China exposure",
+    "rating": "HOLD/BUY",
+    "fallback_ytd_return": 20,
+    "fallback_market_cap_b": 180
+  },
+  "SMEGF": {
+    "company": "Siemens Energy",
+    "sector": "Power Equipment",
+    "thesis": "European champion, diversified portfolio, service revenue",
+    "catalyst": "Capacity expansion to 30GW/year by 2030",
+    "risk": "Wind turbine issues, execution",
+    "rating": "HOLD",
+    "fallback_ytd_return": 80,
+    "fallback_market_cap_b": 35
+  },
+  "WRTBY": {
+    "company": "W\u00e4rtsil\u00e4",
+    "sector": "Marine/Power",
+    "thesis": "Marine-to-datacenter pivot, medium-speed engine leader",
+    "catalyst": "800MW US datacenter contracts, more order flow",
+    "risk": "Wait and see approach, capacity constraints",
+    "rating": "SPECULATIVE BUY",
+    "fallback_ytd_return": 40,
+    "fallback_market_cap_b": 8
+  }
+}

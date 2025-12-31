@@ -1,0 +1,35 @@
+{
+  "GE Vernova": [
+    "Aeroderivative Gas Turbine",
+    "Heavy-Duty CCGT (H-Class)",
+    "Industrial Gas Turbine (IGT)"
+  ],
+  "Siemens Energy": [
+    "Aeroderivative Gas Turbine",
+    "Heavy-Duty CCGT (H-Class)",
+    "Industrial Gas Turbine (IGT)"
+  ],
+  "Caterpillar (Solar/CAT)": [
+    "Industrial Gas Turbine (IGT)",
+    "Reciprocating Engine (RICE)"
+  ],
+  "Bloom Energy": [
+    "Solid Oxide Fuel Cell (SOFC)"
+  ],
+  "W\u00e4rtsil\u00e4": [
+    "Reciprocating Engine (RICE)"
+  ],
+  "INNIO (Jenbacher)": [
+    "Reciprocating Engine (RICE)"
+  ],
+  "Mitsubishi Power": [
+    "Aeroderivative Gas Turbine",
+    "Heavy-Duty CCGT (H-Class)"
+  ],
+  "Doosan Enerbility": [
+    "Heavy-Duty CCGT (H-Class)"
+  ],
+  "Boom Supersonic": [
+    "Aeroderivative Gas Turbine"
+  ]
+}
