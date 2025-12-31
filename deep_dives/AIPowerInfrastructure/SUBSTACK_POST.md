@@ -4,68 +4,145 @@
 
 ---
 
-In July 2024, while Meta was waiting in line for grid power and Microsoft was negotiating decade-long utility contracts, Elon Musk did something impossible: he built a 100,000-GPU AI supercomputer in Memphis in just 4 months.
+## TL;DR
 
-The secret wasn't better chips. It was power.
+**Thesis:** Grid interconnection is the binding constraint on AI infrastructure, not GPUs. BYOG (Bring Your Own Generation) creates a $5.2B speed arbitrage over 36 months for a 200MW facility. This is structural, not temporary.
 
-While competitors waited years for grid connections, Musk deployed his own natural gas turbines, bypassed the utility entirely, and started training models before others had even received their interconnection study results.
+**The Setup:**
+- ERCOT: 78 GW datacenter requests, 1.1 GW approved (70:1 ratio)
+- Interconnection queue: 5-7 years
+- AI power CAGR: 67% (3 GW → 110 GW by 2030)
 
-**Everyone is obsessed with GPU supply. The real constraint is electricity.**
+**Positioning:**
+| Ticker | Rating | Variant Perception |
+|--------|--------|-------------------|
+| **GEV** | STRONG BUY | Backlog understated; 62 GW slot reservations = 3+ years visibility |
+| **HWM** | STRONG BUY | Misclassified as aerospace; actually AI infrastructure bottleneck |
+| **BE** | BUY | Permitting arbitrage underappreciated; 3-12 mo vs 18-36 mo |
+| **CAT** | HOLD | Diversified but Solar Turbines optionality not priced |
+| **SEI** | TRADE | 30% SI, bridge power momentum, squeeze setup |
+
+**Key Risk:** Gas >$10/MMBtu flips TCO. Currently at ~$3/MMBtu with forward curve flat.
 
 ---
 
-## The Grid Is Sold Out
+## The Grid Bottleneck: Structural, Not Cyclical
 
 ![Grid Bottleneck: 78 GW requested vs 1.1 GW approved](charts/01_grid_bottleneck.png)
 
-**The numbers:**
-- **78 GW** of datacenter load requests in Texas (ERCOT) alone
-- **1.1 GW** actually approved
-- **70:1 ratio** — for every 1 MW that gets grid power, 70 MW wait in line
-- **5-7 years** average time to get through the queue
+### The Numbers That Matter
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| ERCOT datacenter load requests | 78 GW | ERCOT LFLTF Oct 2025 |
+| ERCOT approved capacity | 1.1 GW | ERCOT LFLTF Oct 2025 |
+| Request-to-approval ratio | **70:1** | Calculated |
+| Average interconnection time | 5-7 years | LBNL Queue Study |
+| AEP Ohio requests without land control | 70% | AEP Filing |
+
+### Why This Isn't Fixable Soon
+
+1. **Real-time balancing constraint**: Grid must match supply/demand every second. Large loads require extensive engineering studies.
+2. **Prisoner's dilemma**: Speculative requests clog queues. 70% of AEP Ohio requests don't even have land control.
+3. **Transmission bottleneck**: New generation requires new transmission. NIMBY + permitting = years.
+4. **FERC Order 2023**: Intended to accelerate queues, but implementation takes 3-5 years. Current backlog doesn't disappear.
 
 ![AI Power Demand Explosion: 67% CAGR](charts/03_ai_power_demand.png)
 
-AI power demand is growing at **67% annually** — from 3 GW in 2023 to a projected 110 GW by 2030. The grid was built for 1-2% annual growth. It cannot keep up.
+### Demand Trajectory
+
+| Year | US AI Datacenter (GW) | YoY Growth |
+|------|----------------------|------------|
+| 2023 | 3 | — |
+| 2024 | 8 | 167% |
+| 2025 | 15 | 88% |
+| 2026 | 28 | 87% |
+| 2030 | 110 | 41% CAGR '26-'30 |
+
+**Implication:** Even if FERC reforms cut queue times in half, demand growth outpaces supply additions by 10x+.
 
 ---
 
-## The $5.2 Billion Arbitrage
-
-Here's the math driving every major AI infrastructure decision:
-
-**200 MW datacenter** generating **$11M per MW per year** = **$2.2B annual revenue**
-
-| Scenario | Time to Power | 36-Month Revenue |
-|----------|---------------|------------------|
-| Wait for Grid | Month 36 | ~$0B (waiting) |
-| Build Your Own Power | Month 6 | ~$5.2B |
-
-**The speed premium: $5.2 billion over 36 months.**
+## The Arbitrage: $5.2B Over 36 Months
 
 ![The Interconnection Latency Arbitrage: 36-Month P&L](charts/18_arbitrage_cumulative_pnl.png)
 
-This is why xAI, Crusoe, and Oracle are building their own power plants. **Speed is the only moat.**
+### Unit Economics
+
+| Parameter | Value | Source |
+|-----------|-------|--------|
+| Datacenter size | 200 MW | Model assumption |
+| Revenue per MW | $11M/year | Hyperscaler cloud pricing |
+| Annual revenue | $2.2B | Calculated |
+| Monthly revenue | $183M | Calculated |
+| Gross margin (power cost adjusted) | ~95% | Industry standard |
+| Monthly profit | ~$173M | Calculated |
+
+### Scenario Analysis
+
+| Scenario | Power Online | 36-Mo Cumulative Profit |
+|----------|--------------|------------------------|
+| **BYOG (Onsite Gas)** | Month 6 | $5.2B |
+| **Grid Power** | Month 36 | $0.17B |
+| **Arbitrage Delta** | — | **$5.0B** |
+
+### Why This Matters
+
+The market focuses on $/MWh comparisons:
+- Grid: ~$60/MWh
+- Onsite gas: $65-91/MWh (depending on technology)
+
+**This is the wrong frame.** The relevant comparison is $65-91/MWh NOW vs. $0/MWh for 3+ years.
+
+At $11M/MW/year revenue, a 6-month acceleration = $5.5M/MW. The CapEx premium for BYOG is $500-1,500/kW = $500K-1.5M/MW. **Payback on speed premium: 1-3 months.**
 
 ---
 
-## Technology: What Works
+## Technology Stack: Decision Framework
 
 ![BYOG Technology Comparison Matrix](charts/05_technology_comparison_table.png)
 
-| Technology | Cost ($/kW) | Timeline | Best For |
-|------------|-------------|----------|----------|
-| **Aeroderivatives** (GE LM2500) | $1,700-2,000 | 18-36 mo | Bridge power, fast ramp |
-| **Fuel Cells** (Bloom Energy) | $3,000-4,000 | 3-12 mo | Urban sites, no permits needed |
-| **CCGT H-Class** (GE, Doosan) | $800-1,200 | 24-36 mo | Permanent large-scale |
+### Detailed Comparison
 
-**The cost reality:** Onsite gas costs $65-91/MWh vs. $60/MWh for grid. But you can't buy grid power that doesn't exist. When the choice is "power now" vs. "nothing for 5 years," the premium is irrelevant.
+| Technology | CapEx ($/kW) | Lead Time | Efficiency | Heat Rate | Ramp | Best Use Case |
+|------------|-------------|-----------|------------|-----------|------|---------------|
+| **Aeroderivative** | $1,700-2,000 | 18-36 mo | 36% | 9,500 BTU/kWh | 10 min | Bridge power, N+1 backup |
+| **Industrial GT** | $1,500-1,800 | 12-36 mo | 34% | 10,000 BTU/kWh | 20 min | Cost-effective baseload |
+| **RICE** | $1,700-2,000 | 15-24 mo | 40% | 8,500 BTU/kWh | 10 min | High redundancy (small units) |
+| **Fuel Cell (SOFC)** | $3,000-4,000 | 3-12 mo | 52% | 6,500 BTU/kWh | 60 min | Urban/permitting-constrained |
+| **CCGT H-Class** | $800-1,200 | 24-36 mo | 62% | 6,000 BTU/kWh | 60 min | Permanent GW-scale |
 
 ![Cost vs Speed Tradeoff](charts/06_cost_vs_speed_scatter.png)
 
+### TCO Analysis
+
+![TCO by Technology](charts/13_tco_by_technology.png)
+
+| Technology | CapEx | Fuel | O&M | Overhead | **Total $/MWh** |
+|------------|-------|------|-----|----------|-----------------|
+| Aeroderivative | $25 | $27 | $8 | $4 | **$69** |
+| Industrial GT | $22 | $30 | $6 | $3 | **$65** |
+| RICE | $26 | $25.5 | $10 | $3 | **$68** |
+| Fuel Cell | $50 | $19.5 | $15 | $4 | **$91** |
+| CCGT | $12 | $18 | $4 | $4 | **$44** |
+| Grid (reference) | — | — | — | — | **$60** |
+
+**Key insight:** Fuel cells are 50% more expensive on $/MWh but 70% faster. For permitting-constrained sites, Bloom wins on NPV despite higher LCOE.
+
+### Redundancy Overbuild
+
+Datacenter uptime requirements demand N+1 or N+1+1 redundancy:
+
+| Configuration | Overbuild Factor | Example |
+|---------------|------------------|---------|
+| N+1 (Aeros) | 1.15x | 10× LM2500 for 300MW load |
+| N+1+1 (RICE) | 1.25x | 50× Jenbacher for 180MW |
+| CCGT + Backup | 1.40x | 2× 400MW + 4× LM2500 |
+| VoltaGrid Style | 1.64x | 2.3 GW for 1.4 GW datacenter |
+
 ---
 
-## Investment Thesis: Who Wins
+## Investment Thesis: Stock-by-Stock
 
 ![2025 YTD Stock Performance](charts/17_stock_performance_ytd.png)
 
@@ -73,80 +150,166 @@ This is why xAI, Crusoe, and Oracle are building their own power plants. **Speed
 
 ---
 
-### STRONG BUY: GE Vernova (GEV)
+### GE Vernova (GEV) — STRONG BUY
 
-| Metric | Value |
-|--------|-------|
-| Market Cap | ~$100B |
-| YTD Return | +100% |
-| Total Backlog | $135.3B |
-| Slot Reservations | 62 GW |
+**Variant Perception:** Market treats GEV as a traditional power equipment company. It's actually the toll road on AI infrastructure buildout.
 
-GE Vernova is the blue-chip BYOG play. **62 gigawatts** of slot reservations means companies are paying to hold their place in line for turbines 2-3 years out.
+| Metric | Value | Significance |
+|--------|-------|--------------|
+| Market Cap | ~$100B | — |
+| YTD Return | +100% | Still running |
+| Total Backlog | $135.3B | 3x revenue visibility |
+| Slot Reservations | 62 GW | Not in backlog; upside to estimates |
+| 2025 Datacenter Orders | ~5,000 MW | Accelerating |
+| Capacity Target | 24 GW/year by 2026 | +20% from current |
+| Dividend | $2/share (doubled) | Management confidence |
+| Buyback | $10B authorized | Return capital at scale |
 
-In July 2025, Crusoe and OpenAI ordered **29 LM2500XPRESS units** for rapid AI datacenter deployment. The company doubled its dividend to $2/share and announced a **$10B buyback**.
+**Catalyst Calendar:**
+- Q1 2026: Crusoe/OpenAI LM2500XPRESS deliveries begin (29 units)
+- Ongoing: Datacenter order announcements (currently $500M+ quarterly)
+- 2026: Capacity expansion completion
 
-**Thesis:** GE Vernova is to AI power what NVIDIA is to AI compute.
+**Key Win:** 29× LM2500XPRESS units for Crusoe/OpenAI (July 2025). Mobile turbine generators purpose-built for rapid AI datacenter deployment.
 
----
+**Valuation:** Trading at ~25x forward earnings. Historically 15-18x. Premium justified by:
+1. Structural demand (grid can't catch up)
+2. Pricing power (lead times extending)
+3. Capital return acceleration
 
-### STRONG BUY: Howmet Aerospace (HWM)
-
-| Metric | Value |
-|--------|-------|
-| Market Cap | ~$50B |
-| Position | Near-monopoly on turbine blade castings |
-
-The hidden monopoly. Every GE, Siemens, and Mitsubishi turbine needs Howmet's single-crystal nickel alloy blades. These blades must withstand 1,400°C while spinning at 3,600 RPM.
-
-**You cannot build a gas turbine without Howmet blades.** GE can only deliver turbines as fast as Howmet can supply castings.
-
-**Thesis:** Howmet is the NVIDIA of turbine blades — a monopoly on a critical component in a demand supercycle.
-
----
-
-### BUY: Bloom Energy (BE)
-
-| Metric | Value |
-|--------|-------|
-| Market Cap | ~$6B |
-| YTD Return | +300% |
-| Key Deal | $5B Brookfield partnership (1 GW) |
-
-The permitting arbitrage play. Bloom's fuel cells have **no combustion** = no air quality permits = deployment in 3-12 months while turbine competitors wait years for EPA approvals.
-
-**Risks:** Higher CapEx, 5-6 year stack replacement cycle.
-
-**Thesis:** Fastest path to power in permitting-constrained urban markets.
+**Risk:** Execution on capacity ramp. Supply chain (Howmet blades).
 
 ---
 
-### HOLD/BUY: Caterpillar (CAT)
+### Howmet Aerospace (HWM) — STRONG BUY
+
+**Variant Perception:** Classified as aerospace supplier. Actually a monopoly bottleneck on AI power infrastructure.
+
+| Metric | Value | Significance |
+|--------|-------|--------------|
+| Market Cap | ~$50B | — |
+| Position | Near-monopoly on high-temp castings | Only Western source at scale |
+| Customers | GE, Siemens, Mitsubishi, Doosan | All turbine OEMs |
+| Backlog | $8.5B | Understated; turbine demand pulls through |
+
+**The Technical Moat:**
+
+Every gas turbine requires blades that operate at 1,400°C+ while spinning at 3,600 RPM. These blades are made from single-crystal nickel superalloys with:
+- Directional solidification (no grain boundaries)
+- Internal cooling channels
+- Thermal barrier coatings (EB-PVD)
+
+Only two Western suppliers have this capability at scale:
+1. **Howmet Aerospace** (public)
+2. **Precision Castparts** (Berkshire, private)
+
+**Supply Chain Logic:**
+```
+AI demand → Turbine orders → Blade casting demand → Howmet revenue
+```
+
+**Critical dependency:** GE Vernova's 62 GW slot reservations can only convert to revenue as fast as Howmet delivers castings. Every 1 GW of turbines = Howmet blade revenue regardless of which OEM wins.
+
+**Rare Earth Exposure:**
+- Rhenium (Chile, Kazakhstan)
+- Yttrium (China 60%+)
+- Cobalt (DRC, China processing)
+
+China export controls = potential supply disruption. Howmet has been building inventory positions.
+
+**Valuation:** ~30x forward. Aerospace multiple, not AI infrastructure multiple. Rerating potential if market recognizes the positioning.
+
+---
+
+### Bloom Energy (BE) — BUY
+
+**Variant Perception:** High CapEx = bad. Wrong. Permitting speed = NPV positive despite higher LCOE.
+
+| Metric | Value | Significance |
+|--------|-------|--------------|
+| Market Cap | ~$6B | Small cap, higher vol |
+| YTD Return | +300% | Momentum |
+| Production Capacity | 1 GW/year → 2 GW | Doubling |
+| Key Deal | $5B Brookfield (1 GW) | Institutional validation |
+| 2025 Datacenter Orders | ~1,500 MW | Accelerating |
+
+**The Permitting Arbitrage:**
+
+Bloom's solid oxide fuel cells have **no combustion**. This matters enormously:
+
+| Permit Type | Gas Turbines | Bloom Fuel Cells |
+|-------------|--------------|------------------|
+| Air Quality (EPA) | Required | Not required |
+| New Source Review | Required | Not required |
+| Timeline | 12-36 months | 0 months |
+
+In urban areas or non-attainment zones, permitting can add 2-3 years. Bloom deploys in 3-12 months.
+
+**Economics at $3,500/kW:**
+- CapEx: $700M for 200 MW
+- Revenue: $2.2B/year
+- Payback: <4 months (if alternative is waiting 2 years for permits)
+
+**Risks:**
+1. Stack replacement every 5-6 years (~$1,000/kW)
+2. Lower efficiency than CCGT (52% vs 62%)
+3. Natural gas price sensitivity
+
+**Catalyst:** Oracle partnership for urban AI datacenters. More hyperscaler announcements expected.
+
+---
+
+### Caterpillar (CAT) — HOLD/BUY
+
+**Variant Perception:** Market sees construction equipment. Solar Turbines optionality is free.
 
 | Metric | Value |
 |--------|-------|
 | Market Cap | ~$175B |
-| Key Assets | Solar Turbines, Jenbacher engines |
+| Solar Turbines | 1-23 MW industrial GTs |
+| Jenbacher | RICE engines (now integrated) |
+| 2025 Datacenter Orders | ~2,000 MW |
+| Capacity Expansion | Doubling engine production |
 
-Diversified exposure to BYOG. Solar Turbines makes smaller industrial turbines (1-23 MW). The company is **doubling engine production** for datacenter demand.
+**Bull Case:**
+- Diversified exposure reduces risk
+- Solar Turbines lead times shorter than GE aeros (12-24 mo vs 18-36 mo)
+- Rental fleet leverage via Solaris partnership
+- 2.5x turbine production by 2030
 
-**Thesis:** The steady hand. Less upside than pure-plays, but defensible.
+**Bear Case:**
+- Not a pure-play
+- Solar Turbines subscale vs GE Vernova
+- Construction cycle exposure
+
+**Positioning:** Moderate position. Defensive BYOG exposure.
 
 ---
 
-### SPECULATIVE: Solaris Energy (SEI)
+### Solaris Energy Infrastructure (SEI) — SPECULATIVE/TRADE
+
+**Variant Perception:** Bridge power is transitory. Yes, but the squeeze setup is real.
 
 | Metric | Value |
 |--------|-------|
 | Short Interest | ~30% |
 | Key Customer | xAI Colossus |
+| Model | Rental fleet (Solar Titan/Saturn turbines) |
+| Utilization | ~85% |
 
-Rental power equipment for bridge generation. Powered xAI's Colossus buildout.
+**Bull Case:**
+1. Bridge power demand accelerating (everyone needs power NOW)
+2. 30% SI = squeeze potential on positive news
+3. Hyperscaler relationships sticky
+4. Captures emergency CapEx at premium rates
 
-**Bull:** Short squeeze potential, hyperscaler relationships.
-**Bear:** Commodity business, transitory demand.
+**Bear Case:**
+1. Rental power = commodity business
+2. Once permanent generation online, equipment returned
+3. Inherently transitory demand
+4. Pricing power limited
 
-**Thesis:** Trade on BYOG momentum, not a long-term hold.
+**Positioning:** Small tactical position. Trade the momentum, don't marry the business model.
 
 ---
 
@@ -156,28 +319,42 @@ Rental power equipment for bridge generation. Powered xAI's Colossus buildout.
 
 ---
 
-## Real-World Validation
+## Real-World Deployment Validation
 
-| Project | Scale | Strategy |
-|---------|-------|----------|
-| **xAI Colossus** (Memphis) | 500 MW+ | Built in 4 months with BYOG |
-| **Oracle/Crusoe Abilene** (TX) | 2.3 GW | GE + Solar turbines |
-| **Vantage Shackelford** (TX) | 2.3 GW | Permanent BYOG |
+| Project | MW | Location | Technology | Strategy | Status |
+|---------|-----|----------|------------|----------|--------|
+| xAI Colossus 1 | 150 | Memphis, TN | Solaris/VoltaGrid rental | Bridge power | Operational |
+| xAI Colossus 2 | 500+ | Memphis, TN | Doosan DGT6 CCGT | Permanent BYOG | Construction |
+| Oracle/Crusoe Abilene | 2,300 | Abilene, TX | GEV + Solar | Bridge → permanent | Development |
+| Meta New Albany | 400 | Ohio | Williams/Siemens | Hybrid | Development |
+| Vantage Shackelford | 2,300 | Shackelford, TX | VoltaGrid | Permanent BYOG | Development |
 
-These are multi-billion-dollar bets on bypassing the grid.
+**Key observation:** xAI Colossus went from groundbreaking to 100,000-GPU operation in 4 months. Meta's comparable facility is still in interconnection queue.
 
 ---
 
-## Risks
+## Risk Framework
 
 ![Fuel Price Sensitivity Analysis](charts/16_fuel_sensitivity.png)
 
-| Risk | Impact | Mitigation |
-|------|--------|------------|
-| **Gas spike >$10/MMBtu** | TCO flips to grid advantage | Long-term supply contracts |
-| **FERC Order 2023** accelerates grid | Reduces speed premium | Queue backlog won't clear overnight |
-| **10,000x chip efficiency gains** | Reduces power demand | Historically offset by capability expansion |
-| **China rare earth controls** | Constrains blade supply | Western diversification underway |
+### Quantified Risks
+
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| Gas >$10/MMBtu sustained | Low (15%) | High | Long-term supply contracts; forward curve flat |
+| FERC 2023 accelerates queues | Medium (30%) | Medium | 3-5 year implementation; backlog doesn't clear |
+| Chip efficiency 10,000x | Low (10%) | High | Historically offset by capability expansion |
+| China rare earth controls | Medium (25%) | Medium | Western diversification underway; inventory building |
+| Execution (GEV capacity) | Medium (20%) | Medium | Slot reservations derisk; pricing power cushions |
+
+### Scenario Analysis
+
+| Scenario | Probability | GEV | HWM | BE |
+|----------|-------------|-----|-----|-----|
+| Base case (thesis plays out) | 50% | +50% | +40% | +30% |
+| Bull case (demand accelerates) | 25% | +100% | +80% | +60% |
+| Bear case (gas spike, demand slows) | 25% | -20% | -15% | -40% |
+| **Expected Value** | — | **+43%** | **+36%** | **+18%** |
 
 ---
 
@@ -185,17 +362,15 @@ These are multi-billion-dollar bets on bypassing the grid.
 
 **The new picks and shovels aren't chips. They're turbines.**
 
-| Ticker | Company | Rating | Key Thesis |
-|--------|---------|--------|------------|
-| **GEV** | GE Vernova | STRONG BUY | Blue-chip BYOG, $135B backlog |
-| **HWM** | Howmet Aerospace | STRONG BUY | Hidden monopoly on turbine blades |
-| **BE** | Bloom Energy | BUY | Permitting speed arbitrage |
-| **CAT** | Caterpillar | HOLD/BUY | Diversified industrial exposure |
-| **SEI** | Solaris Energy | SPECULATIVE | Bridge power, squeeze potential |
+| Ticker | Company | Rating | Position Size | Key Thesis |
+|--------|---------|--------|---------------|------------|
+| **GEV** | GE Vernova | STRONG BUY | Core (5-8%) | Blue-chip BYOG, $135B backlog, 62 GW slot reservations |
+| **HWM** | Howmet Aerospace | STRONG BUY | Core (4-6%) | Hidden monopoly, misclassified, rerating potential |
+| **BE** | Bloom Energy | BUY | Meaningful (2-4%) | Permitting arbitrage, higher vol, higher reward |
+| **CAT** | Caterpillar | HOLD/BUY | Moderate (1-2%) | Diversified, defensive, Solar optionality |
+| **SEI** | Solaris Energy | TRADE | Tactical (0.5-1%) | Squeeze setup, momentum trade |
 
-If AI power demand hits 110 GW by 2030, and a meaningful fraction comes from BYOG, we're looking at hundreds of billions in infrastructure deployment.
-
-**The grid is sold out. BYOG is the new normal. Most investors haven't figured this out yet.**
+**The grid is sold out. BYOG is structural. The market is still pricing these as industrial equipment companies, not AI infrastructure bottlenecks.**
 
 ---
 
