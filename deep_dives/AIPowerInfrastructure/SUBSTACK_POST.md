@@ -1,6 +1,4 @@
-# The $5 Billion Speed Premium: Why AI Labs Are Abandoning the Grid
-
-## Everyone's waiting for grid power. Elon built a 100,000-GPU cluster in 4 months. Here's the arbitrage.
+# The Power Trade: Why AI Labs Are Abandoning the Grid for Onsite Power
 
 ---
 
