@@ -1,0 +1,248 @@
+{
+  "nvidia_roadmap": [
+    {
+      "architecture": "H100",
+      "timeline": "2022",
+      "hbm_type": "HBM3",
+      "capacity_gb": 80,
+      "bandwidth_tb_s": 3.35,
+      "peak_fp8_pflops": 3.96,
+      "tdp_w": 700,
+      "street_price_usd": [27000, 40000]
+    },
+    {
+      "architecture": "H200",
+      "timeline": "2024",
+      "hbm_type": "HBM3e",
+      "capacity_gb": 141,
+      "bandwidth_tb_s": 4.8,
+      "peak_fp8_pflops": 3.96,
+      "tdp_w": 700,
+      "street_price_usd": 31000
+    },
+    {
+      "architecture": "B200",
+      "timeline": "2025",
+      "hbm_type": "HBM3e",
+      "capacity_gb": 192,
+      "bandwidth_tb_s": 8.0,
+      "peak_fp4_pflops": 20,
+      "tdp_w": 1000
+    },
+    {
+      "architecture": "B300",
+      "timeline": "H2 2025",
+      "hbm_type": "HBM3e",
+      "capacity_gb": 288,
+      "bandwidth_tb_s": 10.0,
+      "peak_fp4_pflops": 30,
+      "tdp_w": 1400
+    },
+    {
+      "architecture": "Rubin",
+      "timeline": "H2 2026",
+      "hbm_type": "HBM4",
+      "capacity_gb": 288,
+      "bandwidth_tb_s": 13.0,
+      "peak_fp4_pflops": 50
+    },
+    {
+      "architecture": "Rubin Ultra",
+      "timeline": "H2 2027",
+      "hbm_type": "HBM4e",
+      "capacity_gb": 1024,
+      "bandwidth_tb_s": 32.0,
+      "peak_fp4_pflops": 100,
+      "tdp_w": 3600,
+      "note": "Closes bandwidth gap with SRAM while providing 4,300x more capacity"
+    }
+  ],
+  "amd_roadmap": [
+    {
+      "product": "MI300X",
+      "timeline": "2023",
+      "hbm_type": "HBM3",
+      "capacity_gb": 192,
+      "bandwidth_tb_s": 5.3,
+      "price_usd": [10000, 15000],
+      "price_vs_h100": "3-4x cheaper"
+    },
+    {
+      "product": "MI325X",
+      "timeline": "Q4 2024",
+      "hbm_type": "HBM3e",
+      "capacity_gb": 256,
+      "bandwidth_tb_s": 6.0
+    },
+    {
+      "product": "MI355X",
+      "timeline": "2025",
+      "hbm_type": "HBM3e",
+      "capacity_gb": 288,
+      "bandwidth_tb_s": 8.0,
+      "peak_fp4_pflops": 9.2
+    },
+    {
+      "product": "MI400",
+      "timeline": "2026",
+      "hbm_type": "HBM4",
+      "capacity_gb": 432,
+      "bandwidth_tb_s": 19.6,
+      "peak_fp4_pflops": 40
+    }
+  ],
+  "amd_market_position": {
+    "data_center_gpu_revenue_2024_usd": 5000000000,
+    "mlperf_performance": "Within 3% of H100 on Llama 2 70B",
+    "cuda_vs_rocm": {
+      "cuda_developers": 4000000,
+      "rocm_developers": 75000,
+      "ecosystem_gap": "53x fewer developers"
+    },
+    "price_performance_advantage": "3-4x better vs Nvidia"
+  },
+  "intel": {
+    "gaudi_3": {
+      "peak_fp8_pflops": 1.8,
+      "hbm2e_gb": 128,
+      "bandwidth_tb_s": 3.7,
+      "efficiency_vs_h100": [1.2, 2.3],
+      "metric": "tokens/sec/watt"
+    },
+    "strategy_shift": {
+      "falcon_shores": "Cancelled as commercial product",
+      "jaguar_shores": "Rack-scale systems targeting 2026",
+      "rationale": "Difficulty competing chip-to-chip vs Nvidia ecosystem"
+    }
+  },
+  "cerebras": {
+    "wse_3": {
+      "cores": 900000,
+      "sram_gb": 44,
+      "bandwidth_pb_s": 21,
+      "die_size_mm2": 46225,
+      "process_node": "TSMC 5nm",
+      "power_system_kw": [23, 27]
+    },
+    "valuation": {
+      "date": "2025-09",
+      "value_usd": 8100000000,
+      "funding": "1.1B Series G"
+    },
+    "ipo_status": {
+      "filed": "2024-09",
+      "withdrawn": "2025-10",
+      "reason": "CFIUS concerns over UAE investor G42 (83% of 2023 revenue)",
+      "reattempt": "Q2 2026"
+    },
+    "cluster_capability": {
+      "max_systems": 2048,
+      "aggregate_performance": "256 exaFLOPS"
+    }
+  },
+  "api_pricing_jan_2026": [
+    {
+      "provider": "OpenAI",
+      "model": "GPT-4o",
+      "input_per_million": 5.00,
+      "output_per_million": 15.00,
+      "speed_tokens_sec": 100
+    },
+    {
+      "provider": "OpenAI",
+      "model": "GPT-4o Mini",
+      "input_per_million": 0.15,
+      "output_per_million": 0.60
+    },
+    {
+      "provider": "Anthropic",
+      "model": "Claude Sonnet",
+      "input_per_million": 3.00,
+      "output_per_million": 15.00
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini Flash-Lite",
+      "input_per_million": 0.075,
+      "output_per_million": 0.30,
+      "note": "Lowest cost"
+    },
+    {
+      "provider": "Groq",
+      "model": "Llama 3.3 70B",
+      "input_per_million": 0.59,
+      "output_per_million": 0.79,
+      "speed_tokens_sec": 814
+    },
+    {
+      "provider": "Cerebras",
+      "model": "Llama 3.1 70B",
+      "input_per_million": 0.60,
+      "output_per_million": 0.60,
+      "speed_tokens_sec": 450
+    },
+    {
+      "provider": "DeepSeek",
+      "model": "R1",
+      "input_per_million": 0.55,
+      "output_per_million": 2.19,
+      "note": "Budget leader"
+    }
+  ],
+  "pricing_trends": {
+    "gpt3_nov_2021_per_million": 60.00,
+    "equivalent_today_per_million": 0.06,
+    "reduction_factor": 1000,
+    "post_jan_2024_acceleration": "200x per year for median models",
+    "sources": ["a16z", "Epoch AI"]
+  },
+  "hardware_capex": [
+    {
+      "hardware": "Nvidia H100 SXM",
+      "purchase_price_usd": [27000, 40000],
+      "cloud_per_hour_usd": [2.99, 6.98]
+    },
+    {
+      "hardware": "Nvidia H200",
+      "purchase_price_usd": 31000,
+      "cloud_per_hour_usd": null,
+      "note": "Premium over H100"
+    },
+    {
+      "hardware": "AMD MI300X",
+      "purchase_price_usd": [10000, 15000],
+      "cloud_per_hour_usd": [1.85, 7.00]
+    },
+    {
+      "hardware": "8-GPU DGX H100",
+      "purchase_price_usd": 300000,
+      "cloud_per_hour_usd": 30
+    }
+  ],
+  "h100_cloud_pricing_decline": {
+    "peak_2024_per_hour_usd": [8, 10],
+    "current_2025_per_hour_usd": [2.85, 3.50],
+    "decline_percent": [64, 75],
+    "drivers": ["Capacity expansion", "AMD competition"],
+    "source": "Jarvislabs.ai"
+  },
+  "tco_breakdown": {
+    "gpu_chip_purchase_percent": [40, 50],
+    "power_cooling_percent": [15, 25],
+    "networking_percent": [10, 15],
+    "staff_maintenance_percent": [15, 20],
+    "facilities_percent": [5, 10]
+  },
+  "breakeven_analysis": {
+    "api_vs_self_hosted_threshold": "2 million tokens per day sustained",
+    "payback_period_months": [6, 12],
+    "source": "Ptolemay"
+  },
+  "sources": [
+    "https://wccftech.com/samsung-amd-instinct-mi300x-ai-gpus-data-center-ai-worth-20-million-usd/",
+    "https://a16z.com/llmflation-llm-inference-cost/",
+    "https://epoch.ai/data-insights/llm-inference-price-trends",
+    "https://docs.jarvislabs.ai/blog/h100-price",
+    "https://www.ptolemay.com/post/llm-total-cost-of-ownership"
+  ]
+}

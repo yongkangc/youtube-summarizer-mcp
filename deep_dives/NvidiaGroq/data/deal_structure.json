@@ -1,0 +1,74 @@
+{
+  "deal": {
+    "announced_date": "2025-12-24",
+    "value_usd": 20000000000,
+    "type": "non-exclusive licensing agreement",
+    "description": "Reverse acqui-hire structure to avoid antitrust scrutiny",
+    "nvidia_previous_record": {
+      "company": "Mellanox",
+      "value_usd": 6900000000,
+      "year": 2020,
+      "ratio_to_groq": 2.9
+    }
+  },
+  "what_nvidia_gets": {
+    "ip_license": {
+      "type": "perpetual, non-exclusive",
+      "scope": "entire patent portfolio, compiler technology, LPU architecture"
+    },
+    "workforce": {
+      "percentage": 90,
+      "key_hires": [
+        {
+          "name": "Jonathan Ross",
+          "role": "Founder",
+          "background": "Original Google TPU architect"
+        }
+      ]
+    },
+    "technology": [
+      "LPU (Language Processing Unit) architecture",
+      "Tensor Streaming Processor (TSP) design",
+      "Deterministic execution compiler"
+    ]
+  },
+  "what_groq_keeps": {
+    "groqcloud": {
+      "continues": true,
+      "ceo": "Simon Edwards",
+      "previous_role": "CFO",
+      "independence": "maintained"
+    },
+    "description": "Fiction of competition maintained (per Bernstein analyst)"
+  },
+  "payment_terms": {
+    "upfront_percentage": 85,
+    "mid_2026_percentage": 10,
+    "end_2026_percentage": 5,
+    "employee_equity": {
+      "conversion": "to Nvidia stock",
+      "valuation_basis_usd": 20000000000,
+      "vesting": "unvested shares continue original schedule"
+    }
+  },
+  "strategic_rationale": {
+    "nvidia_perspective": [
+      "Inference market projected 10x larger than training by 2030",
+      "Bridge until HBM4-based Rubin Ultra (2027)",
+      "Prevent AMD/Intel/hyperscaler acquisition",
+      "Acquire TPU-architect talent"
+    ],
+    "market_context": {
+      "nvidia_training_share": 0.92,
+      "inference_market_2024_usd": 97000000000,
+      "inference_market_2030_usd": 255000000000,
+      "inference_share_of_spending_2026": 0.55
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html",
+    "https://www.axios.com/2025/12/28/nvidia-groq-shareholders",
+    "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale",
+    "https://wccftech.com/no-nvidia-isnt-acquiring-groq-but-jensen-just-executed-a-surgical-masterclass/"
+  ]
+}

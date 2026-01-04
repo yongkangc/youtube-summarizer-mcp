@@ -1,0 +1,98 @@
+{
+  "ai_inference_market": {
+    "current": {
+      "year": 2024,
+      "value_usd": 97000000000
+    },
+    "projected": {
+      "year": 2030,
+      "value_usd": 255000000000
+    },
+    "cagr_percent": [17, 19],
+    "growth_multiple": 2.63,
+    "source": "Grand View Research"
+  },
+  "inference_vs_training": {
+    "2023": {
+      "inference_share": 0.33,
+      "training_share": 0.67
+    },
+    "2026": {
+      "inference_share": 0.55,
+      "training_share": 0.45
+    },
+    "2030": {
+      "inference_vs_training_ratio": 10,
+      "description": "Inference projected 10x larger than training"
+    },
+    "source": "McKinsey & Company"
+  },
+  "ai_workload_growth": {
+    "volume_growth_multiple": 31,
+    "period": "2021-2025",
+    "tokens_per_query_growth": {
+      "reasoning_models": [10, 100],
+      "description": "10-100x more tokens per query for reasoning"
+    }
+  },
+  "nvidia_market_share": {
+    "ai_training": {
+      "share": 0.92,
+      "status": "dominant"
+    },
+    "ai_inference": {
+      "share": 0.75,
+      "status": "declining as alternatives enter"
+    },
+    "inference_alternatives": {
+      "custom_asics": 0.15,
+      "other": 0.10
+    }
+  },
+  "total_addressable_market": {
+    "segments": [
+      {
+        "segment": "AI Training",
+        "current_2024_usd": 50000000000,
+        "projected_2030_usd": 150000000000
+      },
+      {
+        "segment": "AI Inference",
+        "current_2024_usd": 97000000000,
+        "projected_2030_usd": 255000000000
+      },
+      {
+        "segment": "Total AI Compute",
+        "current_2024_usd": 147000000000,
+        "projected_2030_usd": 405000000000
+      }
+    ]
+  },
+  "hyperscaler_custom_silicon": {
+    "google_tpu": {
+      "generations": [
+        {"name": "TPU v5e", "tflops": 197, "hbm_gb": 16, "price_per_chip_hr": 1.20},
+        {"name": "TPU v5p", "tflops": 459, "hbm_gb": 95, "bandwidth_tb_s": 2.76, "price_per_chip_hr": 4.20},
+        {"name": "TPU v6e (Trillium)", "tflops": 925, "hbm_gb": 32, "price_per_chip_hr": 2.70},
+        {"name": "TPU v7 (Ironwood)", "tflops": 4614, "hbm_gb": 192, "interconnect_tbps": 9.6, "timeline": "2025"}
+      ]
+    },
+    "aws_trainium": {
+      "generations": [
+        {"name": "Trainium2", "pflops": 1.3, "hbm3e_gb": 96, "bandwidth_tb_s": 2.9, "project": "Rainier - 500K chips for Anthropic"},
+        {"name": "Trainium3", "pflops": 2.52, "hbm3e_gb": 144, "bandwidth_tb_s": 4.9, "node": "3nm", "note": "AWS first 3nm chip"}
+      ],
+      "deployment_target": {
+        "chips": 1000000,
+        "timeline": "end of 2025",
+        "description": "Largest single AI accelerator deployment"
+      },
+      "price_performance_advantage": [30, 40],
+      "description": "30-40% better price-performance vs GPU"
+    }
+  },
+  "sources": [
+    "https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-inference-market-report",
+    "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-next-big-shifts-in-ai-workloads-and-hyperscaler-strategies"
+  ]
+}

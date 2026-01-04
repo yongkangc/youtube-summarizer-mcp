@@ -1,0 +1,107 @@
+{
+  "nvlink_fusion": {
+    "announced": "Computex 2025",
+    "description": "Rack-scale AI infrastructure platform enabling hyperscalers and custom ASIC designers to integrate custom CPUs and XPUs with NVLink scale-up interconnect",
+    "purpose": "Third-party chip integration with Nvidia's high-speed fabric"
+  },
+  "nvlink_generations": {
+    "nvlink_5": {
+      "bandwidth_per_gpu_tb_s": 1.8,
+      "bidirectional": true,
+      "vs_pcie_gen5": "14x faster",
+      "max_devices": 72,
+      "aggregate_bandwidth_tb_s": 130,
+      "topology": "all-to-all"
+    },
+    "nvlink_c2c": {
+      "bandwidth_gb_s": 900,
+      "coherent": true,
+      "energy_efficiency_vs_pcie": "25x",
+      "area_efficiency_vs_pcie": "90x",
+      "first_used": "Grace-Hopper, Grace CPU Superchip"
+    }
+  },
+  "integration_pathways": {
+    "nvlink_c2c_ip": {
+      "description": "Third-party integrates NVLink-C2C IP block directly into chip design",
+      "benefits": ["Direct fabric access", "Memory coherency", "Tightest integration"]
+    },
+    "nvlink_chiplet": {
+      "description": "Nvidia provides bridge chiplet for connection via UCIe",
+      "interface": "Universal Chiplet Interconnect Express (UCIe)",
+      "benefits": ["Faster time-to-market", "Less design complexity", "Open standard interface"]
+    }
+  },
+  "key_constraint": {
+    "either_or": true,
+    "description": "NVLink Fusion supports custom CPU OR custom accelerator, not both. Must have Nvidia silicon on every node.",
+    "implication": "Groq LPUs will work with Nvidia GPUs, not AMD GPUs"
+  },
+  "partners": {
+    "hyperscalers": [
+      {
+        "company": "AWS",
+        "integration": "Trainium4 chips via NVLink Fusion",
+        "project": "AI infrastructure deployment",
+        "source": "https://developer.nvidia.com/blog/aws-integrates-ai-infrastructure-with-nvidia-nvlink-fusion-for-trainium4-deployment/"
+      }
+    ],
+    "chip_designers": [
+      {
+        "company": "Fujitsu",
+        "integration": "MONAKA-X CPUs",
+        "project": "FugakuNEXT supercomputer"
+      },
+      {
+        "company": "Qualcomm",
+        "integration": "Arm CPUs for AI factories"
+      }
+    ],
+    "design_services": [
+      "Marvell",
+      "MediaTek",
+      "Alchip Technologies",
+      "Cadence",
+      "Synopsys"
+    ],
+    "interconnect": [
+      "Astera Labs"
+    ]
+  },
+  "groq_integration": {
+    "strategic_value": "Nvidia gains IP to bypass CoWoS and HBM for inference-focused chip using NVLink for LPU interconnect",
+    "jensen_statement": "We plan to integrate Groq's low-latency processors into the NVIDIA AI factory architecture, extending the platform to serve an even broader range of AI inference and real-time workloads.",
+    "expected_benefits": [
+      "Groq LPUs gain 130 TB/s aggregate bandwidth",
+      "Unified memory coherency with Nvidia GPUs",
+      "Access to CUDA-X software ecosystem"
+    ],
+    "analyst_commentary": {
+      "source": "Max Weinbach via Seeking Alpha",
+      "quote": "This gets Nvidia the IP they need to bypass CoWoS and HBM for a fast inference-focused chip, and use NVLink for better chip-to-chip interconnect of the LPU."
+    }
+  },
+  "mellanox_parallel": {
+    "acquisition_year": 2020,
+    "value_usd": 6900000000,
+    "technology": "InfiniBand, high-speed Ethernet",
+    "strategic_role": "Networking/AI scaling moat",
+    "groq_comparison": "Mellanox = networking layer control; Groq = inference acceleration layer control"
+  },
+  "competitive_context": {
+    "ualink": {
+      "description": "Open-standard NVLink alternative",
+      "status": "1.0 specification recently arrived",
+      "vs_nvlink": "Theoretically as fast, but NVLink 5 already in production",
+      "risk_to_nvidia": "Potential ecosystem fragmentation if widely adopted"
+    }
+  },
+  "sources": [
+    "https://www.nvidia.com/en-us/data-center/nvlink-fusion/",
+    "https://www.nvidia.com/en-us/data-center/nvlink-c2c/",
+    "https://developer.nvidia.com/blog/integrating-custom-compute-into-rack-scale-architecture-with-nvidia-nvlink-fusion/",
+    "https://developer.nvidia.com/blog/scaling-ai-inference-performance-and-flexibility-with-nvidia-nvlink-and-nvlink-fusion/",
+    "https://www.servethehome.com/nvidia-announces-nvlink-fusion-bringing-nvlink-to-third-party-cpus-and-accelerators/",
+    "https://seekingalpha.com/article/4855988-nvidias-groq-megadeal-20b-inference-pivot-to-stay-king"
+  ]
+}
