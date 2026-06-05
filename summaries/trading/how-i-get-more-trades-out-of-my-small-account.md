@@ -10,10 +10,11 @@ The video explains how to use synthetic option positions instead of stock to get
 
 ## Mechanics
 
-- **Synthetic long stock:** buy call + sell put.
-- **Synthetic short stock:** sell call + buy put.
-- A same-strike ATM synthetic behaves nearly one-for-one with 100 shares by expiration.
-- You are not forced to take 100-delta exposure. By choosing strikes/deltas, you can create 80, 70, 60, 50, 40, 30 delta-type directional exposure.
+- **Synthetic long stock / combo:** buy call + sell put, same expiry, usually same strike. This creates a forward-like payoff: bullish, high positive delta, similar to owning shares.
+- **Synthetic short stock / combo:** sell call + buy put, same expiry, usually same strike. This creates a bearish forward-like payoff: similar to shorting shares.
+- **Not a straddle:** a straddle buys both call + put, or sells both call + put. A synthetic stock position buys one option and sells the other. The sign is the whole difference.
+- A same-strike ATM synthetic behaves nearly one-for-one with 100 shares by expiration because long call delta plus short put delta approximates +100 shares.
+- If the call and put use different OTM strikes, this is better described as a **risk reversal / OTM combo**, not a pure stock replacement. It gives lower delta and lower BPR, but has a flat/no-profit zone between strikes and different expiry behavior.
 - Tasty’s preference: enter for a **credit** where possible so you are not paying time value.
 
 ## Example numbers from the video
