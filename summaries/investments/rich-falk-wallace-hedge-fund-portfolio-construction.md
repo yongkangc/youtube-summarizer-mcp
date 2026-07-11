@@ -63,7 +63,7 @@ Breadth without edge only adds noise.
 
 ## Why correlation matters
 
-Correlated positions replicate a common factor. That pulls portfolio Sharpe toward factor Sharpe—roughly market Sharpe of about **0.5–0.6** in his framing—which investor can obtain cheaply.
+Correlated positions replicate a common factor. That pulls portfolio Sharpe toward factor Sharpe—roughly market Sharpe of **0.5–0.6**, with a sampled range around **0.4–0.8** in his framing—which investor can obtain cheaply.
 
 A “market-neutral” collection of PMs can still hide common exposure:
 
@@ -71,9 +71,13 @@ A “market-neutral” collection of PMs can still hide common exposure:
 - all exposed to momentum, revisions or crowding;
 - sector-neutral individually but collectively loaded on same theme.
 
+His example: multiple books may each appear roughly **80% idiosyncratic**, yet aggregate idiosyncratic exposure falls toward **60%** when they share technology/momentum factors. Independent edge diversifies like **1,000–10,000 flips of a 52%-probability coin**; common factors do not.
+
 Risk must be aggregated across whole book, not checked pod by pod.
 
 Forward-looking correlation matters more than historical labels. Factors can switch on/off, crowding can unwind and crisis correlation can rise.
+
+He says tighter platforms may target **80–90% stock-specific volatility**, while looser books may accept roughly **60% idiosyncratic / 40% factor** exposure. Treat every factor or thematic exposure like a stock: diligence it, size it and cap it.
 
 ## Fundamental plus systematic thinking
 
