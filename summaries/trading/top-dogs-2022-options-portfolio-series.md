@@ -11,13 +11,15 @@ category: "trading"
 
 # Top Dogs 2022: $100K+ Options Portfolio Series
 
-## Series order
+## Confirmed series order
 
-1. [Best and Worst $100k+ Portfolio Strategies: Building a Large Portfolio](https://www.youtube.com/watch?v=whDUysN2XYc) — core portfolio, product selection, allocation and expected Greeks.
-2. [Most Common Mistakes for Managing Options: $100K+ Portfolio Update](https://www.youtube.com/watch?v=Pj9jOCJMtEk) — 21-DTE roll, recentering, risk/correlation reduction.
-3. [Increase Size in Your $100K Portfolio with These Strategies](https://www.youtube.com/watch?v=61d-_6dO7yk) — final “Scaling Up” episode.
+1. **Week 1:** [Best and Worst $100k+ Portfolio Strategies: Building a Large Portfolio](https://www.youtube.com/watch?v=whDUysN2XYc) — core portfolio and product indifference.
+2. **Week 2:** capital efficiency and allocation — standalone upload not found.
+3. **Week 3:** cost-basis reduction — standalone upload not found.
+4. **Week 4:** [Most Common Mistakes for Managing Options: $100K+ Portfolio Update](https://www.youtube.com/watch?v=Pj9jOCJMtEk) — 21-DTE roll, recentering, risk/correlation reduction.
+5. **Week 5:** [Increase Size in Your $100K Portfolio with These Strategies](https://www.youtube.com/watch?v=61d-_6dO7yk) — final “Scaling Up” episode.
 
-The transcripts explicitly identify these as parts of **Top Dogs 2022**. Episode 3 says prior weeks covered core portfolio/product indifference, capital efficiency/allocation, cost-basis reduction, and managing positions; it then completes series with scaling up. The two linked follow-ups therefore bracket management and final scaling. Earlier weekly subtopics may exist as separate uploads, but these three videos provide complete model construction → management → scaling arc available from supplied links/search.
+Transcript references make chronology explicit. `Pj9` says weeks 1–3 are complete, current episode is managing positions, and next week covers scaling. `61d` calls itself final piece. Therefore supplied videos are weeks **1, 4 and 5**, not three consecutive episodes. YouTube search did not surface standalone weeks 2–3; they may be renamed, embedded in longer uploads, unlisted or unavailable.
 
 ## Series TL;DR
 
