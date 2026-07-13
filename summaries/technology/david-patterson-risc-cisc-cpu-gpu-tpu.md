@@ -106,11 +106,18 @@ Originally domain-specific graphics hardware:
 - graphics tolerated 16/32-bit floating point;
 - strong floating-point performance per dollar.
 
-Researchers repurposed GPUs by mapping non-graphics work onto graphics-like parallel operations. In 2006, NVIDIA invested in CUDA, giving programmers a C-like way to target GPU hardware. CUDA made parallel hardware accessible before AI demand arrived.
+Researchers repurposed GPUs by mapping non-graphics work onto graphics-like parallel operations. In 2006, NVIDIA invested in CUDA, giving programmers a C-like way to target GPU hardware. CUDA made parallel hardware accessible before AI demand arrived. GPU-trained **AlexNet's decisive 2012 ImageNet win** then helped establish neural networks and GPUs as default ML approach; cheap GPU compute let team test far more model configurations.
 
 ### TPU
 
 Google feared internal machine-learning inference demand would require roughly doubling data-center fleet if served on CPUs. It developed first TPU as dedicated matrix/tensor accelerator.
+
+Design choices:
+
+- Center silicon on a very large matrix-multiply unit because neural networks are matrix-heavy.
+- Remove expensive general-purpose mechanisms ML did not need.
+- Replace three hardware-managed cache levels with software-scheduled transfers into explicitly managed memory.
+- Introduce `bfloat16` (“brain floating point”): retain wide exponent/range while sacrificing mantissa precision.
 
 Patterson cites first TPU result:
 
