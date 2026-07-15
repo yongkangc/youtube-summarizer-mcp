@@ -3,7 +3,7 @@ title: "Don't Rely on SPY and Tom's Trades of the Week"
 source: "https://www.youtube.com/watch?v=omDi5f5pcSc"
 video_id: "omDi5f5pcSc"
 duration: "1:30:47"
-date_summarized: "2026-07-13"
+date_summarized: "2026-07-15"
 category: "trading"
 ---
 
@@ -133,6 +133,42 @@ Tom's allocation:
   - passive positive-drift exposure.
 
 Stock selection can diversify away from index concentration, but adds idiosyncratic risk and requires actual information/valuation edge.
+
+## Other positions and discussions
+
+### SpaceX short puts and wheel
+
+- Tom was short substantial `$90`, `$95`, and `$100` puts, his largest short-put position, while SpaceX traded near `$140`.
+- View: retracement could reach `$130–135`, but likely stays above `$100`.
+- Caller held July 31 `$140` short put with roughly `$133` breakeven. If assigned, hosts suggested selling call nearest `30Δ`.
+- **Risk:** This is concentrated downside/assignment exposure. “Zero early-assignment risk” was only their point-in-time judgment; holders retain exercise rights, especially when extrinsic value disappears.
+
+### Bank and Netflix earnings
+
+- Bank earnings: short ATM put and call with long wings near expected move, creating defined-risk iron butterfly. Edge requires realized earnings move below implied move; payoff has narrow peak and high expiry gamma.
+- Netflix: caller with `$10K` account considered credit spread outside expected move. Hosts approved structure but noted naked alternative could consume `$6K–7K` buying power—far too concentrated for one small account.
+- No exact tickers/strikes/credits were supplied; not executable setups.
+
+### Oil, gold and silver
+
+- Oil: Tom would consider short near `$76–77` after rebound. Headline/war gap risk dominates.
+- Gold: long and short multiple naked micro-gold puts during sharp pullback; later suggested selling `3,500` puts around `$15`, but omitted expiry/contract details.
+- Silver: bullish put spread captioned `51/48` in “SLB,” likely transcription error. Symbol, expiry and credit unverified; do not execute from transcript.
+
+### Lucid stock
+
+- Bought shares because low-priced options were roughly `$0.20` wide.
+- Durable lesson: use stock for clean delta when option spread would consume expected edge.
+- Caption gives inconsistent entry around `$6.07–6.70`.
+
+## Portfolio and process rules
+
+- Trading rut: stay engaged but cut size; do not force normal risk in hostile regime.
+- Weekend/overnight exposure: survivable sizing matters more than blanket Friday avoidance.
+- Stocks offer tight spreads, no expiry and clean delta, but consume more capital.
+- Covered-write parity: long stock + short call resembles short put at matching strike/expiry; short stock + short put resembles short call.
+- Treasury ETFs can park idle capital, but “risk-free” is loose—duration, liquidity and reinvestment risks remain.
+- High options flow may affect dealer hedging locally, but is not deterministic stock-direction signal.
 
 ## Bottom line
 
