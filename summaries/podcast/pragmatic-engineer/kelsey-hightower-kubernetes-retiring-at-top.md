@@ -21,10 +21,11 @@ Kelsey Hightower went from McDonald's and installing DSL lines to Google Disting
 - Left college and chose an A+ certification because it offered an immediate path into paid technical work.
 - Installed DSL/network cards, opened a computer store, built studio systems and managed a touring comedian.
 - Joined Google as a data-center technician; FreeBSD knowledge rescued a Linux-heavy interview.
-- Left for faster-moving hosting/automation roles, then financial services, where his salary first doubled.
+- Switched roles every 3–6 months early, often adding roughly 25% pay.
+- Left for faster-moving hosting/automation roles, then financial services; first software-engineering offer doubled salary from about `$45K` to `$90K`.
 - Contributed to Puppet during nights/weekends; public work got him recognized, invited to PuppetConf and hired by Puppet Labs.
 - Deep Go, CoreOS, etcd and live-demo work made him influential before Kubernetes became mainstream.
-- Joined Google Cloud and eventually became Distinguished Engineer.
+- Joined Google Cloud; rose roughly `L5 → L9` through four promotions over seven years, eventually becoming Distinguished Engineer.
 - Microsoft courted him at executive level; Satya Nadella wrote personally and offer effectively “added a zero.” Google matched after he candidly told his manager he intended to leave.
 - Retired from Google at 43, near career peak.
 
@@ -39,7 +40,15 @@ At hosting support, everyone answered calls while unresolved-ticket queue grew. 
 
 Senior progression comes from changing system, not winning local scoreboard.
 
-### 2. Every job can be next interview
+Metrics work only when worker can control measured outcome. At Google's data center, he kept accuracy in high 90s while repairing roughly three times as many machines; metric gave feedback rather than arbitrary punishment.
+
+### 2. Match velocity to blast radius
+
+Hosting demanded fixes in minutes. Financial-services systems required controlled change windows because failure could default-decline card transactions and create direct losses.
+
+At a card processor, he replaced Apache/Java connector with NGINX during reversible midnight-to-6 a.m. window. He says memory fell from about 90% of a 32 GB machine to roughly 2 GB at peak load. Team verified full production path by buying gas and watching transaction reach Oracle. Numbers are anecdotal, but process lesson is strong: technical answer required consensus, rollback, evidence and accountability.
+
+### 3. Every job can be next interview
 
 - Puppet contributions made James Turnbull recognize him before formal introduction.
 - Go/PXE/CoreOS live demo put him in front of CoreOS team, leading to opportunity.
@@ -47,7 +56,7 @@ Senior progression comes from changing system, not winning local scoreboard.
 
 Create public evidence. Résumé claims weaker than inspectable work.
 
-### 3. Communication is engineering leverage
+### 4. Communication is engineering leverage
 
 Strong engineers sometimes dismiss presenters as “evangelists.” Hightower combined:
 
@@ -59,7 +68,7 @@ Strong engineers sometimes dismiss presenters as “evangelists.” Hightower co
 
 At Google, he moved from showing Kubernetes features to connecting cloud products with application outcomes, executive priorities and revenue.
 
-### 4. Technical depth plus timing
+### 5. Technical depth plus timing
 
 He was not immediately convinced by every wave:
 
@@ -71,11 +80,17 @@ He was not immediately convinced by every wave:
 
 He changed position when evidence changed, then learned enough to explain and operationalize new system.
 
-### 5. Stay long enough to change culture
+### 6. Stay long enough to change culture
 
 Earlier job-hopping increased skills and pay but limited exposure to consequences. In financial services he learned governance, maturity and durable organizational change. Years later, former team still used automation culture and adopted Kubernetes independently.
 
 Impact surviving departure matters more than personal heroics.
+
+### 7. Optimize for landings, not launches
+
+A launch ships and celebrates. A landing creates customer adoption and revenue. At Google he moved from “hello world” to “hello revenue”: joined customer and sales conversations, connected products, and helped teams get users rather than only announcements.
+
+His “empathetic engineering” exercise made Kubernetes' own creators install system manually. Their struggle exposed packaging and sequencing problems and helped produce `kubeadm`. He also wrote *Kubernetes the Hard Way* so improved abstraction would not erase understanding.
 
 ## Why Kubernetes won
 
@@ -94,6 +109,14 @@ This same pattern appears in modern AI interfaces/MCP: wrap many low-level calls
 When Google announced Kubernetes, Hightower stayed up overnight to compile and run it on CoreOS, patched missing pieces and published usable guide. CoreOS post gave community something installable while announcement was abstract.
 
 Live demos and high-quality documentation converted curiosity into adoption. Technology wins when people can understand and use it—not only because architecture is elegant.
+
+### Infrastructure as data and extensible types
+
+Kubernetes stored typed desired-state objects and reconciled them through control loops. This let tools manipulate state without encoding whole orchestration procedure.
+
+CRDs/controllers gave infrastructure an extensible type system: vendors could add certificates, firewalls and domain resources while reusing API, status, reconciliation and tooling. CoreOS later contributed operator concepts and helped develop CNI.
+
+Kubernetes also reused Docker and etcd plus Borg/Omega lessons instead of replacing every layer with Google-specific technology.
 
 ## Money and retiring at top
 
@@ -119,6 +142,8 @@ He realized:
 - moving fast made him miss travel, music, relationships and experience.
 
 Retirement was not inactivity. He retained advising, investing and selected speaking while reclaiming control of time.
+
+Critical question became not only “What am I escaping?” but **“What am I going to walk out to?”** He described himself as Distinguished Engineer but junior at living. Goal was both money and time, not maximum productivity forever.
 
 ## Microsoft offer and negotiation
 
