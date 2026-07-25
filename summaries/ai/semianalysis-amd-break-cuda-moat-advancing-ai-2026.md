@@ -69,6 +69,14 @@ But AMD uses much more silicon for only mild theoretical-FLOPs advantage. Author
 
 Peak FLOPs and capacity are not delivered tokens/TCO. Utilization, kernels, networking, power, yield and software composition decide economics.
 
+Independent audit qualifications:
+
+- AMD describes Helios as reference design with volume deployments expected in `2H 2026`; “first shipping 2nm data-center silicon” is premature as volume-maturity claim.
+- AMD's own current materials conflict between `23.3 TB/s` and `19.6 TB/s` MI455X bandwidth. Model both until final OEM datasheets.
+- Article conflicts on PCIe Gen 6 versus Gen 7; AMD's Vulcano material says Gen 6.
+- “Hopper SM90 ISA clone” overstates evidence. Wave32, memory hierarchy and data-movement concepts converge, but gfx1250 requires new code paths/kernels.
+- Active LSI identification is plausible SemiAnalysis inference, not AMD/TSMC-confirmed fact.
+
 ## Helios rack
 
 - `72` MI455X GPUs and `18` Venice CPUs.
@@ -83,11 +91,13 @@ Peak FLOPs and capacity are not delivered tokens/TCO. Utilization, kernels, netw
 Helios inherited cable-heavy architecture Nvidia abandoned for cableless Rubin Oberon:
 
 - Up to `1,728` flyover cables/rack.
-- Roughly `85%` of scale-up links may require retiming.
-- More than `550` Broadcom Ethernet retimers/rack cited in introduction.
+- Roughly `85%` of scale-up links may require retiming in cited **Meta deployment**; article generalizes this toward standard Helios.
+- More than `550` Broadcom Ethernet retimers/rack is arithmetically plausible if 85% of 5,184 lanes are retimed with eight-lane devices, but part number/lane mapping is undisclosed.
 - Estimated backplane + flyover-cable content: about `$68,928`/rack.
 - Retimers add cost, power, tuning and failure points.
 - AMD depends on Broadcom merchant switch roadmap and cannot fully co-design rack.
+
+Retimer count, cable BOM, backplane reliability and “weak SerDes” causality are proprietary channel checks—not publicly corroborated facts. Retiming may reflect total channel loss, topology or flexible-PHY compromise, not SerDes alone.
 
 Thesis risk is not chip tape-out. It is producing serviceable, reliable racks at scale before customers standardize elsewhere.
 
@@ -114,8 +124,9 @@ Configuration suits recommendation workloads and raises CPU:GPU ratio, but weake
 - Kimi K2.5 interactivity reportedly improved up to `18×` in under 30 days.
 - MiniMax M3 performance caught B200 in cited configuration.
 - DeepSeek/Kimi day-zero enablement improved sharply.
+- Public SGLang evidence confirms real stabilization: its `24 Jul 2026` MI355X disaggregation nightly had all `20` jobs green after several earlier failures.
 
-These are author/vendor workload claims, not universal performance leadership.
+These are author/vendor or curated-workload claims, not universal performance leadership. Green selected recipes prove functioning path, not fungible platform.
 
 ### CI remains bottleneck
 
@@ -127,6 +138,8 @@ These are author/vendor workload claims, not universal performance leadership.
 - gfx1250 differs materially from gfx950, doubling testing burden across generations.
 
 Non-gating test pass rates are weak evidence. Merge-blocking accuracy/performance gates and stable long-lived hardware runners matter.
+
+Precise `90%`, `0%` and `>10×` parity/capacity statements rely partly on SemiAnalysis/private sources. Public dashboard lacks standardized denominator, weighting, flaky-test treatment and 30-day pass-rate history. Treat direction as credible; exact parity as unaudited.
 
 ## Agentic software thesis
 
@@ -191,27 +204,29 @@ MoRI is praised as real engineering progress: modular RDMA for expert communicat
 
 ## TCO and “105% rebate”
 
-Article introduction claims OpenAI and Meta can receive equity-linked rebates worth up to about `105%` of AMD compute purchases if:
+AMD SEC filings confirm customer warrants:
 
-- purchase-volume thresholds are met; and
-- AMD shares reach final stated level of `$600`.
+- OpenAI: up to `160M` shares at `$0.01`; full vesting requires up to `6 GW` purchases plus stock-price, technical and commercial conditions. Only initial `1 GW` was binding in cited 8-K.
+- Meta: another up to `160M` shares under similar `6 GW` structure and conditions.
+- Combined `320M` shares equal about **19.63% of AMD's current 1.630B basic share count**, or **16.41% of pro-forma post-issuance shares** if fully exercised.
+- At `$600/share`, maximum headline intrinsic value is roughly **$192B** before probability, time, vesting and dilution adjustments.
+- AMD reported no warrant shares vested/exercisable as of `28 Mar 2026`.
 
-This can make apparent token economics negative after option value—effectively racks plus extra value.
+Therefore “105% rebate”/“negative token cost” is buyer-TCO rhetoric, not free economic value:
 
-Do not confuse this with intrinsic Helios operating cost:
+- Equity transfer is paid by AMD shareholders through dilution.
+- Maximum contingent value is not current realized discount.
+- Valid model needs each tranche's qualifying purchases, vesting probability, stock-price path, time value, gross profit and ecosystem value.
+- Customer TCO, AMD hardware gross margin and diluted per-share value are different quantities.
+- Strong subsidy may rationally buy installed base, but cannot prove clean shareholder economics.
 
-- Rebate depends on AMD share appreciation and contractual conditions.
-- Existing shareholders fund dilution/value transfer.
-- It may buy ecosystem adoption while depressing realized hardware economics.
-- Not replicable for every customer.
-- Strong TCO after subsidy does not prove manufacturing yield, uptime or broad-market competitiveness.
-
-Full Part 3 economics were behind subscription gate in retrieved version; only article's disclosed introduction/preview claims were available for this section.
+Full Part 3 economics were behind subscription gate in retrieved version; introduction claims were independently checked against AMD 8-Ks and Q1 2026 10-Q.
 
 ## Investment thesis
 
 ### Bull case
 
+- AMD Q1 2026 Data Center revenue was `$5.8B`, `+57% YoY`, with `$1.599B` segment operating income (`~27.6%`); segment combines EPYC and Instinct, so accelerator economics remain undisclosed.
 - AMD software moved from unusable to credible catch-up.
 - Open-source/agent workflows structurally lower cost of closing kernel/framework gaps.
 - MI455X leads in memory capacity and theoretical specs.
@@ -269,6 +284,6 @@ Track quarterly:
 
 ## Verdict
 
-**AMD now has plausible path to meaningful AI share, but has not broken CUDA moat.** It has narrowed old software gap while moat migrated to rack-scale distributed systems and operational reliability.
+**Direction right; degree overstated. AMD now has plausible path to meaningful AI share and viable second platform, but has not broken CUDA moat.** It has narrowed old software gap while moat migrated to rack-scale distributed systems, verification and operational reliability.
 
 Most important leading indicator is not keynote FLOPs. It is whether AMD can create stable internal development/CI infrastructure and manufacture Helios reliably. Those determine whether open software and agents compound—or remain demos around excellent silicon.
