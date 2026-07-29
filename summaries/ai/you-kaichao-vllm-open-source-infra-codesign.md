@@ -84,6 +84,13 @@ Modern vLLM includes:
 - prefix caching;
 - support for changing attention/state architectures.
 
+PagedAttention and continuous batching solve different bottlenecks:
+
+- **PagedAttention:** flexible KV-memory allocation and packing.
+- **Continuous batching:** add/remove sequences as requests progress, reducing GPU idle time caused by unequal output lengths.
+
+The interview names continuous batching but does not describe modern scheduler policy: admission, preemption, fairness, chunked prefill, latency SLOs or multi-tenant isolation.
+
 Value is not one algorithm. Value is maintained integration surface.
 
 ## 3. From prototype to production `[50:00–67:00]`
@@ -212,6 +219,8 @@ Analogy:
 
 Generator must fit resource conditions. Model architecture sets performance ceiling; system cannot rescue architecture hostile to available hardware.
 
+Analogy has limit: tokens are not fungible electricity. DeepSeek token cannot be converted into Kimi token; model quality, behavior and harness compatibility remain embedded in output. Optimize useful/accepted task output—not raw token count alone.
+
 ### Hardware lottery
 
 Moore's Law no longer gives broad automatic speedups. Accelerators specialize around matrix multiplication. Algorithms that map cleanly onto those units survive.
@@ -278,7 +287,7 @@ Bad harness behavior:
 - inserting current date/time into system prompt;
 - scheduling every agent exactly on hour.
 
-These invalidate prefix cache and synchronize traffic spikes.
+These lose cache reuse after first changed token and synchronize traffic spikes. They do not necessarily erase every cached block globally; exact effect depends on prefix boundary and engine implementation.
 
 Better design:
 
