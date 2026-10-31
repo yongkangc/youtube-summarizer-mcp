@@ -1,0 +1,2320 @@
+[0.0] All right, everybody. Welcome back to
+[1.9] what is of course the number one podcast
+[5.8] in the world tweaking all the mid
+[9.7] podcasters out there. Four, five years
+[12.7] running the all-in podcast. It's episode
+[15.0] 295 and Sachs is back. Sax is back. Sax
+[19.8] is back. How you doing, brother?
+[21.2] >> Good, good. I saw some fake news that
+[23.7] Oh,
+[24.1] >> you guys had stopped using the term
+[27.2] super intelligence. You're getting some
+[28.9] shade for that.
+[29.9] >> Oh, I listen, we're we're here for this
+[32.5] week in super intelligence right now.
+[34.1] [laughter] Here we go. I mean, the whole
+[37.0] super intelligence.
+[37.8] >> It was kind of ridiculous.
+[39.4] >> Oh, are they
+[40.2] >> and maybe I shouldn't striand it, but
+[42.0] they were trying to say that we were
+[43.6] using the term AI still instead of SI.
+[45.8] >> Who was saying that? This is literally
+[47.4] what the press is on.
+[50.0] >> Now, this is why it's such fake news.
+[52.8] They have a photo of me. I wasn't even
+[54.3] on the October 23rd.
+[55.6] >> You do look great though. You do look
+[57.0] very presidential there, man. If only
+[59.5] >> look at this fake news.
+[61.8] >> I mean, they're US most influential tech
+[64.1] podcast. Well, that's good. But
+[65.4] actually, we're not just a tech podcast.
+[66.7] We're the number one podcast in the
+[68.0] world. Give us
+[68.6] >> has cooled on the use of the term super
+[70.1] intelligence. And then they tried to say
+[72.6] that I somehow was defying the
+[74.9] president's instructions.
+[77.4] >> All right.
+[77.9] >> But I but I want to clarify I was not on
+[79.8] the October 23rd episode. So, got I'll
+[82.2] be keeping you guys in line on this from
+[84.1] now on.
+[84.8] >> Absolutely. Well, we will get focused on
+[88.4] super intelligence. Uh, with us again
+[91.5] this week, your favorite organic farmer,
+[95.1] David Freeberg. How's Oh, doing? You've
+[97.1] been pretty busy yourself.
+[100.1] >> Oh, in Kenya this week. Lots of
+[102.6] excitement, lines of farmers trying out
+[105.6] true potato seed.
+[107.0] >> Your energy looks pretty good. You look
+[108.6] like you got some good energy. And um,
+[111.2] speaking of good energy, man, we had a
+[113.1] fun time playing cards last week. That
+[115.7] was a blast. A great dinner.
+[117.9] >> You didn't stop talking for seven hours.
+[121.3] >> Sort of like the podcast.
+[122.5] >> Yeah. It's like a podcast.
+[123.6] >> It's unbelievable. It's unbelievable.
+[125.7] >> Time. Come on. That was a lot.
+[127.4] >> Talking talk. No. Affleck texted me
+[130.0] after. I'd never want Jay Cal on the
+[131.4] game again.
+[132.8] >> I can't out Affleck as a member of the
+[134.8] group.
+[135.1] >> It's going to be Ben Affleck or you and
+[137.1] we pick him. So, you're out.
+[139.1] >> You're never getting out.
+[141.3] >> I mean, you just kept chirping for eight
+[143.1] hours straight. It's unbelievable. He
+[145.1] could not
+[145.7] >> been at the game for a long time. Had a
+[147.2] lot of material. I had I had stored up.
+[149.0] >> It was It was really fun though. It was
+[151.1] >> so much fun. And Chimat Poly Hapia,
+[153.1] everybody's favorite enterprise sales
+[154.9] executive from the 8090 Corporation.
+[157.9] [laughter] How'd you do this week? Did
+[159.0] you hit Did you ring the gong? Did you
+[160.6] hit your quota? Or are you going to have
+[162.5] to work this weekend?
+[163.6] >> Q4 is off to a good start, but I never
+[165.8] want to count the chickens.
+[167.0] >> Okay, that's that's good considering you
+[168.6] whiffed Q3. Um,
+[170.1] >> no, no, no. Q3 was okay. We whiffed Q2.
+[173.9] butchered it. Butchered it. [laughter]
+[175.9] Butchered when I all my fault, too,
+[178.6] because I I forced these poor.
+[182.1] [laughter]
+[182.8] >> I I forced these three poor salespeople
+[185.2] to just only focus on the gigantic
+[187.1] deals.
+[187.7] >> You're learning. You're learning.
+[188.9] >> I had to learn the hard way.
+[190.3] >> You want to get those singles and
+[191.6] doubles and the people who pay on time
+[193.5] and and who start the projects on time.
+[196.5] >> We'll see in ancest. But like, you know,
+[198.2] you can build a ginormous business with
+[199.8] singles and doubles.
+[200.8] >> Absolutely you can. Speaking of gigantic
+[204.6] businesses, Anthropic Ant dropped their
+[208.8] S1. That's the document that outlines
+[212.5] the nature of the business for an IPO,
+[215.1] an initial public offering. And got to
+[217.9] ask the question, this seems to be the
+[221.5] greatest business in the history of
+[225.7] entrepreneurship. Goldman and Morgan
+[227.8] Stanley are going to lead the round
+[230.9] and they are targeting November 16th,
+[233.8] right before Thanksgiving for this IPO.
+[235.6] We've been waiting for a long time. It's
+[237.0] been delayed. The ticker will be Ant N.
+[241.1] And they're aiming to raise, wait for
+[243.0] it, $100 billion, in other words, like 3
+[246.6] months of compute. And that would make
+[249.0] it the largest IPO ever, surpassing
+[251.2] SpaceX. They raised 85 billion back in
+[253.4] June if you remember. And Poly Market
+[256.3] says our great partners at Poly Market
+[259.2] say 78% chance Anthropic raises at least
+[262.8] 95 billion. The valuation 1.5 to2
+[266.2] trillion. Here's your Poly market. Right
+[269.6] now it's saying between 1.75 and 2
+[272.0] trillion market cap 31%. So yeah, assume
+[275.9] it's going to be slightly under 2
+[277.8] trillion. The revenue is the story sachs
+[282.1] 16.3 billion in the first half of 2026.
+[286.5] That is 14x
+[289.0] year-over-year. So in other words, the
+[290.6] first 6 months of 2025, 1 14th of what
+[293.5] they did in the first 6 months of this
+[295.5] year. Q2 is going to be a whopping 11.6
+[299.1] billion, a 30x jump over the last five
+[302.3] quarters and almost as much as they made
+[305.1] in the first half of the year. They say
+[308.1] the TAM, the total addressable market
+[310.0] for their tokens and services is 40
+[312.6] trillion. That's extraordinary. I don't
+[315.1] know how they backed into that, but
+[316.4] we'll talk about it. And they're
+[317.9] projecting 100 billion of ARR by the end
+[321.4] of the year. Now unspecified if that's
+[324.2] annual reoccurring revenue or their
+[326.2] annual
+[328.0] revenue run rate which is a rR like a
+[331.3] pirate. They've got $112 billion in cash
+[336.5] and a very unique ownership structure.
+[338.6] Seven founders, yes they have seven, are
+[340.5] going to hold 50.1% of the voting power
+[343.7] through a single class F share. Saxs, is
+[347.9] this the greatest business in the
+[349.5] history of capitalism?
+[352.2] It could very well be. I mean, I think
+[354.2] this is probably going to be the biggest
+[355.4] venture outcome of all time, especially
+[358.4] given the time in which this was
+[359.9] created. I mean, this is only a
+[361.1] six-year-old company. I think the exit
+[363.4] here is going to be on par with SpaceX's
+[366.2] IPO, but SpaceX has been around for like
+[368.6] 20some years. So, this is probably the
+[371.4] fastest value creation of any
+[373.6] ventureback company in history. And I
+[376.6] don't know if you saw, but there was a a
+[378.0] tweet this morning about the
+[379.1] distribution of wealth this is going to
+[382.1] create among the employees. Hundreds and
+[384.6] hundreds of employees are going to be
+[386.2] making hundreds of millions of dollars
+[388.2] and then thousands of employees are
+[389.8] going to be making $10 million plus. I
+[391.8] mean, this is going to be an enormous
+[393.8] wealth creation event like San Francisco
+[396.5] and maybe all of Silicon Valley has
+[398.1] never seen before. Now, there's a few
+[400.7] other data points in this S1 that I
+[402.8] think reflected the strength here. So
+[405.4] number one is that this $80 billion loss
+[408.6] number that we've heard so much about
+[410.6] that the media has constantly been
+[412.2] pumping and harping on as proof that
+[415.0] Anthropic was either a fake business or
+[417.0] that we were in this sort of whole
+[419.5] bubble. That narrative basically just
+[422.3] got completely refuted because it turns
+[424.2] out that that $80 billion loss is a
+[426.6] phantom number. It resulted from the
+[429.0] fact that Enthropic had issued
+[432.0] convertible notes to basically their
+[434.7] infrastructure partners like Amazon and
+[436.6] so forth. And as Anthropic's valuation
+[439.6] increased, those convertible notes got
+[442.3] recorded as a loss on the balance sheet
+[445.0] and that flowed through into the income
+[446.2] statement. But it's not a real loss. If
+[448.1] they had just issued equity, that loss
+[450.2] wouldn't be there. So it was not a cash
+[451.8] loss. It's basically a fake number. And
+[454.6] in fact, what was revealed in this S1 is
+[457.6] that Anthropic has been an
+[459.6] extraordinarily capital efficient
+[461.4] business. So they've raised something
+[463.9] like I think it was around 110 billion
+[466.5] roughly and they've only spent about 9
+[469.6] or 10 billion throughout the entire
+[471.9] course of this this business and they
+[474.1] still have like you said Jal about 100
+[476.1] billion left of cash or cash equivalents
+[479.0] on the balance sheet. So everyone
+[480.9] thought based on the previous reporting
+[483.4] that this was a huge loss-making
+[485.2] business. In fact, it ended up being a
+[486.8] very capital efficient business. And
+[489.2] then the other thing that you saw was
+[491.4] that their margins have been improving.
+[493.3] I think their gross margin is now
+[494.6] something like 85%.
+[496.9] And what you see is that for a given
+[500.0] task or capability, they're showing
+[502.9] roughly 10x improvement year-over-year
+[505.4] in their ability to deliver that task.
+[508.9] the cost effectiveness of that task. It
+[511.8] gets 10x cheaper year-over-year
+[515.0] and that allows them to cut the cost of
+[519.1] that model or that task by let's call it
+[521.9] 50%. And so the consumer recognizes a
+[525.8] huge cost savings, but they are able to
+[528.5] realize an even greater savings because
+[531.4] they're they're able to capture the rest
+[533.3] of that efficiency in their margin. And
+[536.3] that that's what we basically saw is
+[538.2] that again they're cutting the cost of
+[540.1] their tokens significantly, but their
+[542.2] margins are going up even faster because
+[543.9] they're able to produce these models
+[546.3] that are more and more efficient and
+[549.0] they call them compute multipliers. It's
+[551.1] very interesting the way that Anthropic
+[552.6] sees their business. The framework that
+[554.3] Daario has is that there's raw compute
+[558.6] which are scaling very rapidly as well
+[561.0] as a result of better and better chips
+[563.6] and more and more of those chips and
+[565.6] then there's the compute multipliers
+[568.0] which are things like algorithmic
+[569.8] improvements or better curation of the
+[572.2] data or it can be things like uh better
+[575.6] architectures more you know
+[577.5] architectures things that make all these
+[580.2] models more efficient so they're able to
+[582.8] give you the same answer for onetenth
+[584.6] the cost or they can take those
+[586.6] efficiencies and create greater
+[588.1] capabilities. So this is what we're
+[590.2] seeing is that that business is actually
+[592.6] improving and I think it is a little bit
+[595.1] of a reputation to all the people who've
+[596.7] been saying over the past year that
+[599.0] they're getting commoditized away that
+[600.7] open models are basically are putting
+[602.4] them on a hamster wheel where they're
+[604.0] basically going to zero on gross margin
+[606.1] or that it's a business that only works
+[608.2] because it's heavily subsidized by
+[609.6] venture capital. In fact, I think
+[611.7] there's a lot of reasons to believe that
+[613.5] anthropic has a pretty big lead. And if
+[616.3] you believe that recursive
+[617.5] self-improvement has kicked in, as they
+[619.9] are claiming it has, then their lead
+[621.8] could actually grow. Freeberg, your
+[624.0] thoughts on the impact of this massive
+[627.4] deluge of capital coming in to
+[631.3] Silicon Valley and then this corporate
+[634.2] structure 51% ownership and what impact
+[637.9] this might have on the technology
+[640.2] industry, the venture capital industry
+[642.9] and then on democracy here in the United
+[645.4] States. We've never seen this much
+[646.8] capital flow through to uh a nonprofit
+[649.8] organization um or whatever they're
+[652.2] calling this anthropic uh nonprofit
+[655.0] entity, but 80% of the seven founders
+[658.2] shares are going into this nonprofit
+[661.0] entity of some type. Benefit
+[663.2] corporation, who knows what it's going
+[664.4] to be structured as. It's optional, but
+[666.2] that's another interesting uh shoe to
+[669.0] drop. So, take it whichever way you
+[671.5] like, in whichever order you like. Can I
+[673.2] just comment on the the economic value
+[676.4] that's arising from AI that kind of
+[679.1] perhaps revealed a little bit in this?
+[681.0] So in the S1 Anthropic shows how many
+[684.5] customers they have that are spending
+[685.8] 100K or more.
+[687.0] >> If we take a look at the image here,
+[690.2] it's a pretty remarkable ramp in
+[692.6] customers spending 100K or more. 200
+[695.7] customers in 2024, end of year, 1500 end
+[699.5] of 2025. And at the end of September,
+[702.2] uh, 11,900 customers spending 100k or
+[705.8] more. So I asked the question, you know,
+[708.0] how many customers are there for which a
+[711.0] $100,000 annual spend is less than 1% of
+[715.2] their total annual spend? And the answer
+[717.8] is in the US it's about 200 to 300,000
+[721.0] businesses. Globally it's bit over a
+[723.8] million.
+[725.2] So, you know, if you just say, "Hey,
+[727.1] look, Anthropic's customers that could
+[730.1] spend 100k or more and have it be less
+[733.2] than 1% of their total spend, the
+[735.8] addressable customer base is about a
+[737.7] million customers. So, they're only at
+[739.9] call it 1% of total customer penetration
+[743.7] potential."
+[745.3] Now, the question is, is there real
+[746.7] money to be made here? So, I took a look
+[749.3] at the kind of AI value stack to try and
+[752.0] identify who's making money where. And
+[754.1] it turns out everyone's making money.
+[755.8] So, and I think we've talked about this
+[757.6] quite a bit. And I know Chimoff's got
+[758.9] some views on this as it relates to the
+[760.3] Neoclouds.
+[761.3] >> What is a chart? Is this like AI output
+[763.5] or that or you?
+[764.8] >> I I had I had Claude make this for me as
+[767.2] an image.
+[768.1] >> Cool.
+[769.2] >> Or I should just say my analyst made
+[771.0] this for me in my shop.
+[773.0] >> Your bot.
+[773.4] >> And so, you know, I basically said like
+[775.4] start with Nvidia. How much does Nvidia
+[777.3] spend to make the chips? And then how
+[779.2] much do they sell the chips for? So for
+[781.4] every dollar of COGS, every dollar that
+[783.4] Nvidia spends, that turns into $4 of
+[786.0] revenue for Nvidia, 75% margin. And then
+[789.4] that gets sold to SpaceX. And then
+[791.3] SpaceX turns around and they're making,
+[794.5] you know, an 83% margin on that chip
+[797.5] spend because they're kind of looking at
+[799.0] a 5-year depreciation. So they spent 10
+[802.1] billion on Colossus one, 5year life, two
+[805.5] billion a year depreciation.
+[807.6] And so that's kind of the cost per year,
+[809.3] but then they're making 1.25 billion a
+[811.7] month on Colossus.
+[815.1] And then Anthropic is showing in this S1
+[817.9] pretty remarkably to Sax's point that
+[820.5] they're making about 85% incremental
+[822.6] gross margin on every incremental dollar
+[824.9] coming in. It's obviously a baseline of
+[827.0] compute spend, but 85% is kind of the
+[829.2] incremental gross margin. So at the end
+[831.4] of the day, a dollar that Nvidia spends
+[833.1] turns into $18 that Anthropic is making
+[835.7] selling to customers. And the question
+[838.2] is, are customers making money? So we're
+[841.0] seeing the customer ramp as it is and
+[843.7] the spend ramp as it is and the
+[845.8] customers are making call it on the
+[847.3] order of two to 10 times the money
+[848.8] they're spending because otherwise there
+[850.2] there would be probably a retention
+[852.3] issue and a decline in spend. Maybe I'm
+[854.3] wrong. Maybe it's early days of
+[855.6] exuberance and people are losing money
+[857.1] and we could debate that point a bit but
+[859.4] generally speaking if AI is delivering
+[861.6] value to the customers I think this
+[863.8] shows that there really is true
+[866.4] productivity arising from AI that across
+[869.2] the whole value chain there is such
+[871.4] margin to be had there's so much value
+[873.2] being created all the way through to the
+[875.4] customers and we're only 1% or anthropic
+[878.2] is only 1% penetrated on their customer
+[880.2] potential and probably less than 10% of
+[882.6] the spend potential per customer um that
+[885.4] this really is what I think Eric Schmidt
+[887.4] a long time ago in the early days of
+[888.9] Google used to say Google's total
+[890.7] addressable market is global commerce
+[893.0] and I think for the first time ever
+[894.3] we're seeing a business actually
+[895.7] potentially starting to realize that
+[897.4] theory that if you can create enough
+[899.4] productivity gain for your customers
+[902.1] that your TAM is commerce and it really
+[905.2] highlights that maybe you know we're
+[907.3] almost growing the equivalency of the
+[909.6] human working population by 100x or a
+[912.0] thousandx or a millionx X with this
+[915.4] technology stack. So I I just thought
+[917.5] like to me it was so striking how early
+[919.4] we are but also how incredibly
+[921.4] profitable everyone is which indicates
+[923.0] there's quite a bit of productivity
+[924.8] being produced across the whole value
+[926.2] stack. Um those were my biggest
+[928.1] takeaways kind of from the S1. I don't
+[929.7] know if you guys agree with this but you
+[931.5] know it all felt pretty remarkable to
+[933.2] me. I'd be curious to know if you guys
+[935.4] think I'm I'm I'm a little loopy on
+[937.4] being too exuberant in my reading of
+[939.0] this stuff. I think the thing that that
+[941.3] is probably the most important is the
+[942.9] last box that you said where it you
+[945.4] wrote assumption where you said
+[947.5] assumption, [laughter]
+[948.5] >> right?
+[949.4] >> Well, how do they measure that? But by
+[950.8] the way, I agree with you, but
+[952.0] >> the last box I made up. I said assume
+[954.3] two to 10x. So, I'm just I have no idea.
+[956.6] But I'm a user of Claude. I think we get
+[958.5] a lot of value for Claude. I think our
+[960.4] people are able to do more because of
+[962.9] Claude than they would otherwise be able
+[964.5] to do. So, our business grows faster. We
+[966.4] can get more done in a shorter period of
+[968.2] time. I think I tangibly experience that
+[970.6] pretty regularly. I've talked a lot
+[972.4] about moving to open source and we have
+[973.9] our own cluster installed with our own
+[975.7] kind of open source now. But I think
+[977.8] what Claude is showing is that they they
+[979.5] have such a high margin. They actually
+[981.4] have good elasticity on pricing. So they
+[983.3] could push price down and you could
+[985.4] start to see them start to segment the
+[987.0] market a little bit where they could
+[988.7] start to be more competitive perhaps
+[991.0] with cheaper tokens for cheaper, easier
+[993.5] tasks and then premium tasks charge a
+[996.0] higher price for intelligence and start
+[997.6] to stratify the value of the
+[999.5] intelligence that they're providing by
+[1001.4] changing the price points. And I I
+[1003.3] envision that's where everyone's going
+[1004.4] to go. Nick, I'm going to show you. This
+[1006.6] is to Freedberg's point about what is
+[1008.6] the potential downstream
+[1011.1] productivity gains that everybody can
+[1013.8] have theoretically with AI. Just put
+[1016.3] that on the screen. This is from
+[1017.6] Microsoft's earnings. My research team
+[1019.6] put this together. It's really quite
+[1021.3] incredible. What this shows you is that
+[1022.9] Microsoft's revenue
+[1025.3] went from
+[1027.7] 198 billion to 332
+[1031.1] billion in the last four years. while
+[1033.4] staff only increased by 2,000 people.
+[1037.7] I mean, isn't that stunning? Like, you
+[1039.7] would have thought in before AI that if
+[1043.4] somebody said, "Great, we're going to,
+[1045.1] you know, get close to doubling revenues
+[1047.6] at this kind of scale,
+[1049.4] >> right?"
+[1049.7] >> You probably would have thought that
+[1050.9] headcount would have doubled too. And
+[1053.0] the reality is headcount stayed flat.
+[1054.9] And we don't know how many people will
+[1057.6] take this
+[1059.6] offer that Microsoft just gave for, you
+[1062.1] know, to leave cuz I think they offered
+[1064.1] it up to 60,000 people, but this number
+[1066.0] could be under 200,000 depending on how
+[1068.1] many take it. And so just the scale and
+[1071.2] the impact on the productivity to your
+[1073.5] point, this idea that it creates job
+[1075.3] loss, I don't think is true. It's more
+[1076.6] that you're seeing productivity gains at
+[1078.3] the same number of human input. And I
+[1081.1] think that's interesting. I went through
+[1083.0] the S1. You want me to give you my
+[1084.6] little S1 breakdown?
+[1086.0] >> Mhm.
+[1087.1] >> This is the most incredible business
+[1089.0] I've ever seen. I hope that they go
+[1092.6] public after November 11th
+[1095.5] because it will force them to update
+[1097.4] with Q3 and then we'll get even more
+[1100.3] insight into this is like some
+[1102.6] contraption that I've never seen before.
+[1104.2] I've never seen a business like this.
+[1105.8] It's really, really, really incredible.
+[1108.0] So, let's cross our fingers because post
+[1110.4] November 11th, you'll see Q3 drop. What
+[1113.0] people have been whispering is that the
+[1114.7] revenue growth kind of moderated to sort
+[1116.6] of like the 50% range.
+[1119.5] Q4 is TBD,
+[1122.5] but let's break this down in a bunch of
+[1124.2] charts because I think it's interesting.
+[1126.1] Okay, so Nick, start with chart number
+[1127.8] one and we'll just go through them one
+[1129.0] by one. Okay, so the first thing that I
+[1131.1] always read in an S1 is what are the
+[1133.8] risk factors?
+[1135.8] And what I had my team do is I said go
+[1138.5] put together a word cloud. First tell
+[1141.3] me,
+[1141.8] >> this is really cool. [snorts]
+[1143.0] >> First tell me what are they afraid of.
+[1146.4] >> Okay. And when you look at it, the share
+[1149.9] of words in the risk factors that are
+[1152.6] allocated to different risks are very
+[1154.8] important. And what this tells you is
+[1156.9] the single biggest risk to the ant
+[1159.6] business is compute. They mention it
+[1162.1] more than anything else. And
+[1164.6] specifically inside of compute, they
+[1166.5] talk about data centers, power, chips,
+[1168.2] grid, electricity, hardware, etc.
+[1170.9] Then a close second but still second is
+[1175.4] regulation. Okay, they care about
+[1178.6] government policy. They care about
+[1179.9] sanctions. They care about export
+[1181.2] controls. Then it's this idea of zero
+[1184.6] data retention and privacy and IP. Then
+[1187.2] it's AI safety. Then it's just, you
+[1189.8] know, making money. It's then there's
+[1192.1] their competitors. Then there's
+[1193.4] governance.
+[1195.0] What you notice is what are they not
+[1197.6] afraid of? They're not afraid of
+[1199.9] customer traction because they they
+[1202.0] rarely mention it. They're not really
+[1204.0] afraid of employees leaving because
+[1205.4] you'd be an idiot to leave if you were
+[1207.1] inside and they don't really care about
+[1209.0] taxes and any of these other things. So
+[1211.2] this is a business that is very much on
+[1213.3] the forward foot that understands the
+[1215.5] binding constraint. So now if you know
+[1218.0] that the the compute is their biggest
+[1220.0] risk factor then you double click into
+[1221.8] that. And I had my team run a further
+[1224.9] analysis, which is to say, okay, how do
+[1227.8] they describe these risks, right? How
+[1229.8] many times do they mention them? How
+[1231.2] many words are you spilling talking
+[1233.4] about this? And what you find is that
+[1237.8] inside of the the the compute problem,
+[1241.1] their biggest issue is really data
+[1242.9] centers.
+[1244.4] And then further, it's the financing
+[1245.9] commitments that they have and it's the
+[1247.2] power. All of these are really important
+[1249.1] because again it helps us highlight what
+[1252.2] the binding constraint is to this
+[1254.0] business. So as goes data centers, as
+[1257.1] goes power and by the way this is a
+[1259.0] great setup for the politicians because
+[1260.6] it very obvious if you're a Democrat as
+[1263.4] you read this
+[1265.7] and I'll speak about it in a second what
+[1268.2] you should be trying to do to win in 28
+[1270.3] versus what Republicans have to do in
+[1271.8] 28. Right? Basically, the takeaway from
+[1273.5] all of this is I think Ant is emblematic
+[1275.6] of the entire AI complex, which is to
+[1278.0] say it's all about data centers, which
+[1279.8] means it's all about power. If you're a
+[1282.4] Democrat, the best thing you want to do
+[1284.2] is slow all of this down so that there's
+[1285.7] a recession going into 28. The only
+[1287.7] thing you need to do is slow down power
+[1289.0] and slow down data centers. On the other
+[1290.8] side, if you're a Republican and you
+[1292.6] want to have the best chance of winning
+[1293.8] in 28, this is the one thing that must
+[1296.2] be done right. You must get the power,
+[1298.6] electricity, data center thing right.
+[1300.4] >> Okay. So based on this, your premise is
+[1303.8] they need data centers. If they don't
+[1306.0] get data centers, it can't keep growing.
+[1308.3] However, Saxs, the truth is these are
+[1311.1] the liberal of all liberals in Silicon
+[1313.8] Valley. It is the largest amount of
+[1315.9] money that has ever been made by
+[1318.4] founders outside of Elon Musk. Uh it
+[1321.3] would make sense to me perhaps the
+[1323.7] opposite of what Chamat's saying.
+[1325.4] Shouldn't the Democrats come in and say
+[1328.3] we are pro- data center and energy
+[1331.2] because this is going to help society
+[1333.3] because they want to see Daario and his
+[1336.2] group win because they are going to be
+[1338.6] the equivalent on the left of Elon Musk
+[1341.9] on the right. Wouldn't it be better for
+[1343.8] them to steal the um the data center
+[1347.0] charge and make Anthropic even more
+[1350.5] profitable so that that 51% of all of
+[1353.2] their or 80% of all their money just
+[1355.4] flows into Democratic
+[1358.1] super PACs
+[1360.0] >> maybe. But I don't think that's the
+[1362.2] Democratic party that we have today. I
+[1364.1] mean the old Clinton Democrats I mean
+[1366.2] Bill Clinton Democrats are long gone. I
+[1368.9] don't think the abundance Democrats are
+[1371.3] picking up a lot of momentum. I mean,
+[1373.4] the Democrat party is, as Gavin Newsome
+[1375.7] said, is becoming DSA dominated. So,
+[1378.6] what is their agenda with respect to
+[1381.0] super intelligence? either to ban it
+[1383.4] outright as Bernie Sanders and Elizabeth
+[1386.2] Warren and AOC want to do. They
+[1389.0] basically want 20-year jail sentences
+[1391.4] for developers of super intelligence,
+[1394.1] and they want corporate death penalty
+[1395.7] for companies that build super
+[1397.4] intelligence. or they want to have some
+[1401.2] extremely draconian regulatory regime
+[1404.2] that would feature a federal department
+[1406.2] of AI or federal department of SI that
+[1409.9] would review and approve every single
+[1412.6] model before its release. Basically,
+[1414.9] they want to have a DMV for models. So,
+[1418.3] look, that is that is that is the
+[1419.8] Democratic agenda on this. Now, could
+[1422.3] that be shifted through
+[1425.0] oligarchs like, I don't know, Reed
+[1427.0] Hoffman or maybe some of these new
+[1429.4] anthropic oligarchs like maybe a Dustin
+[1431.2] Mosuit, something like that. Maybe they
+[1433.3] can through their massive influence in
+[1435.8] Democrat circles could effectuate a
+[1438.2] change. But I tend to think that Chimath
+[1440.8] is right that Democrats want to do
+[1444.5] anything they can to sabotage the Trump
+[1447.3] economy and this whole SI boom is what
+[1451.1] is driving the Trump economy right now.
+[1453.0] So I tend to think that's going to be
+[1454.6] the partisan that's going to be the
+[1456.7] partisan
+[1458.2] >> impetus. So you don't need to do much. I
+[1460.7] think free bird
+[1463.3] to scuttle the Trump economy since the
+[1465.8] the war, tariffs, and all that other
+[1467.7] stuff have driven inflation uh and uh
+[1470.2] all those problems. Wouldn't it be
+[1472.3] smarter for the Democrats?
+[1473.4] >> Hold on. I mean, just just hold on a
+[1475.2] second. I mean, yeah,
+[1476.6] >> Jake Al, I think the latest numbers from
+[1479.7] like Fed GDP now, I think it was 3.7% in
+[1483.0] Q3 and it was 2 and a.5% in the first
+[1486.6] half of the year. And you could also
+[1488.7] look at all the capex that's being spent
+[1490.5] right now on this buildout and it's
+[1493.6] roughly 3% of GDP. So you could say that
+[1497.2] all of the economic growth in the United
+[1499.5] States right now is coming from this
+[1502.5] super intelligence buildout.
+[1503.9] >> Concur with that. We can have fun with
+[1505.6] numbers, [clears throat] but the Trump
+[1507.2] economy is a disaster according to
+[1510.4] Trump's own supporters. So let's just
+[1512.6] call balls and strikes here. his own
+[1514.5] voters, the independents who flipped
+[1516.6] over and voted for him, they are very
+[1518.9] displeased with the economy and that can
+[1521.0] be seen very clearly in him having the
+[1523.2] worst approval rating of his entire
+[1525.8] career and there's been some doozies in
+[1527.4] that career. Freedberg, what should the
+[1529.4] Democrats
+[1530.2] >> I don't think even even those critics
+[1532.1] even first of all I don't know what
+[1533.4] Trump supporters you're talking about.
+[1535.0] I'm talking about the America First
+[1536.4] people who feel uh that he didn't deport
+[1539.0] the 20 million people that they still
+[1541.1] have. I'm just talking about that
+[1542.6] cohort. You could put Tucker in there.
+[1545.0] You could put Megan in there. You you
+[1546.5] know all that sphere.
+[1547.6] >> Yes, there are definitely people who
+[1549.6] don't like the war and they recognize
+[1552.2] that there is some inflation being
+[1553.6] caused by the war. But I don't think
+[1555.4] they've said the economy is a disaster.
+[1558.0] Anyway, whatever. I don't want to
+[1559.0] quibble with you about if you're not an
+[1561.2] equity holder. I think you look at this
+[1562.9] economy and say both parties, Biden and
+[1566.2] this Trump 2.0. I think the the bottom
+[1568.2] half of the economy believes that both
+[1570.5] parties don't care about them. That's
+[1572.2] that's what all the uh feedback uh that
+[1574.8] you're getting and and we'll confirm it
+[1576.2] all next Tuesday and see what happens
+[1578.3] with the actual voting. Chimath, let's
+[1580.3] continue your tear down.
+[1582.0] >> So that was section one, which is you
+[1583.8] always read the risk factors first. Get
+[1585.7] a sense of what is management concerned
+[1587.8] about, right? So again the takeaway is
+[1589.4] management is concerned really only
+[1591.4] about compute. This is a compute
+[1593.4] problem. Okay. The next thing that I
+[1595.1] always look at is I look at the revenue
+[1596.8] side of the ledger and I try to
+[1598.1] understand
+[1599.6] what kind of business they have. And
+[1601.5] this is an incredible incredible
+[1604.2] business. Exactly what Freeberg said.
+[1606.2] Why? Because at the growth that they
+[1609.0] have and the revenue that they have they
+[1611.9] have barely scratched the surface of the
+[1614.4] commercial working world. And so this is
+[1617.3] a little bit more of a nuance chart
+[1619.2] because what it does, it starts to
+[1620.8] really break down what we think the
+[1623.3] revenue stratification is by customers
+[1626.5] inside of Anthropic. So there's about 40
+[1629.5] million individuals and small businesses
+[1633.2] that are spending under 100K. 40
+[1635.8] million. Then there's about 10,000 that
+[1638.9] spend between 100 and a million. There's
+[1642.0] about 1650 that spend between 1 and 10
+[1644.6] million and only 250 customers spend 10
+[1647.4] million and more. So to your point, I
+[1649.3] think what Freeberg said is right. The
+[1650.7] setup is is that these folks can
+[1653.2] negatively churn into these existing
+[1657.0] customers and grow and attract new
+[1659.5] customers at an incredible rate, which I
+[1662.3] think is just crazy. And so this allows
+[1667.3] me to think about what is the upper
+[1669.1] bound of revenue. And you know, you
+[1671.7] don't need to get to 100% of what's
+[1674.1] possible. You need to get to 25 or 30%.
+[1676.6] And then you need to have a reasonable
+[1678.0] distribution of negative churn
+[1680.1] assumptions. And what you start to see
+[1681.7] is that this can be a very large revenue
+[1684.1] business in the hundreds of billions of
+[1685.6] dollars in sort of this 3 to sevenyear
+[1688.6] time frame. Now, what slows that down?
+[1692.0] As far as I can tell, and this is more
+[1693.9] of me putting the 8090 hat on, the
+[1697.2] reason why you have so much traction in
+[1698.9] the million and under is when a company
+[1701.8] gets large enough, they allocate
+[1704.2] responsibility and budgets down. And at
+[1707.2] the director, manager, VP level, there
+[1710.4] are millions of humans running around
+[1712.2] with kind of million-dollar budgets. And
+[1714.9] so there's a lot of experimentation that
+[1716.8] can happen inside of that bucket.
+[1719.1] They're willing to sign up for three,
+[1720.6] four, five, six, seven, eight, nine
+[1722.2] things. The minute you sort of
+[1724.6] transition from a million to like
+[1726.1] multi-million dollar deals and this data
+[1728.2] sort of confirms it. It's a much more
+[1731.0] thoughtful pitch, it's much more
+[1732.8] crossunctional inside of a company. And
+[1735.4] you have to show some form of ROI or
+[1738.2] total cost of ownership advantage.
+[1740.6] Right? So, what's interesting about
+[1742.6] this, Jason, is 1,900 companies have
+[1745.2] been able to make the case. That's what
+[1747.4] I would say. I think there's a ton of
+[1749.3] experimentation
+[1751.0] and I think about 1,900 companies can
+[1753.2] clearly see an ROI where they can now
+[1755.3] start to rip in big checks. Now, of that
+[1758.9] 1,900,
+[1760.5] a big portion of those are going to be
+[1762.1] AI natives, right? Folks that are
+[1763.8] venture funded. So, you have to strip
+[1765.4] those folks away. And then what's left
+[1767.2] over is probably a couple of hundred
+[1768.8] global 2000 type companies. So, I think
+[1771.2] the ROI case is still a little
+[1773.0] speculative, but the potential is there.
+[1775.9] And as long as the potential is there, I
+[1777.6] think the market's going to kind of
+[1779.0] price it up. So now that's revenue
+[1780.8] composition. So then the next thing I
+[1782.6] think about is capitalization. And I
+[1784.2] said this before. I said Ant needs to
+[1786.6] have 200 billion.
+[1789.7] And I really hope that they actually get
+[1792.2] close to 250. First of all, let me just
+[1795.0] say the CFO of Ant Krishna Raalo has
+[1797.6] done an unbelievable job. The fact that
+[1800.2] he entering June already had $125
+[1803.7] billion is unbelievable. And there's a
+[1807.0] chart I didn't include, but their total
+[1808.7] net burn to get there is been like $9
+[1811.4] billion or 10 billion. It's just
+[1814.8] infantessimally low relative to the
+[1817.4] market cap. So I thought that they had a
+[1820.6] lot less cash than this. So when I said
+[1822.7] they need to raise between 200 to 250
+[1824.6] and they need to price closer to a
+[1826.2] trillion, I was assuming they had 30 40
+[1828.6] 50 billion on the balance sheet, I was
+[1831.0] wrong. So these guys need to raise
+[1833.4] between I would say
+[1836.0] 80 to 120 billion to get to that quarter
+[1840.2] trillion. And I think in order to do
+[1842.3] that, the price is probably now going to
+[1844.3] come in between 1.3 on the low end to
+[1847.5] 1.7 on the high end. So call 1.5 the
+[1849.9] midpoint. So, if I had to price the IPO,
+[1852.2] just eyeballing this, I kind of think
+[1854.2] it'll come in around5 if I had to if I
+[1856.6] had to just kind of guess. And the other
+[1858.5] thing that I noticed is how much cash
+[1860.2] Alphabet has and also how much cash Meta
+[1862.5] does not have. I was shocked to see that
+[1864.3] Beta had negative 1.2 billion of cash.
+[1866.8] This must be a mistake, but if you look
+[1868.5] at the 10 Q's as of the end of
+[1870.2] September, this is what it shows, which
+[1871.9] net cash. [clears throat]
+[1873.2] >> Net cash.
+[1873.9] >> Maybe it doesn't include short-term
+[1875.2] investments or something.
+[1875.9] >> I'm going to take a look at Meta's
+[1877.0] numbers.
+[1877.3] >> Yeah, it doesn't make sense.
+[1878.7] >> Yeah, I I'll tell you in one second. Uh
+[1880.7] your larger point is is right that
+[1883.3] Enthropic like you said over 100 billion
+[1885.4] of cash they're sitting on. They've
+[1886.6] burnt very little of the money that
+[1888.1] they've raised. Again, their company's
+[1889.8] been a model of capital efficiency.
+[1891.5] They're about to raise 100 billion in
+[1893.0] this IPO. I think they've got about a
+[1895.0] debt facility with another 80 billion.
+[1897.3] So you add it all up and this is a
+[1899.3] company with over 300 billion of dry
+[1901.6] powder or it will soon have that. So
+[1904.1] then you've got all these, you know,
+[1905.7] anthropic bears who are saying they've
+[1907.1] made all these capex commitments in the
+[1909.4] future that they're never going to be
+[1910.9] able to live up to. Well, actually, this
+[1913.2] secures those commitments because
+[1916.2] they've got the capital now to basically
+[1918.3] back up all of those compute orders, all
+[1921.9] that forecasted capex spending
+[1924.4] >> till, I don't know, 2030.
+[1926.2] >> You're exactly right. And because they
+[1928.0] only have to raise 80, right, or 90 or
+[1931.3] 100, that's a lot different than trying
+[1933.9] to raise 150 or 175 or 200, which is
+[1937.6] where I thought they needed to be. And
+[1939.4] so the demands they're going to put on
+[1941.1] the capital markets into the IPO are
+[1942.8] going to be less, which means that
+[1944.4] they'll have more pricing power. They'll
+[1946.1] be able to manage the float better. All
+[1948.3] of these dynamics, I think, give you a
+[1950.7] constructive read going into the IPO.
+[1953.5] Okay, now let's move on because I think
+[1955.6] here's my biggest take.
+[1957.6] >> Metaznet cash is negative -2. It is 80
+[1960.1] billion of cash and [snorts] short terms
+[1962.5] and 82 billion of debt. [laughter]
+[1965.8] >> Wow.
+[1966.6] >> Okay, now go back to this. What is my
+[1968.6] big takeaway? It's bigger than Ant. I'm
+[1970.5] going to build on what Sach said. The
+[1972.0] entire United States economy is levered
+[1974.2] to the AI complex. So very narrowly,
+[1976.6] we're talking about seven or eight
+[1977.8] companies. That sets the tone for the
+[1979.8] entire country. And whether we like it
+[1981.8] or not, that is where we are. Why do I
+[1985.0] say that? One,
+[1988.6] the most important companies in the
+[1990.3] world are in a massive spending binge.
+[1993.8] Right? These were highly profitable,
+[1997.5] highly cash accreative, highly cash flow
+[2000.0] generative businesses that have said
+[2002.1] we're going to put the foot down on
+[2004.1] spending because we believe in what's
+[2006.2] coming into the future. That's what
+[2008.6] drives GDP and it's what drives growth.
+[2011.4] Okay, next chart. Now, as they do that
+[2014.2] though, they deplete their cash and they
+[2016.4] have to raise debt. Okay, and this is
+[2019.1] what you see. All but Microsoft, by the
+[2021.4] way, what an incredible job Satya has
+[2023.0] done. He's haved his debt while
+[2025.0] everybody else has, you know, just gone
+[2027.3] to an unbelievably crazy high number.
+[2030.2] So, the the AI complex now owes 340 400
+[2034.5] billion to the market. And you'd say,
+[2037.4] okay, why is that important? The problem
+[2039.4] is this.
+[2043.4] These companies are raising so much
+[2046.6] money, it starts to crowd out the
+[2049.2] capital markets.
+[2051.1] And the most important part of the
+[2052.7] capital market that it starts to crowd
+[2054.9] out is the appetite for government
+[2057.2] treasuries.
+[2059.4] And what you can see here is that when
+[2061.5] you look at these AI firms, the amount
+[2064.2] of money that they need to raise through
+[2066.3] the end of 27th,
+[2068.4] it's 30% of all of what Treasury is
+[2071.1] about to issue in that same period. So
+[2073.6] they're whether we like it or not, they
+[2075.4] are going to start competing for demand.
+[2078.6] Isn't this nuts? It's like you have
+[2080.3] seven companies that are crowding out
+[2081.7] the treasury market. And you know,
+[2082.6] Chimamath, a lot of people are looking
+[2084.2] at that number and they're trading these
+[2087.3] stocks down based on that. I kind of
+[2089.9] view it the opposite, which is I don't
+[2091.5] these are smart companies. I don't think
+[2092.9] they'd be making those kinds of
+[2094.2] investments unless they thought there
+[2095.5] was ROI there. And so,
+[2097.4] >> well, there obviously is ROI based on
+[2099.8] the token usage and the fact that only 1
+[2102.0] or 2% of people in corporate America are
+[2104.1] even using these tools. We are greatly
+[2106.2] underestimating the uptick here. Claude
+[2108.2] hasn't even launched a bot yet, a Grock
+[2110.6] bot. and OpenAI just launched theirs and
+[2112.9] it's in like a small
+[2115.4] >> use case when a hundred million or 200
+[2118.1] million white collar workers who
+[2120.0] subscribe to say the office suite right
+[2122.6] the similar office 365ing happens in
+[2124.9] corporate America everybody's got five
+[2126.6] agents running
+[2127.6] >> I think the utilization of these things
+[2129.4] is going 500x the token usage is 500x
+[2133.9] >> that means we're going to have not
+[2135.5] enough compute and everybody's got the
+[2137.7] build out
+[2139.0] >> completely wrong there won't be enough
+[2141.8] and people are going to look back on
+[2143.0] this moment and say why didn't you build
+[2144.3] more compute why didn't you spend more
+[2146.2] on capex
+[2147.3] >> you're absolutely right Jason the
+[2148.6] problem is the regulatory push back the
+[2150.4] the amount of approvals and the ability
+[2154.0] for
+[2155.7] utilities to find the staff and the
+[2158.1] ability to actually turn these things on
+[2160.0] and then the ability to get the capital
+[2161.9] equipment you need it just isn't there
+[2163.8] right now so we as a country are sort of
+[2166.2] clogged up we can't do it even if we
+[2168.3] wanted to do it
+[2169.0] >> freeberg you know the The other issue
+[2170.7] here is if we are not spending enough
+[2173.4] building this out and the country a
+[2176.4] large percent of the of the country
+[2178.7] believes in socialism and is against the
+[2181.7] oligarchs both Republican, independent
+[2184.1] and democratic oligarchs. This is a this
+[2186.8] is what they think of us and of the
+[2188.6] leaders in our industry and other
+[2190.2] industries. This is really dangerous
+[2192.9] because we're not going to be able to to
+[2194.5] build out the compute we need. and and
+[2197.0] what does that do to the entire industry
+[2199.4] in the next 3 to 5 years if we if we
+[2202.5] can't build out this and how do we turn
+[2203.8] that narrative around so people are like
+[2205.8] yeah we should have data centers
+[2208.6] I have a view that
+[2211.9] humans try to organize into groups
+[2215.6] organizations
+[2217.4] to try and
+[2219.8] create power that benefits the members
+[2222.2] of that group so you know we form tribes
+[2226.0] We form communities
+[2228.0] and in a in a sense governments are a
+[2230.9] form of an organization. It's an
+[2233.2] organizational coalition of individuals
+[2235.7] to achieve an objective for in the case
+[2238.2] of a democracy the majority of the
+[2240.8] voters and as a result organizations in
+[2245.0] a in a world of you know call it pseudo
+[2247.8] limited resources
+[2250.0] compete with each other for those
+[2252.0] resources.
+[2253.5] nonprofits, forprofits,
+[2257.0] governments, they're all effectively
+[2259.3] competing for resources because the
+[2261.6] individuals that they represent the
+[2264.4] interests of are going to be served if
+[2266.4] they get more resources, get more power,
+[2268.5] get more influence. So to some extent
+[2271.0] the power of AI
+[2273.6] and the influence it enables in terms of
+[2276.5] media in terms of capital accumulation
+[2280.6] in terms of changing people's minds in
+[2283.7] terms of aggregating resources through
+[2285.7] its competitive capacity productivity
+[2288.9] etc makes it a bit of a threat to
+[2292.4] government organizations and so to
+[2294.9] Chim's point if one of the
+[2297.4] manifestations of that is that AI is
+[2300.5] acrewing more interest from capital than
+[2303.4] governments. Governments aren't going to
+[2305.8] want to let that happen. And the
+[2308.1] governments, whether they're right or
+[2309.4] left, are going to fight for the AI to
+[2311.9] become either part of the government and
+[2313.4] the government to subsume the AI or
+[2315.8] control the AI organizations. And this
+[2319.0] is why I've kind of argued the case. I
+[2320.6] think that you're going to end up seeing
+[2321.8] compute get regulated in the future
+[2323.4] where compute capacity is going to be
+[2325.8] assigned by government and they're going
+[2327.8] to pass laws to try and do that post
+[2330.4] production. That is like meaning they're
+[2331.8] not going to control the chips. They're
+[2333.0] going to control the actual compute
+[2335.1] layer and they're going to determine
+[2336.1] who's going to get access to what amount
+[2337.4] of compute. I think for governments to
+[2339.8] compete and I think one of the ways this
+[2342.4] is going to play out to Chimov's point
+[2344.0] is in the near term in capital there's
+[2346.2] more capital going to the AI
+[2347.8] organizations and the government. the
+[2349.4] governments aren't going to want to let
+[2350.6] that happen. So they're going to try and
+[2352.3] stop the data centers because then
+[2353.8] >> I've never seen something in my adult
+[2356.3] working life where a complex of a
+[2358.8] handful of companies are effectively
+[2361.2] competing with governments now for
+[2362.7] capital because you've never seen
+[2364.6] companies in an organized manner
+[2367.8] have one very narrow thing that they
+[2369.9] need money for that is a one-way bet on
+[2373.0] something that attracts the same amount
+[2375.8] of money that would otherwise go to a
+[2377.8] traditional 2 3 4 5 year 10ear bond.
+[2381.0] bond auction. It's It's kind of nutty
+[2382.8] actually. And by the way,
+[2383.8] >> the story you're going to hear from both
+[2385.5] sides is a story of which side benefits
+[2388.7] the people more. And that's going to be
+[2390.9] the narrative argument, which is going
+[2392.4] to be every side's going to say the
+[2393.9] other side's lying. Because remember, if
+[2395.8] one side's lying and another side's not
+[2397.8] lying,
+[2398.6] >> yeah,
+[2398.9] >> the side that's not lying says, "Hey,
+[2401.2] those guys are lying and they're
+[2402.8] correct." The side that is lying deacto
+[2405.8] says that the other side is lying
+[2408.2] because they're liars. And so you'll
+[2410.5] hear both sides screaming, "We are the
+[2412.8] better path for society. We are the
+[2414.7] better path for humanity." It's either
+[2416.2] government or private market AI. And
+[2419.0] that'll be the huge battle that's going
+[2420.6] to brew over the next half decade.
+[2422.5] >> Well, and we'll see which one
+[2424.2] >> politicians are for sale. And Daario and
+[2427.6] Anthropic should start buying just like
+[2429.6] the right did.
+[2430.3] >> Oh, they already have.
+[2431.7] >> I don't I don't see them with champions.
+[2433.5] Where are their champions? Do they have
+[2435.0] champions yet?
+[2436.2] >> For sure. Listen, Anthropic even as a
+[2439.0] startup prioritized government affairs.
+[2442.0] They were very active during the Biden
+[2443.8] administration. All those former Biden
+[2446.3] officials who were doing AI in the Biden
+[2448.4] administration immediately joined
+[2451.2] anthropic.
+[2452.1] >> My point, Sax, is that you don't
+[2453.4] >> at the end of 2024.
+[2454.2] >> No, no, I get that. But you don't see
+[2455.4] them doing what you guys did, hosting a
+[2457.1] fundraiser for Trump, being out there
+[2459.2] publicly in front of it. You don't see
+[2460.9] them.
+[2461.9] >> Sure. They've they they have spent
+[2463.7] they've created packs and all sorts of
+[2466.4] entities and nonprofits all NOS's all
+[2469.0] that kind of stuff and they have been
+[2470.8] massively funding it. They have a huge
+[2472.5] government you guys did like in you know
+[2475.3] getting out there and funding
+[2476.2] >> I don't know what you mean by you I
+[2477.5] don't know what you mean by you guys I
+[2480.2] did you have your support for Trump I've
+[2483.0] never seen publicly come out for
+[2486.8] Yeah. Exactly. I'm not I'm not Can you
+[2488.3] let me explain? I'm not a corporation.
+[2489.6] Of course,
+[2490.5] >> I'm just one person who has views and
+[2492.7] yeah, I support certain candidates and I
+[2494.6] do fundraisers for candidates. I'm not
+[2496.8] like seeking regulatory capture. I'm
+[2498.6] just one person.
+[2499.6] >> I'm saying why hasn't the other founders
+[2502.1] done that? Why haven't they said we
+[2503.5] choose this candidate, we choose these
+[2505.2] candidates?
+[2505.8] >> We don't know that they haven't. How do
+[2507.0] we know?
+[2507.3] >> We know they haven't done it publicly
+[2508.3] because we've never heard them do it.
+[2509.5] That's my
+[2510.0] >> Sure. But
+[2510.6] >> they have given huge amounts of money to
+[2512.2] pack.
+[2512.4] >> I agree. They've done it private
+[2513.4] >> which which is public information and
+[2515.0] those packs have supported candidates.
+[2517.0] If they're going to make a run at this,
+[2518.2] they should do it publicly.
+[2519.2] >> There's a huge revolving door where
+[2521.6] Anthropic has been snapping up every
+[2524.6] former official. First, it was the Biden
+[2526.8] administration. Now, frankly, they're
+[2528.2] hiring a lot of former Trump
+[2529.6] administration officials. Oh, really?
+[2531.8] >> And Yo, yeah. This and this is all
+[2533.5] public information. Yeah.
+[2534.8] >> But they are building a massive
+[2536.1] government affairs operation. And look,
+[2538.2] I think you can expect that as they
+[2540.5] power up through all of this capital,
+[2542.2] having a $2 trillion market cap,
+[2544.4] >> that's my point. they're going to have
+[2546.1] even more influence in Washington or
+[2549.0] they're going to be capable of buying a
+[2550.8] lot more influence. And I think that is
+[2553.4] concerning. I one thing I will say
+[2555.4] though is that as they go from being a
+[2559.0] startup to being a public company that's
+[2561.5] one of the top handful of companies by
+[2564.1] market cap on earth. It's going to be
+[2566.0] very obvious that they are a big tech
+[2568.4] company and therefore they should be
+[2569.8] treated like other big tech companies
+[2572.2] which is to say with suspicion as
+[2574.6] opposed to this being some poor little
+[2577.0] startup that you know has
+[2580.1] innocuous views or is not the 800 lb
+[2583.2] gorilla they actually are. So, I do
+[2585.4] think it'll be clarifying on that level
+[2587.5] for them to be seen correctly as what
+[2590.6] I've been saying is that they are the
+[2593.0] most powerful monopoly or or duopoly
+[2595.8] ever in human history, which is they're
+[2597.2] creating AGI, right? I've been saying
+[2598.7] that for a long time. So, I do think
+[2600.3] that them going public will actually
+[2602.1] rightsize them in the public
+[2603.6] consciousness. And one thing you're
+[2605.3] you're seeing already actually is there
+[2607.0] starting to be a doomer anthropic split.
+[2610.1] There's a very interesting article in
+[2612.3] Vox which is this huge doomer
+[2613.9] publication over the past week and it
+[2616.4] was quoting a bunch of these NOS's kind
+[2618.7] of doomers
+[2620.6] uh that were basically pointing out that
+[2622.3] you know like anthropic actually if you
+[2624.6] if you separate their rhetoric from what
+[2626.8] they actually do they are the ones
+[2629.1] leading the charge on recursive
+[2630.9] self-improvement. There's no single
+[2632.8] company in the world that is uh doing
+[2637.4] more to race towards full RSI than
+[2640.6] Anthropic. They are hellbent for leather
+[2643.8] on getting to full recursive
+[2645.7] self-improvement. In fact, a lot of the
+[2648.3] reason why they are becoming so
+[2650.6] efficient with their compute, the reason
+[2652.8] they're able to cut costs, offer the
+[2654.9] same capability at onetenth the price is
+[2657.0] because they've increasingly been using
+[2658.5] their own models to generate these
+[2661.3] algorithmic improvements to create these
+[2663.4] compute multipliers. If you go back to
+[2665.8] August, Anthropic published a very
+[2668.1] interesting blog talking about how they
+[2670.2] were using RSI and and 26%
+[2673.4] they had a chart showing that 26% of
+[2676.4] their tasks that are involved in
+[2679.8] basically trying to create the next
+[2681.2] generation of models. They were already
+[2684.1] were using RSI to do that. Now, that was
+[2687.3] back in August. So, who knows what
+[2689.0] they're at now being in October. So,
+[2691.0] look, they are they are pursuing RSI
+[2693.2] very very quickly. And you know, one way
+[2695.2] to think about that whole pacing letter
+[2697.6] that Daario published a few months ago
+[2700.1] is it's almost like they're creating an
+[2702.0] alibi for themselves where they are
+[2704.8] acknowledging that, hey, we are pursuing
+[2707.1] RSI as quickly as anyone. And it's
+[2710.2] almost like they're they're saying to
+[2712.3] the world, well, we want it to stop,
+[2714.2] right? Like we wanted to slow down. We
+[2716.8] tried to get you all to agree to pace,
+[2718.8] but you guys wouldn't agree to do that,
+[2720.6] so therefore we kept going, you know?
+[2722.7] And it's almost like creating an alibi
+[2724.9] in advance for themselves if this RSI
+[2728.1] thing goes really bad.
+[2729.5] >> All right.
+[2730.6] >> But I think that they had to know when
+[2732.4] they published that pacing letter that
+[2734.3] they're not going to get the whole world
+[2735.4] on board with pacing. So the whole thing
+[2737.2] was sort of an exercise in virtue
+[2739.1] signaling. But in any event, I think
+[2741.8] what it shows again is I do think that
+[2743.9] it's possible that an anthropic doomer
+[2746.3] split is coming because there's no way
+[2749.8] for them to maintain their lead as the
+[2753.0] number one super intelligence company
+[2755.4] without continuing to advance the
+[2758.8] frontier very rapidly and to continue to
+[2761.1] pursue recursive self-improvement. And
+[2763.5] that is something that the doomers are
+[2765.3] most afraid of of all the of all the
+[2767.8] various risks, right? they are most
+[2769.4] worried about a breakaway super
+[2772.5] intelligence. So I do think that this is
+[2775.4] the beginning maybe of a divorce between
+[2779.2] Anthropic and the Doomers, but we'll
+[2780.8] see.
+[2782.2] >> Okay, let's get back to your breakdown.
+[2784.6] Chimath, you had the um the greatest uh
+[2788.2] revenue, greatest business ever built,
+[2789.8] yada yada. They have a ton of cash. They
+[2791.8] have the cash for the buildout. They're
+[2793.1] going to raise some cash in the IPO and
+[2795.4] they are the all of this bond activity
+[2797.8] is crowding out treasuries is where you
+[2799.5] left off I believe. So let's
+[2801.1] >> exactly. So I think I think you have to
+[2803.4] go to these risk factors now and think
+[2805.4] if you're going to price the IPO or if
+[2807.5] you're going to buy the IPO how would I
+[2809.4] decide to buy the IPO? And I think at
+[2811.8] the 14516
+[2814.5] it's kind of priced fairly. So there's
+[2817.2] no deal but they're giving you a an
+[2819.6] entry price into the future. So then you
+[2821.8] have to sort of have a view on the
+[2823.6] future and I think there are two risks.
+[2827.0] The first risk was what I showed you on
+[2828.9] their revenue composition which is how
+[2831.8] long does it take for Ant to show those
+[2835.2] 10,000 customers the ROI math that they
+[2839.2] will need to move from less than a
+[2841.9] million to single-digit millions to tens
+[2845.1] of millions. Right? That's one very
+[2847.3] simple thing that you can check quarter
+[2849.4] after quarter after quarter. As those
+[2851.8] numbers swell,
+[2854.3] the reason they will swell is that
+[2855.9] they'll have defensible use cases and
+[2859.5] white papers and analyses that make it
+[2863.0] very straightforward for a corporate
+[2864.6] infrastructure to sign off, a
+[2866.3] multi-person executive team to sign off
+[2868.5] on a multi-million dollar spend. So
+[2869.9] that's an ant risk and I think that you
+[2872.1] can price that risk. The second though
+[2874.5] is what I teased here, which is the risk
+[2876.4] you cannot price, which is this market
+[2878.8] risk. The AI complex has gotten so big
+[2882.6] that it now competes with US treasuries.
+[2885.8] Why is that an important thing to note
+[2888.6] and why does that create market risk?
+[2890.2] Nick, if you just go back to the last
+[2892.2] chart, please. So when you look at this,
+[2894.7] what does it mean for
+[2897.9] treasuries having to compete with
+[2900.9] Facebook and SpaceX and Anthropic and
+[2903.4] Open AAI for money?
+[2907.1] >> Well, it means that somebody is going to
+[2911.4] have to pay more.
+[2913.1] >> Now, let's play out one example.
+[2916.2] If it's the hyperscalers that have to
+[2919.0] pay more because people believe the
+[2921.2] flight to quality and the durational
+[2922.7] risk of the government is better,
+[2926.5] then all of the money that the the
+[2929.8] hyperscalers and the AI complex and
+[2932.1] anthropic and open AAI have to raise
+[2934.3] will have to come in at a higher coupon.
+[2937.4] If that's true, then Freedberg's chart
+[2939.9] is also true, which is that those rates
+[2941.9] cascade through the ecosystem. the
+[2944.2] neoclouds will have to pay more. All
+[2945.9] these other folks have to pay more. What
+[2948.2] that means is that you increase and you
+[2950.1] pull forward the risk of defaults which
+[2951.8] we talked about last time. So you have
+[2953.8] this negative reflexive cycle there.
+[2956.6] Let's say the opposite is true. Let's
+[2958.7] say that you know the AI complex is able
+[2960.8] to raise money
+[2962.7] at reasonable rates and it's the US
+[2965.6] Treasury that has to actually go through
+[2968.2] an auction and pay more.
+[2970.7] Now you have the broad-based cost of
+[2973.4] borrowing goes up because every other
+[2976.0] part of the United States economy is
+[2977.8] levered to the twos through fives and
+[2980.6] 10-year complex.
+[2983.1] That is a huge market risk that I don't
+[2985.2] understand because I've never seen
+[2986.6] before.
+[2987.3] >> What is the market risk? Explain it just
+[2989.6] crisply here as we as we wrap. What is
+[2992.3] the market risk?
+[2993.2] >> If interest rates go up because the US
+[2994.7] treasuries have to pay more for people
+[2996.2] to buy their bonds, then everything else
+[2998.1] in the economy has a higher cost of
+[2999.6] borrowing. that has negative
+[3000.6] implications. If the opposite is true,
+[3002.9] the AI complex has to pay more and then
+[3005.2] there's a bunch of negative
+[3006.4] repercussions narrowly to that to the
+[3008.4] complex. The problem is we're trying to
+[3011.0] buy an AI stock. So many roads lead to
+[3014.0] downside risk more than upside risk.
+[3017.0] Now, there are versions in which this
+[3019.2] all works out and everything is off to
+[3021.0] the races. But my I guess my structural
+[3023.2] takeaway maybe Jason is we're entering
+[3025.2] this very weird
+[3027.2] >> phase in the US economy where
+[3030.0] >> we've seen this before and we're seeing
+[3031.7] it now this complex is too big to fail
+[3035.9] and I think when you start to see these
+[3039.4] guys representing 40 50% of all capital
+[3042.7] market equity and debt flows which then
+[3045.3] in turn represents 30 35 40% of all
+[3049.4] treasury issuance as well that this
+[3052.7] competition happens. These guys are too
+[3055.5] big to fail, which means that there's a
+[3057.6] different problem at hand, which is a
+[3059.8] more systemic problem. So, I'm not
+[3061.4] saying that there is.
+[3062.8] >> I'm generally highlighting this is
+[3064.9] confusing to you as a market participant
+[3067.4] who's on the inside. I get it. What I'll
+[3069.5] say is I you could actually argue the
+[3072.3] opposite, Shim. This is the greatest
+[3075.0] business ever created. It's an American
+[3077.0] business. The American economy is still
+[3079.1] the greatest economy in the world. You
+[3080.7] could argue versus China, etc. But we
+[3083.0] are running the table on super
+[3085.4] intelligence. And if you look at the
+[3087.8] history of the greatest franchises ever
+[3090.2] made, I I I did a little bit of research
+[3093.4] and just this is the first seven years
+[3095.3] of revenue to to back up what you're
+[3097.0] saying here. If Anthropic hits the
+[3099.4] targets they've set out, you know,
+[3101.1] ballpark uh here is getting to 100 and
+[3104.6] then 300 billion dollars in revenue
+[3107.4] eventually 600 billion in revenue.
+[3108.9] They're well on their way. They're at
+[3110.0] about 100 billion in revenue this year,
+[3112.2] which is like a third of a Google, you
+[3114.3] know, a quarter of a of an Apple. And
+[3116.7] you look at the cumulative revenue in
+[3118.2] the first seven years of the best
+[3120.2] franchises America has ever made, which
+[3122.0] would be Amazon, uh, Google search, cost
+[3124.6] perclick search, uh, Freaker, Alma, and
+[3127.2] the iPhone franchise.
+[3129.4] It's going to become clear that the
+[3131.3] three best franchises in the history of
+[3133.3] business in my mind, iPhone, Google cost
+[3136.2] perclick search and Amazon, which will
+[3138.6] this doesn't include AWS. This is just
+[3140.6] books and retailer. You put the books
+[3142.7] into the the the AWS into it into later
+[3146.2] years, it gets even more interesting.
+[3148.3] It's possible anthropics business is
+[3151.3] bigger than the top three franchises in
+[3153.7] the history of business put together.
+[3156.6] And that is something we've never seen.
+[3158.2] Which means you have no choice but to
+[3159.8] buy American debt and this debt. If
+[3162.6] you're a global participant, where are
+[3164.0] you going to put your money? In France,
+[3165.8] you know, in China, you can't put it
+[3167.2] into China.
+[3167.7] >> I'm confused.
+[3168.6] >> Yeah.
+[3169.4] >> Haven't you been saying for like the
+[3170.7] past year that open models are going to
+[3172.9] eat anthropics lunch?
+[3174.5] >> Well,
+[3174.7] >> have you changed your tune on that?
+[3177.0] In the face of new evidence, uh you
+[3179.4] would have to uh say that they are
+[3182.6] lowering the prices and the opportunity
+[3184.7] in the enterprise is um is so great that
+[3189.4] they're not being dramatically impacted
+[3191.4] by it. You will see anecdotally startups
+[3194.2] and enterprises exploring it, but it's
+[3196.7] obviously not enough now that we know
+[3198.3] their numbers that uh it's slowing them
+[3201.5] down. It's not slowing them down yet.
+[3203.8] I'm not debating revenue risk factor.
+[3206.3] It's still the biggest risk factor. But
+[3207.6] if you're
+[3208.1] >> I'm not debating revenue traction at all
+[3209.8] or business quality. What I'm saying is
+[3211.8] there are moments where there's systemic
+[3213.4] risk in markets where everybody goes
+[3214.9] risk off. And I think that what I am
+[3218.1] saying very explicitly is I've not seen
+[3220.1] in the last 15 or 20 years. The last
+[3222.0] time we came close to this was in the
+[3223.5] GFC
+[3225.0] where you have a narrow part of the
+[3227.4] economy represent basically all of
+[3231.5] everything that's happening in the
+[3232.6] capital markets and all that means is
+[3234.4] that everybody has to pay a lot more
+[3236.5] attention. Doesn't matter what side of
+[3237.8] the AI trade you're on whether you're
+[3239.4] long it whether you're short it that's
+[3240.9] not I don't think that's important. I'm
+[3243.0] saying something more structural which
+[3245.0] is about 10 companies collectively to
+[3248.9] fund one thing will be competitive with
+[3251.8] global governments on borrowing. I don't
+[3254.7] know what the implications of that is
+[3256.1] because I have not seen that.
+[3257.2] >> To the point Saxs that you made and
+[3259.0] challenging me which is great. Their
+[3261.3] revenue is slowing down dramatically.
+[3262.8] You know they their their quarter
+[3264.8] overquarter revenue is decelerating. So
+[3267.5] obviously it's on a big number. So
+[3269.1] >> we don't know Q3 yet. I mean the
+[3270.9] scuttlebot on X and who knows if we can
+[3273.0] totally believe this is that things did
+[3274.9] slow down in Q3 a lot but some of that
+[3276.6] may be attributable to the fact that
+[3278.3] they eliminated 99% of distillation
+[3281.2] right so they voluntarily took a big hit
+[3284.0] to their revenue
+[3285.4] >> from people stealing from them
+[3287.0] >> yeah to prevent the copycat models from
+[3289.0] from basically distilling them so there
+[3291.8] was that and then I think the
+[3294.5] scuttlebutt is that since they cut their
+[3297.6] token cost considerably
+[3300.2] uh which was done pretty recently. Now
+[3301.9] the demand has reacelerated. So
+[3303.8] >> yes, you haven't found in full effect.
+[3305.8] Yeah.
+[3306.2] >> Yes. It seems like they're back to
+[3308.6] resuming their previous growth after a
+[3311.0] couple of hiccups in Q3. But I think the
+[3314.1] thing that's really impressive is just
+[3315.5] that the way they're able to cut their
+[3318.3] token costs, it it's not just because
+[3321.1] they're giving up pricing power, right?
+[3323.1] It's not that they're losing margin.
+[3325.1] They're actually gaining margin. The
+[3326.8] reason they're able to do that is
+[3327.9] because of all the algorithmic
+[3329.1] improvements they're making
+[3331.3] >> in order to make their models much more
+[3333.1] efficient.
+[3333.8] >> Yes. And
+[3336.3] >> just just to dovtail with that, Sax,
+[3337.8] what's happening with the models is even
+[3341.4] more impressive.
+[3342.9] >> The they're lowering the price of tier 2
+[3345.2] and tier three models, right? Your your
+[3347.1] sonnetss, your opus, those are getting
+[3348.9] cheaper.
+[3349.8] >> But enterprises are saying that's enough
+[3351.8] for me. So as they make that cheaper,
+[3354.7] then businesses get more value. They
+[3356.9] solve more problems out of it. And they
+[3358.6] don't feel the need to be on the latest
+[3360.2] greatest fable. If you're a hollow,
+[3361.7] maybe you need that to do science. If
+[3363.4] you're a mathematician, you need it. If
+[3365.6] they can keep making their second and
+[3367.5] third run models this much cheaper, 10x
+[3369.8] cheaper each year. The Jebans paradox is
+[3372.2] going to get even more pronounced
+[3373.6] because enterprises will use it more.
+[3376.6] >> Token cost matters, right? We're sitting
+[3378.1] here with the token maxing cost. Look
+[3379.4] what what we're seeing is that I mean we
+[3381.5] we keep seeing Jevans paradox play out
+[3383.3] at every level which is as you cut the
+[3385.5] cost of tokens or more and more use
+[3387.2] cases enterprises use it more and more
+[3389.8] and the the net result is that the total
+[3393.3] demand just keeps going up and the total
+[3395.4] revenue and market size keeps growing.
+[3398.4] Also, just to reiterate a point that you
+[3400.1] made earlier in the program, the new
+[3403.0] applications that are coming all consume
+[3405.7] a lot more tokens than the ones that we
+[3408.2] started with, right? Like agents use a
+[3411.0] lot more tokens than prompting and cyber
+[3414.5] defense is going to use a lot more
+[3416.6] tokens than just doing, you know, a pen
+[3419.1] test once a year, right? You're going to
+[3421.0] need continuous monitoring of agents,
+[3423.6] attack surfaces, all that kind of thing.
+[3425.4] So all the new applications are going to
+[3427.4] be using exponentially more
+[3429.0] >> 50 to 100 times the number of tokens.
+[3430.9] Yes,
+[3431.3] >> exactly. So the price will keep going
+[3433.2] down but the market size keeps
+[3434.6] increasing. I think the biggest risk
+[3436.7] factor to anthropic I do think it is
+[3439.2] some version of the open source models
+[3441.5] maybe not catching them but sort of
+[3444.3] saturating intelligence at a low price
+[3447.0] point for
+[3447.7] >> commoditizing it is commoditizing it for
+[3449.9] things like coding or you know where
+[3451.4] there is a big chunk in the market that
+[3453.4] is still a risk I would say sort of a
+[3455.5] second order risk is that in order for
+[3458.4] anthropic to stay ahead and to keep
+[3460.6] making their models more and more
+[3462.7] efficient they have to keep using more
+[3465.2] recursive self-improvement, right? You
+[3467.1] see this in the charts that they publish
+[3469.4] that they are using their latest models
+[3472.4] more and more to discover these compute
+[3475.9] multipliers to discover these new
+[3478.4] algorithmic efficiencies. So they have
+[3481.2] to kind of push the limits of what they
+[3483.5] themselves call risky activity. I don't
+[3486.6] know if I fully believe in the doomer
+[3488.0] story about RSI, but they themselves say
+[3491.2] that RSI is very risky, but they have to
+[3493.4] keep pushing RSI in order to keep
+[3496.2] delivering these algorithmic
+[3498.0] improvements in order to stay ahead of
+[3499.8] the open models. And I just wonder how
+[3502.5] sustainable that is. At some point, do
+[3505.4] you get a breach with the doomers that
+[3507.5] becomes irreconcilable? Do the doomers
+[3510.2] want to basically shut down RSI or
+[3513.8] basically slow it down to the point
+[3515.2] where then the open models truly do
+[3517.4] catch up? I don't know the answer to
+[3518.9] that question. It's sort of just a more
+[3521.1] nuanced take on this idea of open models
+[3523.1] catching up.
+[3524.4] >> Yeah, and I think um this chart is super
+[3528.5] illustrative. Uh, if you can pull it up,
+[3530.4] Nick Gallup's been um keeping a survey
+[3534.2] of who's using AI at work daily versus
+[3538.6] frequently defined as a few times a
+[3540.6] week. And you know, the people using it
+[3543.9] like frequently versus daily, we're
+[3546.6] still talking about 10 and 20% here.
+[3549.4] It's nent. A lot of the top enterprises
+[3552.8] are not letting their employees use this
+[3555.2] in an unconstrained fashion and they're
+[3557.0] certainly not letting them connect their
+[3559.2] email, their knowledge bases, their
+[3562.6] notions, their slacks. Big corporations
+[3565.0] are not letting people actually use the
+[3567.4] power of AI because they're scared about
+[3569.6] cyber. So once the cyber threat shimoth
+[3572.2] gets mitigated, this is going to go from
+[3575.1] 10% of people being daily users to 60 70
+[3578.2] 80%. There's so much growth left here uh
+[3581.2] when every single employee has an agent.
+[3583.5] I saw just last week Uber bought open a
+[3586.6] open AAI chatbt for every employee.
+[3589.5] That's going to be the next shoe to drop
+[3590.8] is do you buy these things for every
+[3592.6] single employee. Okay, I think we beat
+[3595.0] that one to death. Congratulations to
+[3596.6] the anthropic team and all the investors
+[3599.7] on making an incredible uh business
+[3602.2] extraordinary. And uh yeah, shout out to
+[3604.6] Sachs who predicted this would be the
+[3607.4] greatest business ever uh on multiple
+[3610.7] programs. Turns out you got that one
+[3613.0] correct. And uh we'll see. We'll see
+[3615.7] what happens. Uh
+[3616.9] >> but like I said, I I said two things.
+[3618.7] Number one, best business ever creating
+[3621.5] this AGI monopoly. Second, they're going
+[3624.1] for regulatory capture and we should
+[3625.9] definitely not allow that to happen,
+[3627.1] especially in light of number one,
+[3629.1] right? It's just kind of unsemly and
+[3631.4] gross for them to be seeking red capture
+[3633.4] when they already have such a good
+[3634.5] business and they're in such a dominant
+[3635.7] position. And I think actually that this
+[3638.0] IPO will be very helpful and clarifying
+[3640.6] on that because again once they're seen
+[3642.9] as a big tech monopoly or part of a you
+[3645.2] know huge duopoly the arguments for
+[3647.6] giving them like reg
+[3653.6] to make this market more competitive
+[3656.6] break up anthropic movement break up
+[3659.0] anthropic separate the from the tokens
+[3662.5] from the subscription. It will like if
+[3664.4] and the who said it? Gavin that they
+[3666.3] were claiming they were building the
+[3667.9] last business ever. You know when you
+[3670.1] look at the other franchises
+[3671.4] >> Dario said that
+[3673.2] >> well Gavin said somebody said Dario
+[3677.4] Gavin said that Dario said that and then
+[3680.2] actually
+[3680.7] >> but Dario did not deny it. Remember
+[3683.1] >> he had this lengthy response kind of
+[3685.0] said. Yeah. So yeah, I mean I I think
+[3688.4] they obviously believe it and if you
+[3691.0] look at that chart I made with the other
+[3692.8] franchises,
+[3694.6] they they obviously have an incredible
+[3696.5] franchise that's theirs to lose when we
+[3698.6] get the open AI data. Man, then we're
+[3701.4] going to have all three of the major uh
+[3703.7] players in this space um disclosing
+[3707.4] the key information we need. That's
+[3709.4] going to be really interesting when we
+[3711.4] have all of the hands turned over
+[3714.2] in this poker game when OpenAI files.
+[3717.6] All right, Google got smashed on
+[3720.7] Thursday, 10 15% down. We we record on
+[3723.5] Thursdays obviously Q3 earnings wiped
+[3725.8] out about 500 billion in market cap.
+[3727.5] Why? For two straight quarters, Google
+[3729.8] missed on search revenue. Even though
+[3731.8] searches are growing massively, the
+[3734.9] people clicking on the ads is not, which
+[3737.0] leads to a little bit of shenanigans and
+[3738.6] trying to get people to click on more
+[3739.8] ads. They're negative on free cash flow.
+[3742.7] Even though cloud is ripping, cloud
+[3745.0] doubled year-toear, 30.7 billion. That's
+[3748.0] the AWS business they have. It's called
+[3749.6] Google Cloud. It's quite nice. And
+[3751.7] overall revenue is still shrunk. They're
+[3753.4] growing 25% year-over-year. The issue is
+[3755.9] people are looking at that Google cost
+[3757.7] perclick advertising network and saying
+[3759.8] well obviously that goes away at a
+[3762.0] certain point if you just give people
+[3763.4] the answer right chat GPT anthropic rock
+[3766.2] they just give people the answer and in
+[3767.4] some cases they go solve their problem
+[3769.0] if it's an agent so that is pretty
+[3771.8] disruptive search business uh is what
+[3774.6] pays for everything and that grew 12%
+[3778.1] down from 17% so it's decelerating but
+[3780.5] it's still growing nicely free this is
+[3783.2] your alma mada you witnessed the cost
+[3785.3] per click greatest business ever. This
+[3787.8] was the previous one that we said was
+[3789.1] the best business ever created along
+[3790.5] with the iPhone franchise. What are your
+[3792.4] thoughts here? Are you worried about
+[3793.7] that franchise or do you think they've
+[3795.4] done a good enough job with the other
+[3797.0] businesses Google Cloud and uh YouTube
+[3800.6] come to mind? Android
+[3803.0] in terms of diversifying their revenue.
+[3805.1] You worried about Google as a buy
+[3806.5] opportunity or is this stay away?
+[3810.2] It's a complicated story. I think the
+[3813.6] core services, the core Google ad
+[3817.3] revenue is uh a real challenge right now
+[3821.5] in terms of can they keep the momentum
+[3823.8] up. Overall, the business trades at
+[3826.4] roughly 21 times operating income and
+[3829.4] you get that sort of a multiple based on
+[3831.8] reliability of future cash flows and and
+[3835.2] effectively growth of those cash flows.
+[3838.3] I think the Google cloud business is
+[3840.6] looking, you know, really tremendous. I
+[3842.8] mean, I don't know if you guys remember,
+[3843.8] it wasn't too long ago when this thing
+[3845.2] was not making money. Last year, the
+[3847.6] Google cloud business for this quarter
+[3849.7] was generating three and a half billion
+[3851.8] of operating income. This quarter, it's
+[3853.4] over 11 billion of operating income. And
+[3856.0] this is a lot like the SpaceX AI story
+[3859.5] where the value of the compute
+[3861.4] infrastructure that's been built is just
+[3864.2] tremendous. The question is, does Google
+[3866.6] actually have the models that sit on top
+[3868.0] of it? And in many cases, they do. So
+[3869.4] they can make a higher margin on that
+[3871.3] piece of the stack. So when I say it's
+[3873.0] complicated, I think there's a story you
+[3875.0] can build in the cloud business that
+[3877.1] shows the next couple of years of really
+[3879.8] progressive growth in that business. The
+[3882.2] core Google services, I think, is when
+[3884.1] it becomes challenging where over the
+[3885.6] last year grew from 33 and a half to 39.
+[3889.0] And as some people have pointed out,
+[3891.8] this may largely be driven by a change
+[3893.8] in the pricing algorithm for ads and how
+[3896.8] Google is now in some cases over earning
+[3900.2] for those uh for those clicks and over
+[3903.0] time advertisers will see that they'll
+[3905.0] experience that they'll reduce spend
+[3907.8] they'll attract some dollars and it
+[3910.6] won't look as good of a business. So the
+[3912.6] question then is do they have a consumer
+[3914.0] AI business that catches up and
+[3915.7] accelerates to support that? That's the
+[3918.2] thing I think everyone needs to be
+[3919.6] watching is what does the AI replacement
+[3921.8] look like on the consumer side for
+[3923.4] Google's core business,
+[3924.6] >> the core cost perclick advertising
+[3927.0] network when you type a search into
+[3928.3] Google, that's the core business you're
+[3929.6] talking to.
+[3930.1] >> That's the core consumer business. So
+[3932.3] the question is, is there an consumer AI
+[3934.7] alternative that starts to generate
+[3936.8] meaningful revenue to replace that
+[3938.4] revenue? And what does the revenue ramp
+[3940.7] look like there relative to the
+[3942.7] flattening or decline that may arise in
+[3945.5] core search? and how quickly does that
+[3947.8] happen? That is a dynamic and
+[3949.6] challenging question to answer. Now,
+[3952.5] internally, I think there's a bit of
+[3954.8] turmoil there's a bit of like what are
+[3958.3] we? Not just overall as a company, but
+[3960.9] just even within the business segments.
+[3963.0] What is Google search? Is it AI? Is it
+[3965.7] search? What is Google Cloud? Is it the
+[3968.8] models? Or is it just the compute, the
+[3971.0] rental of the compute? And I think we
+[3973.0] saw this battle play out recently where
+[3975.0] Jeff Dean and others left Google. And I
+[3978.2] don't know this for sure, but the theory
+[3980.5] is that the computer scientists that
+[3982.4] have been building models at Google
+[3984.2] maybe aren't getting the resources that
+[3985.8] they had hoped to get because Google can
+[3987.8] make so much more money renting that
+[3989.4] compute out to others. And so it's a
+[3992.6] really hard question of what do we want
+[3994.1] to be at Google right now. And I don't
+[3996.5] think that they have a great answer. And
+[3997.7] I don't think it came across well in the
+[3999.4] >> ear. It didn't come across well
+[4001.3] obviously and people reacted Shimoth but
+[4004.1] they did know this was coming. They did
+[4006.6] plan for it. They renamed the company
+[4008.7] Alphabet and they said they got this
+[4010.3] great CFO. Let's make all these other
+[4012.7] bets. Fend for themselves. The Whimos of
+[4014.8] the world have to make their way in the
+[4016.1] world raise outside capital. So they
+[4017.6] they did prepare for this in fairness to
+[4019.9] the team over there. YouTube surging,
+[4022.4] Android surging,
+[4024.8] you know, Google Cloud surging, and then
+[4027.1] you have the the franchise slowing,
+[4030.6] searches up, but revenue growth slightly
+[4034.7] down. So, do you think they can fix this
+[4037.1] or should they just do a bending spoons
+[4039.0] and get as much money as possible out of
+[4042.0] the search and put it into other things
+[4043.7] like consumer AI, corporate AI, and
+[4045.7] their future models and hosting of other
+[4048.1] people's models? What are your thoughts
+[4049.1] here, Jim? I don't think that's what
+[4050.3] bending spoons does. And not everything
+[4053.4] is an analogy to bending spoons.
+[4055.4] >> Well, no. I'm saying manage it. I'm
+[4057.6] saying manage search. Let me be clear.
+[4059.4] I'm saying when I say bending spoons,
+[4061.4] I'm saying manage it for earnings, not
+[4064.3] for like growing it necessarily. Just
+[4066.6] just get as many dollars out of it as
+[4068.7] possible.
+[4069.5] >> I think that's what they've been doing
+[4071.0] in the last quarter. That's why pe but
+[4073.1] people didn't like that. I mean, there
+[4074.9] was a very interesting tweet, Nick,
+[4077.4] maybe you can put it up here. I think a
+[4079.0] lot of the conernnation came from people
+[4080.6] reacting to what Max Anderson wrote,
+[4083.0] which got five million views, by the
+[4084.7] way, and he wrote this through the lens
+[4087.0] of somebody, and this is these are his
+[4089.0] claims, so I don't know if they're
+[4089.9] they're true or not, but spending half a
+[4092.3] million dollars or more a month on
+[4093.9] Google for for years, and he itemized
+[4098.8] all the ways in which things have
+[4100.4] changed. And the most important thing
+[4102.5] that I pulled out of here was what
+[4105.7] Freeberg mentioned, which is the change
+[4107.4] in the auction model. So typically in a
+[4109.4] Victory auction, what happens is
+[4111.5] Freeberg bids, I bid. If I'm the under
+[4115.0] bidder, what happens is Freeberg gets
+[4117.8] filled at my price because he was the
+[4120.6] high bidder. And so it's a really great
+[4123.0] way of doing price discovery at
+[4124.4] Facebook. When we built the first ad
+[4125.8] system, that's essentially what we
+[4127.5] copied. We copied Google's feature for
+[4129.6] feature.
+[4131.3] But if now what they're doing is they've
+[4132.6] abandoned the victory auction,
+[4134.0] Freeberg's right, you're over earning.
+[4136.1] And if the market starts to smell that
+[4137.8] out, they're going to start to wonder
+[4139.7] what's actually happening underneath the
+[4141.2] hood. So these claims, which are now
+[4143.4] well syndicated, have been out there
+[4145.0] since July.
+[4146.8] And I'm not sure that Google IR has
+[4150.9] necessarily nipped these in the bud
+[4153.7] because I think what happened was the at
+[4156.1] least the information war that happened
+[4158.7] post earnings was recirculating Max's
+[4161.8] post here and saying this has been going
+[4164.2] on for a while and when you look inside
+[4165.7] the comments it's a bunch of other
+[4167.0] people seconding his analysis as
+[4170.8] accurate. So without knowing the
+[4174.6] details, Jason, cuz I don't spend money
+[4176.1] in the Google ecosystem, I think it's
+[4178.1] really important for Google IR to get in
+[4180.8] front of this because I think if this
+[4182.9] momentum builds, this idea that this
+[4185.4] franchise is essentially robbing Peter
+[4188.6] to pay Paul, like pulling money from the
+[4190.3] future into the present to kind of
+[4192.1] smooth out earnings, the market will
+[4194.3] react badly to it. You're seeing it
+[4196.0] today. But then this other problem
+[4198.2] starts which is to your point the
+[4200.9] composition of
+[4203.4] ad revenue as a percentage of the
+[4205.0] overall will fall below a threshold and
+[4207.3] then they do look like more of a
+[4208.6] structured conglomerate where now you'll
+[4210.3] have a YouTube revenue block a GCP block
+[4213.4] and other bets block and a search block.
+[4215.4] none are dominant, which in some ways I
+[4218.6] actually think is better because then
+[4219.9] you're more diversified and you're less
+[4221.4] levered to any one single business, but
+[4224.0] they'll have to go through this
+[4225.2] complicated process where a bunch of
+[4226.8] folks may not want to own that kind of a
+[4228.6] business and there's a different buyer
+[4230.7] pool. So, you have to go through
+[4231.9] transitioning out the folks that wanted
+[4233.7] to own a single stock bet on search or
+[4235.9] ads or whatever it was
+[4238.9] and now have to move to this other kind
+[4240.5] of business model. And when you switch
+[4242.9] buckets like this, a bunch of folks kind
+[4244.6] of say, "Oh, it's too complicated." So
+[4246.4] problem number one is what I would say
+[4247.6] is if you were Google IR, please read
+[4249.9] this and refute it or try to figure out
+[4252.2] how to get in front of it because every
+[4254.1] analyst now will will try to figure out
+[4256.1] whether this is true. The second though
+[4258.5] is uh very narrow. How do you keep Demis
+[4263.0] at Google?
+[4265.2] That's it. That's the only task.
+[4267.0] >> Okay. Uh
+[4268.7] >> there's there's there's nothing else.
+[4270.6] pay Thomas Curry in whatever he wants.
+[4272.6] How do you keep Demos at Google?
+[4274.6] >> Sax's looking at this uh business. It's
+[4277.1] been obviously
+[4279.0] a journey for the past 10 years to make
+[4282.3] Alphabet have resiliency in revenue
+[4285.6] streams, diversify the revenue streams.
+[4288.6] You think there's uh some great risk
+[4291.5] here and would you be long, short, or
+[4293.7] neutral stock? Well, I'm seeing people
+[4296.3] post that Alphabet's Google search
+[4299.0] revenue drop below 50% of total revenue
+[4301.4] for the first time. And they're making
+[4302.7] it sound like that's a catastrophic
+[4305.1] situation.
+[4307.0] Basically playing into the narrative
+[4308.6] that the search business is going to be
+[4310.9] disrupted by SI. And that's what it
+[4314.6] seems like on the surface, but when I
+[4316.2] dug into the numbers, it didn't really
+[4317.4] seem that bad at all. So it's true that
+[4321.6] Google search's relative share
+[4324.2] decreased, but its absolute revenue
+[4326.7] still increased. So if you look at
+[4330.2] Google search revenue year-over-year, it
+[4332.6] was still up 12%. It increased from 56
+[4335.4] billion to 63 billion. So still a
+[4338.1] roughly $7 billion year-over-year
+[4340.4] increase in Google search. So Google
+[4343.7] search is still thriving. I think you
+[4347.1] could say it's not growing that fast
+[4349.4] relative to other businesses, but you're
+[4351.4] not seeing it deteriorate yet. And
+[4353.8] again, the reason why the share fell
+[4355.5] below 50% is because other Alphabet
+[4358.8] businesses are simply growing much
+[4360.4] faster. And the main one is Google
+[4362.8] Cloud, which basically doubled
+[4364.7] year-over-year to 30.7
+[4367.2] billion. So, it's the rise of the Google
+[4370.6] Cloud business that has made Google
+[4373.8] Search seem like it's on the decline,
+[4376.2] but I tend to think it's a good thing
+[4378.6] that Alphabet is now finally getting
+[4380.6] some of these other businesses to really
+[4382.8] work and to really grow fast and to
+[4384.9] finally diversify the revenue.
+[4387.5] Diversifying from search has been
+[4389.1] something they've wanted to do for a
+[4390.3] long time. They now have all these other
+[4392.1] segments. You've got YouTube, you've got
+[4394.6] G Suite subscriptions. So in any event,
+[4397.1] I tend to think Google's a little bit
+[4398.6] oversold on this news today.
+[4400.9] >> I agree.
+[4401.4] >> Although I'm not certainly not telling
+[4402.6] anyone to buy anything.
+[4404.1] >> Since inception and uh maybe past 10
+[4406.7] years, you can pull both charts up.
+[4407.9] We'll go through them real quick here.
+[4409.0] But this is just this franchise, the
+[4411.3] number of searches is still going up.
+[4413.9] The revenue per search a and that issue
+[4417.0] uh is obviously the one people are
+[4419.3] concerned with. But the other side of
+[4421.5] the coin is absolutely correct, David.
+[4423.5] the other businesses that they're now
+[4425.4] only 50% dependent on this business and
+[4427.9] that will continue. So for me, I just
+[4430.2] literally bought some shares. So I'm
+[4432.2] long. I just bought more shares of
+[4433.8] Google while doing the show.
+[4435.3] >> Just remember, Alphabet owns 6% of
+[4437.8] SpaceX and like 15% of Anthropic as
+[4440.4] well.
+[4440.6] >> I think 85% of Whimo as well, right?
+[4442.8] Like that's the um the other piece of
+[4444.9] this puzzle. Amazon also owns a big
+[4446.5] piece of Anthropic. They're going to be
+[4448.0] a big winner. All right, listen. That's
+[4449.8] our time here. Do you guys want to talk
+[4451.7] about the election ahead of Tuesday
+[4454.0] night and predictions or anything like
+[4455.8] that?
+[4456.2] >> You've been shephering this. Go ahead.
+[4457.6] >> What are you guys watching on the
+[4459.2] midterms? Anything you're keeping an eye
+[4461.1] on, Chimoth? Any big contrarian
+[4463.1] predictions on what might happen on
+[4464.4] Tuesday?
+[4464.9] >> It's so interesting. I'm like really
+[4466.7] confused. I've started to stop paying
+[4468.6] attention just because there's so much
+[4470.1] misinformation that I I thought that we
+[4474.2] are going to have and I still think what
+[4477.4] Sachs called a spritz. [laughter]
+[4480.2] you got a little spritz.
+[4481.8] >> I think it's more of a Democratic
+[4483.8] spritz,
+[4485.9] but when you look at some of the the
+[4488.7] early data,
+[4490.6] you know, and I don't know if Brett
+[4492.0] Bearer was doing this just to kind of
+[4494.1] hedge his bets or not, but he did a clip
+[4495.8] which went viral on Acts where it just
+[4498.2] looked like it was going to be a
+[4499.3] bloodbath for the Republicans and they
+[4502.1] were going to lose both sides, both the
+[4504.6] Senate and the and the House.
+[4508.0] I think it's still set up to have the um
+[4512.5] Republicans keep the Senate and the
+[4515.5] Democrats to have a narrow majority. And
+[4518.6] just going back to maybe where we
+[4520.0] started, the mandate from the Democrats
+[4522.0] then becomes obvious, which is how do
+[4524.6] you introduce FUD?
+[4527.0] And there's one way to do that which is
+[4528.7] to start subpoenaing everybody and start
+[4531.8] to do disclosure discovery release
+[4533.9] document after document after document
+[4535.8] and let you know the the masses start to
+[4539.4] churn through this stuff going into 28.
+[4541.4] So number one create FUD and then number
+[4543.5] two is I think a economic slowdown
+[4546.8] benefits the Democrats going into the 28
+[4549.2] election cycle and so whatever they can
+[4551.0] do to kind of like influence power
+[4553.8] permitting and data centers because as
+[4555.5] we talked about earlier that's the lever
+[4557.0] bet. So to me it almost doesn't matter
+[4561.2] what happens at the federal level except
+[4563.1] for the FUD part. I think we now should
+[4565.8] be paying a ton of attention to what's
+[4567.3] happening in these governorships and
+[4569.2] some the some of these other races. Sax,
+[4570.8] has your view changed?
+[4572.0] >> Look, I think that you can't trust any
+[4575.3] of these polls. First of all, a couple
+[4577.7] of these polling firms have come out and
+[4579.7] admitted that they are fake. I mean, we
+[4581.9] literally have a couple of
+[4583.0] >> Oh, yeah. There was a hoax, right?
+[4584.1] >> Fake polls. There was literally a hoax
+[4586.2] and and those fake polls were included
+[4589.1] >> in, you know, those averages. So, some
+[4591.2] of the polls are outright fraudulent.
+[4593.2] And then the rest of them are well known
+[4596.2] to have a bias. Patrick Rafini did a
+[4598.2] study of the last three elections and
+[4599.8] found that threearters of the polls all,
+[4603.0] you know, aired in favor of Democrats.
+[4605.8] So, we see this as a recurring pattern.
+[4607.9] We saw this in 2024. You had an Seltzer,
+[4612.4] who was supposedly the gold standard,
+[4614.4] say that Trump was going to lose Iowa by
+[4616.6] like 10 or something like that, and it
+[4618.5] turned out to be total nonsense. So, the
+[4620.9] pollsters have a history of bias, of
+[4624.7] fraud, or you could just say, for some
+[4626.7] reason, oversampling progressives in
+[4629.6] their polls. So, I think that people
+[4631.7] should shut that out. I think that some
+[4633.7] of them are a tactic designed to depress
+[4637.2] and suppress turnout and Republicans
+[4640.3] should just go out there and vote. That
+[4641.8] the economy is not a disaster. That is
+[4644.2] total fake news. We know what the growth
+[4646.3] rates are. It was two and a half% in the
+[4649.0] last quarter and it's tracking at 3.7%
+[4652.0] right now. Median household income is
+[4654.1] almost $90,000. It's at an all-time
+[4656.6] high. Poverty is at an all-time low. I
+[4659.7] think the percent of people below the
+[4661.1] poverty line is like 12%. It's the
+[4663.0] lowest it's ever been. It's not just a
+[4664.7] K-shaped recovery. You're seeing real
+[4666.9] wage growth in real terms by the average
+[4670.3] household, which was not true during the
+[4672.0] Biden years. So, I don't think people
+[4674.5] should get psyched out by this media
+[4676.5] operation to make people super depressed
+[4678.3] about what's going on.
+[4680.1] >> Jell, any views?
+[4681.7] >> Oh, well, I agree. The polling data has
+[4684.7] been, you know, a suspect for a long
+[4686.8] time now across many elections.
+[4688.6] Wedgewood uh did this like they're
+[4690.7] claiming performance art, but they were
+[4692.9] kind of serious. I I don't know who
+[4694.2] they're working for or what the
+[4695.8] shenanigans are, but I do trust Poly
+[4697.4] Market. I think when you look at the
+[4699.3] poly market pretty clear what's going to
+[4701.4] happen here
+[4702.9] >> by the way poly market was wrong on
+[4704.3] Balsinero although I think maybe he got
+[4706.4] robbed it was wrong on net and yahoo so
+[4709.3] poly markets are just a reflection of
+[4711.5] public sentiment or public sentiment
+[4713.1] that's willing to place a bet and they
+[4714.7] could be totally wrong so they were
+[4716.4] totally wrong about about those two
+[4718.4] national elections by the way I'm not
+[4721.0] I'm not predicting some sort of you know
+[4723.8] miraculous Republican win here it would
+[4726.7] be very unusual
+[4728.0] for the Republicans to win a midterm
+[4731.0] election when they're in the White
+[4732.6] House, right? And you remember that Bill
+[4734.9] Clinton and Barack Obama both suffered
+[4738.5] horrendous midterm losses. Bill Clinton,
+[4741.0] remember, lost in 1994, he lost to, you
+[4744.0] know, new congrats, the whole contract
+[4745.4] with America. That was the first time
+[4746.7] Republicans took control of the House
+[4749.6] for the first time in 40 years. With
+[4752.0] Obama, you had one of his midterms was
+[4754.1] the shellacking. So, it's quite
+[4757.1] customary for the out of power party to
+[4761.0] do very well in the midterms. I'm just
+[4763.0] saying that the media is already
+[4765.0] portraying this as a tsunami or a
+[4767.4] bloodbath. And I think it might be a
+[4769.5] more normal midterm result. That's all
+[4772.2] I'm saying. So, I in any event, I think
+[4774.2] people should just go out and vote, not
+[4775.5] get depressed or psyched out by whatever
+[4778.4] the media is telling them because the
+[4779.5] media has a long track record of being
+[4782.3] wrong and biased. and JL any view um
+[4785.7] that's different than where we've been
+[4787.4] in the past
+[4788.2] >> I think poly market is going to get it
+[4790.1] right I think uh Democrats are going to
+[4792.3] win the Senate 68% chance right now on
+[4795.5] poly market I believe that and house
+[4797.7] obviously everybody believes that 92%
+[4799.6] chance so when that happens uh and the
+[4803.1] reason I'll back that up is if you look
+[4804.6] at the the net approval rating of Trump
+[4807.1] uh all-time low the country is very
+[4809.3] upset and the libs are going to come out
+[4813.4] in force to vote anti-Trump.
+[4816.7] the uh the the moderates are either not
+[4819.4] going to show up and they're not going
+[4821.0] to be Trump curious like they were for
+[4823.2] the second term and you know Okamala was
+[4825.6] such a disastrous candidate they were
+[4827.8] like okay I got to try something else
+[4829.0] here and and they went for Trump
+[4830.2] reasonably if you were going to have a
+[4832.2] choice between Kamala and Trump I think
+[4833.6] Trump's the better choice for most
+[4836.0] Americans and then you have the
+[4837.4] fractured uh Republican party where the
+[4840.4] American first people feel really like
+[4843.2] they got rugpulled by Trump because of
+[4845.0] the economy inflation didn't solved. The
+[4846.7] wars didn't get solved and he started
+[4848.2] another war. So that group's kind of
+[4850.2] pissed off. So when you put all that
+[4851.8] together, I think it's a very easy sweep
+[4855.1] for the Democrats. Then I think, you
+[4858.9] know, if you want to look at what the
+[4860.0] next two cards are, if you look at
+[4861.4] impeachment, you know, that that
+[4863.1] process, from what I understand, is a a
+[4865.2] House and then Senate and it's a a legal
+[4868.3] proceeding. I think we're going to go
+[4869.9] right back to Trump being impeached and
+[4873.2] then both houses are going to do that.
+[4874.9] It's going to be absolute chaos and then
+[4876.1] the Dems are going to start putting
+[4877.4] legislation out there and force the
+[4879.5] Republicans to vote against it in order
+[4881.3] to scuttle JD Vance's chances. So, this
+[4884.6] is obviously going to be a chaotic two
+[4887.1] years and I let me finish. Hold on. Let
+[4890.5] me finish before So, what's going to
+[4891.8] happen is it's going to be a chaotic two
+[4893.2] years. Uh, and I think what will come
+[4895.3] out of that ultimately is we're going to
+[4896.6] need some new candidates on the
+[4897.8] Republican side and they're going to put
+[4899.4] the the the Trump um they're going to
+[4902.7] put the the the Trump era to bed. And
+[4906.1] then I think that means they put JD
+[4907.4] Vance uh and Marco Rubio to bed. And
+[4910.2] they're going to need a new champion
+[4911.8] that is more populist and actually
+[4913.5] executes on the populist
+[4916.2] agenda which they feel Trump represented
+[4918.8] but didn't execute on. That's my and
+[4921.8] that's not my personal belief. That's
+[4923.0] just my analysis. Go ahead.
+[4925.7] >> No, I I think what I'm saying is you
+[4927.2] think there's going to be a Democrat FUD
+[4929.2] campaign. They could control the House.
+[4930.5] They're just subpoena everybody.
+[4932.0] >> They're going to subpoena everybody.
+[4933.5] They're going to look into every single
+[4935.7] accusation of grift
+[4937.5] >> they can think of and ones that are
+[4939.1] valid, ones that are not valid,
+[4940.5] everybody in between. And so, uh, yeah,
+[4943.2] and then I, you know, um, we have a
+[4945.6] really good group, uh, by the way
+[4947.0] coming. So, join us for the all-in
+[4948.6] midterm live stream 8 to 10 p.m. YouTube
+[4950.8] X and Poly Market. Shane Copeland, Tim
+[4953.0] Dylan, Rahm Emanuel, Taylor Loren. It's
+[4956.2] gonna be chaotic. And
+[4957.4] >> Taylor Loren, she's on a redemption arc,
+[4959.8] I have to say.
+[4960.5] >> Loren,
+[4962.7] >> she's actually been great on certain
+[4964.6] topics lately.
+[4965.4] >> What is going on redemption arc, I have
+[4967.7] to say. [laughter]
+[4969.4] >> Wow. Base Loren coming on the pod. Love
+[4973.0] it. It's going to be a fun time.
+[4975.2] >> I love Tim Dylan. He's coming on.
+[4976.6] >> I'm not going to be there.
+[4978.2] >> Are you not? Where are you going to be?
+[4980.1] >> What? What do I need to do? a a midterm
+[4983.7] live stream for
+[4985.7] >> cuz you're going to lo your party's
+[4987.1] going to lose so you're not coming.
+[4988.8] >> If we outperform, I'll pop in and spike
+[4991.3] the football. Otherwise, I'm not showing
+[4992.7] you.
+[4993.1] >> That's not cool. [laughter]
+[4994.4] Everybody wants to hear you.
+[4996.0] >> Come on.
+[4996.5] >> We could We could drink We could drink
+[4998.1] some tequila. We'll have fun with the
+[4999.6] sacks. Come on. You can't cry. We should
+[5001.8] all be drinking the tequila.
+[5003.3] >> Chimoth, maybe maybe we should get
+[5004.7] together at Chimoth's house and drink
+[5006.1] and do it live. I agree with a lot of
+[5008.0] your analysis about what will happen if
+[5009.9] the Democrats win JCAL because
+[5013.1] >> they have not changed their stripes.
+[5014.7] Okay. People are just forgetting who the
+[5016.6] Democrats are and what they were like
+[5018.3] during co all the lawfair that they
+[5021.2] perpetrated all the crazy woke stuff.
+[5024.0] It's all there ready to come back. They
+[5026.1] have not really analyzed why they lost
+[5028.4] in 2024. They have not really changed or
+[5031.4] adjusted anything. If anything, they've
+[5033.5] become more extreme. Right. the DSA is
+[5036.5] ascendant in their party as even Gavin
+[5038.6] Newsome acknowledged. So I think that if
+[5042.2] the Democrats do take Congress, you're
+[5044.1] likely to see how nutty they are and the
+[5048.6] American public will be reminded of that
+[5051.0] and that will be really interesting to
+[5052.9] to see. So,
+[5054.6] >> you know, so that's why there's a
+[5056.2] pendulum in politics, right?
+[5057.8] >> There is a pendulum. Um, I think we need
+[5060.5] to
+[5062.1] Yeah, I mean I I'm wondering who the
+[5064.6] champions are. If it's not JD and um
+[5068.7] Ruby, I wonder who the champion on the
+[5070.9] right will be. I think it's going to be
+[5072.0] somebody we can't even name right now is
+[5073.5] going to emerge. And I think the same
+[5074.9] thing on the left. Anyway, it's going to
+[5077.5] be exciting. We're going to get Sachs to
+[5079.0] show up. And uh we'll see you all next
+[5082.2] Thursday night for our live stream. Love
+[5084.6] you besties. Byebye.
+[5086.1] >> Byebye.
+[5088.5] We'll let [music] your winners ride.
+[5091.3] >> Rainman David
+[5095.6] and it said [music] we open source it to
+[5097.3] the fans and they've just gone crazy
+[5099.0] with it.
+[5099.7] >> Love you queen of kin.
+[5103.8] [music]
+[5108.6] >> Besties are gone.
+[5111.1] >> That is my dog taking notice your
+[5113.0] driveways. [music]
+[5116.2] Oh man, my habitasher will meet the sun.
+[5118.9] [music]
+[5119.0] >> We should all just get a room and just
+[5120.3] have one big huge orgy cuz they're all
+[5122.1] just useless. It's like this like sexual
+[5123.9] tension that we just need to release
+[5125.4] somehow. [music]
+[5127.0] >> Wet your feet. Wet your feet.
+[5130.0] >> Your feet. [laughter]
+[5132.2] We need to get our
+[5137.2] [music]
+[5142.6] all in.

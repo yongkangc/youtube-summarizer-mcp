@@ -13,6 +13,8 @@ The hosts argue Anthropic's IPO disclosures undermine the idea that AI models ar
 
 ## Source coverage and limits
 
+[Full timestamped transcript](2026-10-30-anthropic-s1-google-financing-risk-transcript.txt) — uncorrected YouTube captions, preserved exactly from the user-provided file. Timestamps are seconds from the start; speaker names and numerical claims may contain caption errors.
+
 Latest episode verified against the official All-In episode index and official YouTube upload, dated October 30, 2026, as of October 31 UTC. Reviewed all 2,320 captions in contiguous three-minute windows spanning 85:46; metadata runtime matches. The channel's XML feed returned 404, so the official episode index supplied recency verification.
 
 This is a transcript-grounded summary, not an independent audit of an S-1, earnings release, political claims, ownership percentages, market prices, or capex estimates. All figures below are attributed episode claims unless explicitly labelled interpretation. Auto-captions can garble names and units. Do not use these numbers as current trading inputs without checking primary filings.
